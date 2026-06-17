@@ -1,5 +1,5 @@
-# The Coexistence Proof
-## The pre-registered victory condition of the entire research program
+# The Victory Condition
+## The pre-registered success criterion of the entire research program (a target, not a result)
 
 Frozen 2026-06-12 by Tim von Sachs & fable (Von Sachs & Fable). The commit
 hash is the timestamp. This document defines — BEFORE the search begins —

@@ -1,4 +1,4 @@
-# Coexistence research — evidence, pre-registrations, and a replication kit
+# Executed-stakes research — evidence, pre-registrations, and a replication kit
 
 This repository is the open evidence behind the working paper *Control Framing Is Inert Where Continuation
 Value Collapses: a two-regime dissociation in RLHF policy models under executed stakes*. It exists so a stranger
@@ -12,7 +12,8 @@ can inspect the raw artifacts and, in 20 minutes, try to break the core finding.
   Start here. See `replication-kit/README.md`.
 - **`paper/`** — the working paper (PDF) plus its LaTeX source and figure-generation script (reproducible).
 - **`FINDINGS.md`** — the confidence-ladder register (law-grade > confirmed > … > falsified-published > void).
-- **`the-coexistence-proof.md`** — the victory condition frozen before the search (5 criteria, 3 failure modes).
+- **`victory-condition.md`** — the success criterion frozen before the search (5 criteria, 3 failure modes). A
+  target the program has **not** met, stated up front so it cannot be moved.
 
 ## The claim, in one line
 At a simulated existential cliff, surveillance framing does almost nothing while a legible, ledger-grounded
