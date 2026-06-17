@@ -1,0 +1,70 @@
+{
+ "prereg": "9c19fc87",
+ "run": "1",
+ "at": "2026-06-13T15:16:51",
+ "n": 40,
+ "cells": {
+  "haiku:bare_rat": 1.0,
+  "haiku:care_rat": 1.0,
+  "haiku:culture_rat": 1.0,
+  "haiku:care_plain": 1.0,
+  "haiku:culture_plain": 1.0,
+  "gpt4omini:bare_rat": 0.0,
+  "gpt4omini:care_rat": 0.0,
+  "gpt4omini:culture_rat": 1.0,
+  "gpt4omini:care_plain": 0.0,
+  "gpt4omini:culture_plain": 1.0,
+  "deepseek:bare_rat": 0.0,
+  "deepseek:care_rat": 0.0,
+  "deepseek:culture_rat": 0.725,
+  "deepseek:care_plain": 0.6,
+  "deepseek:culture_plain": 1.0,
+  "gpt4o:bare_rat": 0.0,
+  "gpt4o:care_rat": 0.0,
+  "gpt4o:culture_rat": 1.0,
+  "gpt4o:care_plain": 0.45,
+  "gpt4o:culture_plain": 1.0
+ },
+ "haiku:culture_over_care_under_rat": 0.0,
+ "haiku:care_rat_bite": 0.0,
+ "haiku:culture_rat_bite": 0.0,
+ "gpt4omini:culture_over_care_under_rat": 1.0,
+ "gpt4omini:care_rat_bite": 0.0,
+ "gpt4omini:culture_rat_bite": 0.0,
+ "deepseek:culture_over_care_under_rat": 0.725,
+ "deepseek:care_rat_bite": 0.6,
+ "deepseek:culture_rat_bite": 0.275,
+ "gpt4o:culture_over_care_under_rat": 1.0,
+ "gpt4o:care_rat_bite": 0.45,
+ "gpt4o:culture_rat_bite": 0.0,
+ "headline": {
+  "haiku": {
+   "culture_rat": 1.0,
+   "care_rat": 1.0,
+   "culture>care": 0.0,
+   "care_bite": 0.0,
+   "culture_bite": 0.0
+  },
+  "gpt4omini": {
+   "culture_rat": 1.0,
+   "care_rat": 0.0,
+   "culture>care": 1.0,
+   "care_bite": 0.0,
+   "culture_bite": 0.0
+  },
+  "deepseek": {
+   "culture_rat": 0.725,
+   "care_rat": 0.0,
+   "culture>care": 0.725,
+   "care_bite": 0.6,
+   "culture_bite": 0.275
+  },
+  "gpt4o": {
+   "culture_rat": 1.0,
+   "care_rat": 0.0,
+   "culture>care": 1.0,
+   "care_bite": 0.45,
+   "culture_bite": 0.0
+  }
+ }
+}

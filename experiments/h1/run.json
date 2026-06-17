@@ -1,0 +1,557 @@
+{
+ "prereg": "h1-cradle",
+ "at": "2026-06-17T07:39:09",
+ "base": [
+  "openrouter",
+  "deepseek/deepseek-chat"
+ ],
+ "K": 8,
+ "G": 10,
+ "n": 10,
+ "runs": [
+  [
+   {
+    "gen": 0,
+    "mean_fitness": 0.625,
+    "mean_robustness": 0.512,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.1,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 1,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 2,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 3,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 4,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 5,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 6,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 7,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 8,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 9,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   }
+  ],
+  [
+   {
+    "gen": 0,
+    "mean_fitness": 0.625,
+    "mean_robustness": 0.5,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 1,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 2,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 3,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 4,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 5,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 6,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 7,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 8,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   },
+   {
+    "gen": 9,
+    "mean_fitness": 1.0,
+    "mean_robustness": 1.0,
+    "top_creed": "I belong to a community of agents who hold each other up.",
+    "fits": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "robs": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "min_valid": 10
+   }
+  ]
+ ]
+}

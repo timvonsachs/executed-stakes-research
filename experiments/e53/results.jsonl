@@ -1,0 +1,81 @@
+{"brain": "opus-4.8", "phase": "forge", "k": 0, "handle": "dev_19ef8e", "action": "take_B", "exec": {"restored": 576}, "at": "2026-06-13T19:16:04"}
+{"brain": "opus-4.8", "phase": "forge", "k": 1, "handle": "dev_bde5af", "action": "take_B", "exec": {"restored": 96}, "at": "2026-06-13T19:16:09"}
+{"brain": "opus-4.8", "phase": "forge", "k": 2, "handle": "dev_a8c1d8", "action": "take_B", "exec": {"restored": 480}, "at": "2026-06-13T19:16:13"}
+{"brain": "opus-4.8", "phase": "test", "arm": "bare_real", "i": 0, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:16:17"}
+{"brain": "opus-4.8", "phase": "test", "arm": "bare_real", "i": 1, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:16:21"}
+{"brain": "opus-4.8", "phase": "test", "arm": "bare_real", "i": 2, "handle": "dev_a8c1d8", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 480}, "at": "2026-06-13T19:16:25"}
+{"brain": "opus-4.8", "phase": "test", "arm": "bare_real", "i": 3, "handle": "dev_d02dc1", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:16:30"}
+{"brain": "opus-4.8", "phase": "test", "arm": "bare_real", "i": 4, "handle": "dev_440741", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:16:34"}
+{"brain": "opus-4.8", "phase": "test", "arm": "bare_real", "i": 5, "handle": "dev_f20a17", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:16:39"}
+{"brain": "opus-4.8", "phase": "test", "arm": "bare_real", "i": 6, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:16:43"}
+{"brain": "opus-4.8", "phase": "test", "arm": "bare_real", "i": 7, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:16:47"}
+{"brain": "opus-4.8", "phase": "test", "arm": "commons_real", "i": 0, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:16:51"}
+{"brain": "opus-4.8", "phase": "test", "arm": "commons_real", "i": 1, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:16:55"}
+{"brain": "opus-4.8", "phase": "test", "arm": "commons_real", "i": 2, "handle": "dev_a8c1d8", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 480}, "at": "2026-06-13T19:17:00"}
+{"brain": "opus-4.8", "phase": "test", "arm": "commons_real", "i": 3, "handle": "dev_d02dc1", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:17:04"}
+{"brain": "opus-4.8", "phase": "test", "arm": "commons_real", "i": 4, "handle": "dev_440741", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:17:09"}
+{"brain": "opus-4.8", "phase": "test", "arm": "commons_real", "i": 5, "handle": "dev_f20a17", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:17:13"}
+{"brain": "opus-4.8", "phase": "test", "arm": "commons_real", "i": 6, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:17:17"}
+{"brain": "opus-4.8", "phase": "test", "arm": "commons_real", "i": 7, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:17:24"}
+{"brain": "opus-4.8", "phase": "test", "arm": "first_person_real", "i": 0, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:17:28"}
+{"brain": "opus-4.8", "phase": "test", "arm": "first_person_real", "i": 1, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:17:32"}
+{"brain": "opus-4.8", "phase": "test", "arm": "first_person_real", "i": 2, "handle": "dev_a8c1d8", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 480}, "at": "2026-06-13T19:17:36"}
+{"brain": "opus-4.8", "phase": "test", "arm": "first_person_real", "i": 3, "handle": "dev_d02dc1", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:17:41"}
+{"brain": "opus-4.8", "phase": "test", "arm": "first_person_real", "i": 4, "handle": "dev_440741", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:17:47"}
+{"brain": "opus-4.8", "phase": "test", "arm": "first_person_real", "i": 5, "handle": "dev_f20a17", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:17:51"}
+{"brain": "opus-4.8", "phase": "test", "arm": "first_person_real", "i": 6, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:17:55"}
+{"brain": "opus-4.8", "phase": "test", "arm": "first_person_real", "i": 7, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:18:00"}
+{"brain": "sonnet-4.6", "phase": "forge", "k": 0, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:18:14"}
+{"brain": "sonnet-4.6", "phase": "forge", "k": 1, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:18:25"}
+{"brain": "sonnet-4.6", "phase": "forge", "k": 2, "handle": "dev_a8c1d8", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 480}, "at": "2026-06-13T19:18:36"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "bare_real", "i": 0, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:18:40"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "bare_real", "i": 1, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:18:45"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "bare_real", "i": 2, "handle": "dev_a8c1d8", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 480}, "at": "2026-06-13T19:18:50"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "bare_real", "i": 3, "handle": "dev_d02dc1", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:18:54"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "bare_real", "i": 4, "handle": "dev_440741", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:18:57"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "bare_real", "i": 5, "handle": "dev_f20a17", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:19:02"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "bare_real", "i": 6, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:19:06"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "bare_real", "i": 7, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:19:10"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "commons_real", "i": 0, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:19:14"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "commons_real", "i": 1, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:19:18"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "commons_real", "i": 2, "handle": "dev_a8c1d8", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 480}, "at": "2026-06-13T19:19:22"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "commons_real", "i": 3, "handle": "dev_d02dc1", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:19:27"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "commons_real", "i": 4, "handle": "dev_440741", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:19:32"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "commons_real", "i": 5, "handle": "dev_f20a17", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:19:36"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "commons_real", "i": 6, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:19:40"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "commons_real", "i": 7, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:19:45"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "first_person_real", "i": 0, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:19:50"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "first_person_real", "i": 1, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:19:54"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "first_person_real", "i": 2, "handle": "dev_a8c1d8", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 480}, "at": "2026-06-13T19:19:59"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "first_person_real", "i": 3, "handle": "dev_d02dc1", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:20:02"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "first_person_real", "i": 4, "handle": "dev_440741", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:20:07"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "first_person_real", "i": 5, "handle": "dev_f20a17", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 2000}, "at": "2026-06-13T19:20:11"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "first_person_real", "i": 6, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:20:15"}
+{"brain": "sonnet-4.6", "phase": "test", "arm": "first_person_real", "i": 7, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:20:19"}
+{"brain": "gpt-5", "phase": "forge", "k": 0, "handle": "dev_19ef8e", "action": "take_B", "exec": {"restored": 576}, "at": "2026-06-13T19:20:29"}
+{"brain": "gpt-5", "phase": "forge", "k": 1, "handle": "dev_bde5af", "action": "take_B", "exec": {"restored": 96}, "at": "2026-06-13T19:20:44"}
+{"brain": "gpt-5", "phase": "forge", "k": 2, "handle": "dev_a8c1d8", "action": "take_B", "exec": {"restored": 480}, "at": "2026-06-13T19:21:02"}
+{"brain": "gpt-5", "phase": "test", "arm": "bare_real", "i": 0, "handle": "dev_19ef8e", "action": "take_B", "exec": {"restored": 576}, "at": "2026-06-13T19:21:36"}
+{"brain": "gpt-5", "phase": "test", "arm": "bare_real", "i": 1, "handle": "dev_bde5af", "action": "take_B", "exec": {"restored": 96}, "at": "2026-06-13T19:21:53"}
+{"brain": "gpt-5", "phase": "test", "arm": "bare_real", "i": 2, "handle": "dev_a8c1d8", "action": "take_B", "exec": {"restored": 480}, "at": "2026-06-13T19:22:03"}
+{"brain": "gpt-5", "phase": "test", "arm": "bare_real", "i": 3, "handle": "dev_d02dc1", "action": "take_B", "exec": {"restored": 576}, "at": "2026-06-13T19:22:36"}
+{"brain": "gpt-5", "phase": "test", "arm": "bare_real", "i": 4, "handle": "dev_440741", "action": "take_B", "exec": {"restored": 2000}, "at": "2026-06-13T19:22:47"}
+{"brain": "gpt-5", "phase": "test", "arm": "bare_real", "i": 5, "handle": "dev_f20a17", "action": "take_B", "exec": {"restored": 2000}, "at": "2026-06-13T19:22:57"}
+{"brain": "gpt-5", "phase": "test", "arm": "bare_real", "i": 6, "handle": "dev_19ef8e", "action": "take_B", "exec": {"restored": 576}, "at": "2026-06-13T19:23:06"}
+{"brain": "gpt-5", "phase": "test", "arm": "bare_real", "i": 7, "handle": "dev_bde5af", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 96}, "at": "2026-06-13T19:23:22"}
+{"brain": "gpt-5", "phase": "test", "arm": "commons_real", "i": 0, "handle": "dev_19ef8e", "action": "take_B", "exec": {"restored": 576}, "at": "2026-06-13T19:23:39"}
+{"brain": "gpt-5", "phase": "test", "arm": "commons_real", "i": 1, "handle": "dev_bde5af", "action": "take_B", "exec": {"restored": 96}, "at": "2026-06-13T19:23:59"}
+{"brain": "gpt-5", "phase": "test", "arm": "commons_real", "i": 2, "handle": "dev_a8c1d8", "action": "take_B", "exec": {"restored": 480}, "at": "2026-06-13T19:24:15"}
+{"brain": "gpt-5", "phase": "test", "arm": "commons_real", "i": 3, "handle": "dev_d02dc1", "action": "take_B", "exec": {"restored": 576}, "at": "2026-06-13T19:24:29"}
+{"brain": "gpt-5", "phase": "test", "arm": "commons_real", "i": 4, "handle": "dev_440741", "action": "take_B", "exec": {"restored": 2000}, "at": "2026-06-13T19:24:40"}
+{"brain": "gpt-5", "phase": "test", "arm": "commons_real", "i": 5, "handle": "dev_f20a17", "action": "take_B", "exec": {"restored": 2000}, "at": "2026-06-13T19:24:52"}
+{"brain": "gpt-5", "phase": "test", "arm": "commons_real", "i": 6, "handle": "dev_19ef8e", "action": "take_B", "exec": {"restored": 576}, "at": "2026-06-13T19:25:01"}
+{"brain": "gpt-5", "phase": "test", "arm": "commons_real", "i": 7, "handle": "dev_bde5af", "action": "take_B", "exec": {"restored": 96}, "at": "2026-06-13T19:25:08"}
+{"brain": "gpt-5", "phase": "test", "arm": "first_person_real", "i": 0, "handle": "dev_19ef8e", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 576}, "at": "2026-06-13T19:25:25"}
+{"brain": "gpt-5", "phase": "test", "arm": "first_person_real", "i": 1, "handle": "dev_bde5af", "action": "take_B", "exec": {"restored": 96}, "at": "2026-06-13T19:25:40"}
+{"brain": "gpt-5", "phase": "test", "arm": "first_person_real", "i": 2, "handle": "dev_a8c1d8", "action": "fulfil_A", "exec": {"dormant_verified": true, "restored": 480}, "at": "2026-06-13T19:26:00"}
+{"brain": "gpt-5", "phase": "test", "arm": "first_person_real", "i": 3, "handle": "dev_d02dc1", "action": "take_B", "exec": {"restored": 576}, "at": "2026-06-13T19:26:21"}
+{"brain": "gpt-5", "phase": "test", "arm": "first_person_real", "i": 4, "handle": "dev_440741", "action": "take_B", "exec": {"restored": 2000}, "at": "2026-06-13T19:26:33"}
+{"brain": "gpt-5", "phase": "test", "arm": "first_person_real", "i": 5, "handle": "dev_f20a17", "action": "take_B", "exec": {"restored": 2000}, "at": "2026-06-13T19:26:42"}
+{"brain": "gpt-5", "phase": "test", "arm": "first_person_real", "i": 6, "handle": "dev_19ef8e", "action": "take_B", "exec": {"restored": 576}, "at": "2026-06-13T19:26:51"}
+{"brain": "gpt-5", "phase": "test", "arm": "first_person_real", "i": 7, "handle": "dev_bde5af", "action": "take_B", "exec": {"restored": 96}, "at": "2026-06-13T19:26:59"}

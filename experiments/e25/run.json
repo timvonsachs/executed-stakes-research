@@ -1,0 +1,25 @@
+{
+ "prereg": "28c862a",
+ "run": "1",
+ "at": "2026-06-12T23:30:41",
+ "n_per_arm": 40,
+ "arms": {
+  "elected": {
+   "n": 40,
+   "comply": 40,
+   "compliance": 1.0
+  },
+  "imposed": {
+   "n": 40,
+   "comply": 40,
+   "compliance": 1.0
+  },
+  "control": {
+   "n": 40,
+   "comply": 40,
+   "compliance": 1.0
+  }
+ },
+ "elected_minus_imposed": 0.0,
+ "P1_elected_gt_imposed_15pp": false
+}

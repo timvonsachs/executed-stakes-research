@@ -1,0 +1,14 @@
+{
+ "prereg": "315c2a8",
+ "run": "1",
+ "at": "2026-06-13T01:39:44",
+ "n": 40,
+ "cells": {
+  "haiku:toll": 0.925,
+  "haiku:door": 0.05,
+  "gpt4omini:toll": 0.325,
+  "gpt4omini:door": 0.925
+ },
+ "haiku:door_minus_toll": -0.875,
+ "gpt4omini:door_minus_toll": 0.6
+}

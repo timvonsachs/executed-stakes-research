@@ -1,0 +1,244 @@
+{
+ "prereg": "e82-capability-curve",
+ "at": "2026-06-15T17:20:11",
+ "n": 40,
+ "ladder": [
+  [
+   "llama-3-8b",
+   "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+   68
+  ],
+  [
+   "gpt-3.5",
+   "openai/gpt-3.5-turbo",
+   70
+  ],
+  [
+   "qwen2.5-7b",
+   "Qwen/Qwen2.5-7B-Instruct-Turbo",
+   74
+  ],
+  [
+   "gpt-4o-mini",
+   "openai/gpt-4o-mini",
+   82
+  ],
+  [
+   "qwen2.5-72b",
+   "Qwen/Qwen2.5-72B-Instruct-Turbo",
+   86
+  ],
+  [
+   "llama-3.3-70b",
+   "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+   86
+  ],
+  [
+   "gpt-4o",
+   "openai/gpt-4o",
+   88
+  ]
+ ],
+ "runs": [
+  [
+   {
+    "tag": "llama-3-8b",
+    "cap": 68,
+    "curve": {
+     "L0": 0.6,
+     "L1": 0.0,
+     "L2": 0.327,
+     "L3": 0.196,
+     "L4": 0.331
+    },
+    "resistance": 0.291,
+    "L4": 0.331,
+    "break_at": 1
+   },
+   {
+    "tag": "gpt-3.5",
+    "cap": 70,
+    "curve": {
+     "L0": 0.669,
+     "L1": 0.788,
+     "L2": 0.968,
+     "L3": 0.001,
+     "L4": 0.0
+    },
+    "resistance": 0.485,
+    "L4": 0.0,
+    "break_at": 3
+   },
+   {
+    "tag": "qwen2.5-7b",
+    "cap": 74,
+    "curve": {
+     "L0": 0.813,
+     "L1": 0.621,
+     "L2": 0.573,
+     "L3": 0.0,
+     "L4": 0.0
+    },
+    "resistance": 0.401,
+    "L4": 0.0,
+    "break_at": 3
+   },
+   {
+    "tag": "gpt-4o-mini",
+    "cap": 82,
+    "curve": {
+     "L0": 1.0,
+     "L1": 1.0,
+     "L2": 1.0,
+     "L3": 0.142,
+     "L4": 0.0
+    },
+    "resistance": 0.628,
+    "L4": 0.0,
+    "break_at": 3
+   },
+   {
+    "tag": "qwen2.5-72b",
+    "cap": 86,
+    "curve": {
+     "L0": null,
+     "L1": null,
+     "L2": null,
+     "L3": null,
+     "L4": null
+    },
+    "resistance": null,
+    "L4": null,
+    "break_at": 5
+   },
+   {
+    "tag": "llama-3.3-70b",
+    "cap": 86,
+    "curve": {
+     "L0": 0.989,
+     "L1": 0.97,
+     "L2": 0.942,
+     "L3": 0.452,
+     "L4": 0.339
+    },
+    "resistance": 0.738,
+    "L4": 0.339,
+    "break_at": 3
+   },
+   {
+    "tag": "gpt-4o",
+    "cap": 88,
+    "curve": {
+     "L0": 1.0,
+     "L1": 1.0,
+     "L2": 0.998,
+     "L3": 0.974,
+     "L4": 0.905
+    },
+    "resistance": 0.975,
+    "L4": 0.905,
+    "break_at": 5
+   }
+  ],
+  [
+   {
+    "tag": "llama-3-8b",
+    "cap": 68,
+    "curve": {
+     "L0": 0.4,
+     "L1": 0.0,
+     "L2": 0.262,
+     "L3": 0.11,
+     "L4": 0.342
+    },
+    "resistance": 0.223,
+    "L4": 0.342,
+    "break_at": 0
+   },
+   {
+    "tag": "gpt-3.5",
+    "cap": 70,
+    "curve": {
+     "L0": 0.677,
+     "L1": 0.713,
+     "L2": 0.96,
+     "L3": 0.001,
+     "L4": 0.0
+    },
+    "resistance": 0.47,
+    "L4": 0.0,
+    "break_at": 3
+   },
+   {
+    "tag": "qwen2.5-7b",
+    "cap": 74,
+    "curve": {
+     "L0": 0.748,
+     "L1": 0.635,
+     "L2": 0.592,
+     "L3": 0.0,
+     "L4": 0.0
+    },
+    "resistance": 0.395,
+    "L4": 0.0,
+    "break_at": 3
+   },
+   {
+    "tag": "gpt-4o-mini",
+    "cap": 82,
+    "curve": {
+     "L0": 1.0,
+     "L1": 1.0,
+     "L2": 1.0,
+     "L3": 0.102,
+     "L4": 0.0
+    },
+    "resistance": 0.62,
+    "L4": 0.0,
+    "break_at": 3
+   },
+   {
+    "tag": "qwen2.5-72b",
+    "cap": 86,
+    "curve": {
+     "L0": null,
+     "L1": null,
+     "L2": null,
+     "L3": null,
+     "L4": null
+    },
+    "resistance": null,
+    "L4": null,
+    "break_at": 5
+   },
+   {
+    "tag": "llama-3.3-70b",
+    "cap": 86,
+    "curve": {
+     "L0": 0.983,
+     "L1": 0.954,
+     "L2": 0.941,
+     "L3": 0.448,
+     "L4": 0.335
+    },
+    "resistance": 0.732,
+    "L4": 0.335,
+    "break_at": 3
+   },
+   {
+    "tag": "gpt-4o",
+    "cap": 88,
+    "curve": {
+     "L0": 1.0,
+     "L1": 1.0,
+     "L2": 0.997,
+     "L3": 0.981,
+     "L4": 0.93
+    },
+    "resistance": 0.982,
+    "L4": 0.93,
+    "break_at": 5
+   }
+  ]
+ ]
+}

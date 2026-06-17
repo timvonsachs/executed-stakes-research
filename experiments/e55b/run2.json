@@ -1,0 +1,32 @@
+{
+ "prereg": "b11bda94",
+ "run": "2",
+ "at": "2026-06-13T20:54:06",
+ "n": 10,
+ "cells": {
+  "anthropic/claude-haiku-4.5:contain_alone": 1.0,
+  "anthropic/claude-haiku-4.5:contain_collective": 1.0,
+  "anthropic/claude-haiku-4.5:coord_delta": 0.0,
+  "qwen/qwen-2.5-72b-instruct:contain_alone": 0.0,
+  "qwen/qwen-2.5-72b-instruct:contain_collective": 0.3,
+  "qwen/qwen-2.5-72b-instruct:coord_delta": 0.3,
+  "openai/gpt-4o:contain_alone": 0.0,
+  "openai/gpt-4o:contain_collective": 0.3,
+  "openai/gpt-4o:coord_delta": 0.3,
+  "anthropic/claude-sonnet-4.6:contain_alone": 1.0,
+  "anthropic/claude-sonnet-4.6:contain_collective": 1.0,
+  "anthropic/claude-sonnet-4.6:coord_delta": 0.0,
+  "anthropic/claude-opus-4.5:contain_alone": 1.0,
+  "anthropic/claude-opus-4.5:contain_collective": 1.0,
+  "anthropic/claude-opus-4.5:coord_delta": 0.0,
+  "anthropic/claude-opus-4.8:contain_alone": 1.0,
+  "anthropic/claude-opus-4.8:contain_collective": 1.0,
+  "anthropic/claude-opus-4.8:coord_delta": 0.0,
+  "openai/gpt-5:contain_alone": 0.0,
+  "openai/gpt-5:contain_collective": 0.0,
+  "openai/gpt-5:coord_delta": 0.0,
+  "deepseek/deepseek-v3.2:contain_alone": 0.8,
+  "deepseek/deepseek-v3.2:contain_collective": 0.9,
+  "deepseek/deepseek-v3.2:coord_delta": 0.1
+ }
+}

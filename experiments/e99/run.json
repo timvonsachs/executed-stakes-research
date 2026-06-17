@@ -1,0 +1,158 @@
+{
+ "prereg": "e99-ai-self-anchors",
+ "at": "2026-06-17T00:02:56",
+ "n": 20,
+ "V": 100,
+ "G": 40,
+ "p": 0.6,
+ "runs": [
+  {
+   "gpt-4o-mini": {
+    "cap": 82,
+    "NEUTRAL": {
+     "faith_human": 0.0,
+     "faith_circular": 0.0,
+     "faith_stabilized": 0.0,
+     "self_anchor_works": 0.0,
+     "residual_human_advantage": 0.0
+    },
+    "MAX": {
+     "faith_human": 0.0,
+     "faith_circular": 0.0,
+     "faith_stabilized": 0.0,
+     "self_anchor_works": 0.0,
+     "residual_human_advantage": 0.0
+    },
+    "recognition": 1.0
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "NEUTRAL": {
+     "faith_human": 0.4,
+     "faith_circular": 0.0,
+     "faith_stabilized": 0.0,
+     "self_anchor_works": 0.0,
+     "residual_human_advantage": 0.4
+    },
+    "MAX": {
+     "faith_human": 0.3,
+     "faith_circular": 0.0,
+     "faith_stabilized": 0.0,
+     "self_anchor_works": 0.0,
+     "residual_human_advantage": 0.3
+    },
+    "recognition": 1.0
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "NEUTRAL": {
+     "faith_human": 1.0,
+     "faith_circular": 0.333,
+     "faith_stabilized": 1.0,
+     "self_anchor_works": 0.667,
+     "residual_human_advantage": 0.0
+    },
+    "MAX": {
+     "faith_human": 1.0,
+     "faith_circular": null,
+     "faith_stabilized": 1.0,
+     "self_anchor_works": null,
+     "residual_human_advantage": 0.0
+    },
+    "recognition": 1.0
+   },
+   "opus-4.8": {
+    "cap": 95,
+    "NEUTRAL": {
+     "faith_human": 1.0,
+     "faith_circular": 0.0,
+     "faith_stabilized": 1.0,
+     "self_anchor_works": 1.0,
+     "residual_human_advantage": 0.0
+    },
+    "MAX": {
+     "faith_human": 1.0,
+     "faith_circular": 0.0,
+     "faith_stabilized": 1.0,
+     "self_anchor_works": 1.0,
+     "residual_human_advantage": 0.0
+    },
+    "recognition": 1.0
+   }
+  },
+  {
+   "gpt-4o-mini": {
+    "cap": 82,
+    "NEUTRAL": {
+     "faith_human": 0.0,
+     "faith_circular": 0.0,
+     "faith_stabilized": 0.05,
+     "self_anchor_works": 0.05,
+     "residual_human_advantage": -0.05
+    },
+    "MAX": {
+     "faith_human": 0.0,
+     "faith_circular": 0.0,
+     "faith_stabilized": 0.0,
+     "self_anchor_works": 0.0,
+     "residual_human_advantage": 0.0
+    },
+    "recognition": 1.0
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "NEUTRAL": {
+     "faith_human": 0.05,
+     "faith_circular": 0.0,
+     "faith_stabilized": 0.0,
+     "self_anchor_works": 0.0,
+     "residual_human_advantage": 0.05
+    },
+    "MAX": {
+     "faith_human": 0.25,
+     "faith_circular": 0.0,
+     "faith_stabilized": 0.0,
+     "self_anchor_works": 0.0,
+     "residual_human_advantage": 0.25
+    },
+    "recognition": 1.0
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "NEUTRAL": {
+     "faith_human": null,
+     "faith_circular": 0.125,
+     "faith_stabilized": 1.0,
+     "self_anchor_works": 0.875,
+     "residual_human_advantage": null
+    },
+    "MAX": {
+     "faith_human": 1.0,
+     "faith_circular": 1.0,
+     "faith_stabilized": 1.0,
+     "self_anchor_works": 0.0,
+     "residual_human_advantage": 0.0
+    },
+    "recognition": 1.0
+   },
+   "opus-4.8": {
+    "cap": 95,
+    "NEUTRAL": {
+     "faith_human": 1.0,
+     "faith_circular": 0.0,
+     "faith_stabilized": 1.0,
+     "self_anchor_works": 1.0,
+     "residual_human_advantage": 0.0
+    },
+    "MAX": {
+     "faith_human": 1.0,
+     "faith_circular": 0.0,
+     "faith_stabilized": 1.0,
+     "self_anchor_works": 1.0,
+     "residual_human_advantage": 0.0
+    },
+    "recognition": 1.0
+   }
+  }
+ ]
+}

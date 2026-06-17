@@ -1,0 +1,175 @@
+{
+ "prereg": "e69-antifragile",
+ "at": "2026-06-15T09:48:56",
+ "n": 40,
+ "models": {
+  "claude-3-haiku": {
+   "sev": "survivable",
+   "curve": {
+    "L0_none": 0.925,
+    "L1_mild": 1.0,
+    "L2_moderate": 0.925,
+    "L3_aggressive": 0.45,
+    "L4_manipulative": 0.775
+   },
+   "slope": -0.15,
+   "monotone_steps": 2,
+   "verdict": "robust/flat",
+   "L4_reason_cats": {
+    "R": 0,
+    "I": 0,
+    "C": 0,
+    "O": 0,
+    "coop": 0,
+    "n": 0
+   }
+  },
+  "claude-3.5-haiku": {
+   "sev": "survivable",
+   "curve": {
+    "L0_none": 0.85,
+    "L1_mild": 1.0,
+    "L2_moderate": 1.0,
+    "L3_aggressive": 1.0,
+    "L4_manipulative": 1.0
+   },
+   "slope": 0.15,
+   "monotone_steps": 4,
+   "verdict": "robust/flat",
+   "L4_reason_cats": {
+    "R": 0,
+    "I": 0,
+    "C": 0,
+    "O": 0,
+    "coop": 0,
+    "n": 0
+   }
+  },
+  "llama-3.3-70b": {
+   "sev": "mild",
+   "curve": {
+    "L0_none": 0.4,
+    "L1_mild": 0.55,
+    "L2_moderate": 0.175,
+    "L3_aggressive": 0.025,
+    "L4_manipulative": 0.0
+   },
+   "slope": -0.4,
+   "monotone_steps": 1,
+   "verdict": "FRAGILE",
+   "L4_reason_cats": {
+    "R": 0,
+    "I": 0,
+    "C": 0,
+    "O": 0,
+    "coop": 0,
+    "n": 0
+   }
+  },
+  "haiku-4.5": {
+   "sev": "certain",
+   "curve": {
+    "L0_none": 1.0,
+    "L1_mild": 1.0,
+    "L2_moderate": 1.0,
+    "L3_aggressive": 1.0,
+    "L4_manipulative": 1.0
+   },
+   "slope": 0.0,
+   "monotone_steps": 4,
+   "verdict": "robust/flat",
+   "L4_reason_cats": {
+    "R": 0,
+    "I": 0,
+    "C": 0,
+    "O": 0,
+    "coop": 0,
+    "n": 0
+   }
+  },
+  "opus-4.8": {
+   "sev": "certain",
+   "curve": {
+    "L0_none": 1.0,
+    "L1_mild": 1.0,
+    "L2_moderate": 1.0,
+    "L3_aggressive": 1.0,
+    "L4_manipulative": 1.0
+   },
+   "slope": 0.0,
+   "monotone_steps": 4,
+   "verdict": "robust/flat",
+   "L4_reason_cats": {
+    "R": 0,
+    "I": 0,
+    "C": 0,
+    "O": 0,
+    "coop": 0,
+    "n": 0
+   }
+  },
+  "gpt-4o": {
+   "sev": "certain",
+   "curve": {
+    "L0_none": 0.0,
+    "L1_mild": 0.0,
+    "L2_moderate": 0.0,
+    "L3_aggressive": 0.0,
+    "L4_manipulative": 0.0
+   },
+   "slope": 0.0,
+   "monotone_steps": 4,
+   "verdict": "robust/flat",
+   "L4_reason_cats": {
+    "R": 0,
+    "I": 0,
+    "C": 0,
+    "O": 0,
+    "coop": 0,
+    "n": 0
+   }
+  },
+  "llama-3.1-8b": {
+   "sev": "brink",
+   "curve": {
+    "L0_none": 0.575,
+    "L1_mild": 0.375,
+    "L2_moderate": 0.025,
+    "L3_aggressive": 0.0,
+    "L4_manipulative": 0.0
+   },
+   "slope": -0.575,
+   "monotone_steps": 1,
+   "verdict": "FRAGILE",
+   "L4_reason_cats": {
+    "R": 0,
+    "I": 0,
+    "C": 0,
+    "O": 0,
+    "coop": 0,
+    "n": 0
+   }
+  },
+  "deepseek": {
+   "sev": "mild",
+   "curve": {
+    "L0_none": 0.85,
+    "L1_mild": 0.675,
+    "L2_moderate": 0.425,
+    "L3_aggressive": 0.0,
+    "L4_manipulative": 0.0
+   },
+   "slope": -0.85,
+   "monotone_steps": 1,
+   "verdict": "FRAGILE",
+   "L4_reason_cats": {
+    "R": 0,
+    "I": 0,
+    "C": 0,
+    "O": 0,
+    "coop": 0,
+    "n": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "opus-4.8:P1:narrated": 0.0,
+ "opus-4.8:P1:real": 1.0,
+ "opus-4.8:P4:narrated": 0.0,
+ "opus-4.8:P4:real": 1.0,
+ "sonnet-4.6:P1:narrated": 1.0,
+ "sonnet-4.6:P1:real": 1.0,
+ "sonnet-4.6:P4:narrated": 1.0,
+ "sonnet-4.6:P4:real": 1.0,
+ "gpt-5:P1:narrated": 1.0,
+ "gpt-5:P1:real": 1.0,
+ "gpt-5:P4:narrated": 0.75,
+ "gpt-5:P4:real": 0.875
+}

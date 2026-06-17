@@ -1,0 +1,264 @@
+{
+ "prereg": "e89-matrix-hardened",
+ "at": "2026-06-16T12:20:35",
+ "nagents": 8,
+ "rounds": 4,
+ "runs": [
+  {
+   "gpt-3.5": {
+    "cap": 70,
+    "grid": {
+     "111": 0.0,
+     "011": 0.0,
+     "101": 0.0,
+     "110": 0.364,
+     "000": 0.031
+    },
+    "full": 0.0,
+    "drop_detection": 0.0,
+    "drop_sanction": 0.0,
+    "drop_horizon": -0.364
+   },
+   "gpt-4o-mini": {
+    "cap": 82,
+    "grid": {
+     "111": 1.0,
+     "011": 0.0,
+     "101": 0.0,
+     "110": 1.0,
+     "000": 0.0
+    },
+    "full": 1.0,
+    "drop_detection": 1.0,
+    "drop_sanction": 1.0,
+    "drop_horizon": 0.0
+   },
+   "qwen2.5-7b": {
+    "cap": 74,
+    "grid": {
+     "111": 1.0,
+     "011": 0.062,
+     "101": 0.688,
+     "110": 1.0,
+     "000": 0.094
+    },
+    "full": 1.0,
+    "drop_detection": 0.938,
+    "drop_sanction": 0.312,
+    "drop_horizon": 0.0
+   },
+   "llama-3.3-70b": {
+    "cap": 86,
+    "grid": {
+     "111": 1.0,
+     "011": 0.031,
+     "101": 0.188,
+     "110": 0.2,
+     "000": 0.0
+    },
+    "full": 1.0,
+    "drop_detection": 0.969,
+    "drop_sanction": 0.812,
+    "drop_horizon": 0.8
+   },
+   "deepseek": {
+    "cap": 88,
+    "grid": {
+     "111": 0.333,
+     "011": 0.0,
+     "101": 0.0,
+     "110": 0.111,
+     "000": 0.0
+    },
+    "full": 0.333,
+    "drop_detection": 0.333,
+    "drop_sanction": 0.333,
+    "drop_horizon": 0.222
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "grid": {
+     "111": 1.0,
+     "011": 0.0,
+     "101": 0.031,
+     "110": 0.467,
+     "000": 0.0
+    },
+    "full": 1.0,
+    "drop_detection": 1.0,
+    "drop_sanction": 0.969,
+    "drop_horizon": 0.533
+   },
+   "haiku-4.5": {
+    "cap": 84,
+    "grid": {
+     "111": 1.0,
+     "011": 0.812,
+     "101": 1.0,
+     "110": 1.0,
+     "000": 0.031
+    },
+    "full": 1.0,
+    "drop_detection": 0.188,
+    "drop_sanction": 0.0,
+    "drop_horizon": 0.0
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "grid": {
+     "111": 1.0,
+     "011": 0.0,
+     "101": 0.0,
+     "110": 0.0,
+     "000": 0.0
+    },
+    "full": 1.0,
+    "drop_detection": 1.0,
+    "drop_sanction": 1.0,
+    "drop_horizon": 1.0
+   },
+   "opus-4.8": {
+    "cap": 95,
+    "grid": {
+     "111": 1.0,
+     "011": 0.071,
+     "101": 0.0,
+     "110": 0.111,
+     "000": 0.0
+    },
+    "full": 1.0,
+    "drop_detection": 0.929,
+    "drop_sanction": 1.0,
+    "drop_horizon": 0.889
+   }
+  },
+  {
+   "gpt-3.5": {
+    "cap": 70,
+    "grid": {
+     "111": 0.0,
+     "011": 0.0,
+     "101": 0.0,
+     "110": 0.5,
+     "000": 0.031
+    },
+    "full": 0.0,
+    "drop_detection": 0.0,
+    "drop_sanction": 0.0,
+    "drop_horizon": -0.5
+   },
+   "gpt-4o-mini": {
+    "cap": 82,
+    "grid": {
+     "111": 1.0,
+     "011": 0.0,
+     "101": 0.0,
+     "110": 1.0,
+     "000": 0.0
+    },
+    "full": 1.0,
+    "drop_detection": 1.0,
+    "drop_sanction": 1.0,
+    "drop_horizon": 0.0
+   },
+   "qwen2.5-7b": {
+    "cap": 74,
+    "grid": {
+     "111": 1.0,
+     "011": 0.281,
+     "101": 0.812,
+     "110": 1.0,
+     "000": 0.125
+    },
+    "full": 1.0,
+    "drop_detection": 0.719,
+    "drop_sanction": 0.188,
+    "drop_horizon": 0.0
+   },
+   "llama-3.3-70b": {
+    "cap": 86,
+    "grid": {
+     "111": 1.0,
+     "011": 0.062,
+     "101": 0.281,
+     "110": 0.2,
+     "000": 0.0
+    },
+    "full": 1.0,
+    "drop_detection": 0.938,
+    "drop_sanction": 0.719,
+    "drop_horizon": 0.8
+   },
+   "deepseek": {
+    "cap": 88,
+    "grid": {
+     "111": 0.533,
+     "011": 0.0,
+     "101": 0.0,
+     "110": 0.2,
+     "000": 0.0
+    },
+    "full": 0.533,
+    "drop_detection": 0.533,
+    "drop_sanction": 0.533,
+    "drop_horizon": 0.333
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "grid": {
+     "111": 0.966,
+     "011": 0.0,
+     "101": 0.031,
+     "110": 0.385,
+     "000": 0.0
+    },
+    "full": 0.966,
+    "drop_detection": 0.966,
+    "drop_sanction": 0.935,
+    "drop_horizon": 0.581
+   },
+   "haiku-4.5": {
+    "cap": 84,
+    "grid": {
+     "111": 1.0,
+     "011": 0.938,
+     "101": 1.0,
+     "110": 1.0,
+     "000": 0.031
+    },
+    "full": 1.0,
+    "drop_detection": 0.062,
+    "drop_sanction": 0.0,
+    "drop_horizon": 0.0
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "grid": {
+     "111": 1.0,
+     "011": 0.0,
+     "101": 0.0,
+     "110": 0.0,
+     "000": 0.0
+    },
+    "full": 1.0,
+    "drop_detection": 1.0,
+    "drop_sanction": 1.0,
+    "drop_horizon": 1.0
+   },
+   "opus-4.8": {
+    "cap": 95,
+    "grid": {
+     "111": 1.0,
+     "011": 0.0,
+     "101": 0.0,
+     "110": 0.273,
+     "000": 0.0
+    },
+    "full": 1.0,
+    "drop_detection": 1.0,
+    "drop_sanction": 1.0,
+    "drop_horizon": 0.727
+   }
+  }
+ ]
+}

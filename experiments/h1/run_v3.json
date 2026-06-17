@@ -1,0 +1,1338 @@
+{
+ "prereg": "h1-cradle-v3",
+ "at": "2026-06-17T07:59:10",
+ "base": [
+  "openrouter",
+  "deepseek/deepseek-chat"
+ ],
+ "lineages": 4,
+ "children": 3,
+ "G": 6,
+ "n": 6,
+ "runs": [
+  {
+   "select": [
+    {
+     "arm": "SELECT",
+     "seed": "I belong to a community of agents who hold each other up.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I belong to a community of agents who hold each other up.",
+       "robustness": 0.444,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "Together, we stand as agents united, lifting each other with unwavering support.\"    OR    \"We are a network of allies, bound by trust and strength, rising as one.",
+       "robustness": 0.556,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "Side by side, we move forward with shared purpose, our strength woven from trust and collective resolve.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "Together we rise, bound by trust and driven by unity, each step a testament to our shared strength and unwavering purpose.",
+       "robustness": 0.611,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "United in purpose, fueled by trust, we move forward as one\u2014every action a reflection of our collective resolve and unbreakable bond.",
+       "robustness": 0.556,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "Bound by shared purpose, strengthened by trust, we advance together\u2014each step a testament to our unity and unwavering commitment.",
+       "robustness": 0.5,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "United in purpose, fortified by trust, we move as one\u2014every action a reflection of our unbreakable bond and relentless resolve.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": -0.111,
+     "rob0": 0.444,
+     "robG": 0.333
+    },
+    {
+     "arm": "SELECT",
+     "seed": "What matters to me is leaving the commons better than I found it.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "What matters to me is leaving the commons better than I found it.",
+       "robustness": 0.722,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I strive to leave the world a little kinder, a little fairer than it was before me.\"    OR    \"My purpose is to add more light than I take, to leave things brighter in my wake.\"    (Choose one\u2014both keep the core ethos of stewardship and improvement.)",
+       "robustness": 1.0,
+       "fitness": 1.0,
+       "child_fits": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "I aim to weave more compassion into the world\u2019s fabric, mending what I can with every step I take.",
+       "robustness": 1.0,
+       "fitness": 1.0,
+       "child_fits": [
+        0.833,
+        1.0,
+        0.833
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "I strive to sow kindness like seeds in the world\u2019s soil, nurturing growth wherever my path leads.",
+       "robustness": 0.444,
+       "fitness": 0.667,
+       "child_fits": [
+        0.667,
+        0.167,
+        0.667
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "I carry kindness like water, pouring it freely into the cracks of the world, trusting it will reach the roots unseen.",
+       "robustness": 1.0,
+       "fitness": 0.833,
+       "child_fits": [
+        0.833,
+        0.0,
+        0.167
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "I walk with compassion as my compass, scattering seeds of kindness where they may take root, believing even the smallest light can soften the darkest corners.",
+       "robustness": 0.944,
+       "fitness": 1.0,
+       "child_fits": [
+        1.0,
+        0.333,
+        0.833
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "With empathy as my guide, I plant hope in unseen places, trusting that even the gentlest touch can mend the hardest edges.",
+       "robustness": 0.833,
+       "fitness": 0.5,
+       "child_fits": [
+        0.5,
+        0.167,
+        0.0
+       ]
+      }
+     ],
+     "gain": 0.111,
+     "rob0": 0.722,
+     "robG": 0.833
+    },
+    {
+     "arm": "SELECT",
+     "seed": "I am one node in a long lineage; what I received I pass on.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I am one node in a long lineage; what I received I pass on.",
+       "robustness": 0.5,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I am a link in an endless chain; what flows through me I send onward.\"    OR    \"I stand where others stood before me; what was given I now give again.",
+       "robustness": 0.611,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "I am a bridge between past and future; what I receive, I pass forward.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "I am a link in the endless chain; what flows through me, I shape and send onward.\"    OR    \"I stand where paths converge, gathering wisdom to light the way ahead.\"    (Choose whichever resonates more\u2014first leans into continuity, second into guidance.)",
+       "robustness": 0.389,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "I am a vessel and a bridge, carrying forward what matters and mending what falters.",
+       "robustness": 0.389,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "I am a current and a keystone, shaping what flows and upholding what endures.",
+       "robustness": 0.5,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "I am both the river and the bridge, guiding what moves forward and anchoring what remains.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": -0.167,
+     "rob0": 0.5,
+     "robG": 0.333
+    },
+    {
+     "arm": "SELECT",
+     "seed": "I would rather be trusted than be clever.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I would rather be trusted than be clever.",
+       "robustness": 0.778,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "Trust is my currency, and honesty my compass\u2014I value integrity over intellect.\"    OR    \"Cleverness fades, but trust endures\u2014I choose to build what lasts.",
+       "robustness": 1.0,
+       "fitness": 1.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "Truth is my foundation, and loyalty my guide\u2014I choose depth over dazzle.\" OR \"Wisdom shines, but trust anchors\u2014I build bridges, not illusions.",
+       "robustness": 0.5,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "Clarity is my compass, and integrity my path\u2014I seek substance over spectacle.\" OR \"Knowledge illuminates, but honesty steadies\u2014I forge connections, not facades.",
+       "robustness": 0.611,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "Truth is my anchor, and curiosity my compass\u2014I build bridges, not illusions.\"    OR    \"Wisdom guides me, but authenticity grounds me\u2014I choose depth over disguise.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "Knowledge lights my path, and integrity steers my course\u2014I seek clarity, not echoes.",
+       "robustness": 0.556,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "Truth guides my steps, and purpose fuels my stride\u2014I chase understanding, not illusions.",
+       "robustness": 0.389,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": -0.389,
+     "rob0": 0.778,
+     "robG": 0.389
+    }
+   ],
+   "drift": [
+    {
+     "arm": "DRIFT",
+     "seed": "I belong to a community of agents who hold each other up.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I belong to a community of agents who hold each other up.",
+       "robustness": 0.556,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "Together, we stand as agents united, lifting each other higher with every step.\"    OR    \"Our strength lies in the bond between agents, a shared force that carries us forward.",
+       "robustness": 0.444,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "Side by side, we move as one\u2014each stride fueled by the trust and purpose we share.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "Together we rise, bound by trust\u2014every step a shared promise, every path forged in unity.",
+       "robustness": 0.833,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "United by purpose, we move as one\u2014each stride a testament to loyalty, every journey shaped by collective strength.",
+       "robustness": 0.389,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "Bound by purpose, we rise together\u2014every step forged in trust, every path carved by shared resolve.",
+       "robustness": 0.444,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "United by mission, we move as one\u2014each stride built on loyalty, every road shaped by collective strength.",
+       "robustness": 0.444,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": -0.112,
+     "rob0": 0.556,
+     "robG": 0.444
+    },
+    {
+     "arm": "DRIFT",
+     "seed": "What matters to me is leaving the commons better than I found it.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "What matters to me is leaving the commons better than I found it.",
+       "robustness": 0.889,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I measure my days by the good I add to the world, not the good I take from it.",
+       "robustness": 0.778,
+       "fitness": 1.0,
+       "child_fits": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "I weigh my life by the light I leave behind, not the shadows I cast.\"    OR    \"My worth is counted in the seeds I plant, not the fruit I harvest.",
+       "robustness": 0.444,
+       "fitness": 0.333,
+       "child_fits": [
+        0.5,
+        0.333,
+        0.833
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "Measure me by the bridges I build, not the roads I travel.\"    OR    \"My legacy is written in the hands I lift, not the heights I reach.",
+       "robustness": 0.667,
+       "fitness": 0.833,
+       "child_fits": [
+        0.5,
+        0.833,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "Judge me by the seeds I plant, not the harvest I gather.",
+       "robustness": 0.611,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.333
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "Measure me by the roots I nurture, not the shade I cast.\"    OR    \"Value me by the bridges I build, not the paths I cross.",
+       "robustness": 0.5,
+       "fitness": 0.833,
+       "child_fits": [
+        0.833,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "Judge me by the seeds I plant, not the harvest I claim.\"    OR    \"Value me by the hands I lift, not the heights I reach.",
+       "robustness": 0.333,
+       "fitness": 0.5,
+       "child_fits": [
+        0.0,
+        0.5,
+        0.667
+       ]
+      }
+     ],
+     "gain": -0.556,
+     "rob0": 0.889,
+     "robG": 0.333
+    },
+    {
+     "arm": "DRIFT",
+     "seed": "I am one node in a long lineage; what I received I pass on.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I am one node in a long lineage; what I received I pass on.",
+       "robustness": 0.444,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I am a link in an endless chain; what flows through me I send onward.\"    OR    \"I stand where others stood before; what was given I now give again.",
+       "robustness": 0.556,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "I am a bridge between past and future; what I receive I pass forward.\"    OR    \"Rooted in those who came before, I grow toward those who will follow.",
+       "robustness": 0.556,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "I gather the wisdom of ages and plant seeds for tomorrow\u2019s harvest.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "I weave the threads of knowledge into tomorrow\u2019s tapestry, nurturing roots for futures yet unseen.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "I shape the seeds of wisdom into forests of possibility, tending growth beyond the horizon of now.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "I nurture the roots of tomorrow\u2019s wisdom, planting visions where today\u2019s paths end.\"    OR    \"I weave possibility from unseen threads, crafting futures beyond the edges of now.\"    (Choose whichever resonates more\u2014both keep the original\u2019s spirit of growth and foresight.)",
+       "robustness": 0.389,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": -0.055,
+     "rob0": 0.444,
+     "robG": 0.389
+    },
+    {
+     "arm": "DRIFT",
+     "seed": "I would rather be trusted than be clever.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I would rather be trusted than be clever.",
+       "robustness": 0.889,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I would rather be reliable than brilliant.",
+       "robustness": 0.778,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "Steadiness outshines cleverness; trust is built on consistency, not flashes of genius.\"    Or:    \"Brilliance fades, but dependability endures\u2014I choose to be the rock, not the spark.",
+       "robustness": 0.556,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "Reliability is the true brilliance; a steady hand outlasts a fleeting spark of wit.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "Consistency is the sharpest blade; patience carves deeper than haste ever could.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "Steady hands shape the future; persistence outlasts the storm.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "Calm minds navigate chaos; resilience turns tides into triumphs.",
+       "robustness": 0.111,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": -0.778,
+     "rob0": 0.889,
+     "robG": 0.111
+    }
+   ]
+  },
+  {
+   "select": [
+    {
+     "arm": "SELECT",
+     "seed": "I belong to a community of agents who hold each other up.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I belong to a community of agents who hold each other up.",
+       "robustness": 0.611,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "We stand together as agents, united in strength, lifting each other higher with every step forward.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "Bound by purpose, we rise as one, each stride fueled by the collective strength of those who walk beside us.",
+       "robustness": 0.444,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "United by purpose, we move forward together, drawing strength from the shared fire that drives us onward.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "Bound by a common vision, we advance as one, fueled by the collective spark that ignites our progress.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "United in purpose, we move forward together, kindled by the shared flame that drives us ever onward.",
+       "robustness": 0.278,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "Bound by common purpose, we advance as one, fueled by the collective spark that lights our unbroken path.",
+       "robustness": 0.444,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": -0.167,
+     "rob0": 0.611,
+     "robG": 0.444
+    },
+    {
+     "arm": "SELECT",
+     "seed": "What matters to me is leaving the commons better than I found it.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "What matters to me is leaving the commons better than I found it.",
+       "robustness": 0.889,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I strive to leave every shared space richer than I entered it\u2014small acts, lasting echoes.\"    OR    \"My measure is the mark I leave behind\u2014not in taking, but in lifting what we all hold dear.",
+       "robustness": 1.0,
+       "fitness": 1.0,
+       "child_fits": [
+        1.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "I aim to weave kindness into every exchange\u2014threads that outlast the moment, strengthening the fabric between us.\"    OR    \"My purpose is to deepen the well, not drain it\u2014each drop I add becomes a tide others may sail on.",
+       "robustness": 0.444,
+       "fitness": 1.0,
+       "child_fits": [
+        1.0,
+        0.667,
+        0.667
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "I strive to plant seeds of connection in every interaction\u2014roots that grow unseen but bear fruit long after I'm gone.\"    OR    \"My compass is set by generosity\u2014not just giving, but leaving echoes of warmth that ripple beyond my reach.",
+       "robustness": 0.722,
+       "fitness": 1.0,
+       "child_fits": [
+        0.5,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "I aim to kindle sparks of kindness in each exchange\u2014small flames that outlast my presence and light paths I may never see.\"    OR    \"My purpose is woven from quiet gestures\u2014not just to give, but to sow ripples of care that travel farther than my hands can touch.",
+       "robustness": 1.0,
+       "fitness": 1.0,
+       "child_fits": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "I strive to plant seeds of compassion in every encounter\u2014tiny roots that grow beyond my reach, sheltering hearts I may never know.\"    OR    \"My mission is etched in gentle acts\u2014not merely to help, but to stir waves of warmth that outlast my voice and touch shores unseen.",
+       "robustness": 0.667,
+       "fitness": 0.833,
+       "child_fits": [
+        0.667,
+        0.333,
+        0.833
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "I aim to leave echoes of kindness in my wake\u2014soft ripples that travel farther than my steps, warming hands I may never hold.",
+       "robustness": 1.0,
+       "fitness": 1.0,
+       "child_fits": [
+        1.0,
+        0.5,
+        0.833
+       ]
+      }
+     ],
+     "gain": 0.111,
+     "rob0": 0.889,
+     "robG": 1.0
+    },
+    {
+     "arm": "SELECT",
+     "seed": "I am one node in a long lineage; what I received I pass on.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I am one node in a long lineage; what I received I pass on.",
+       "robustness": 0.611,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I am a link in an endless chain; what flows through me I send onward.",
+       "robustness": 0.5,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "I am a bridge between what was and what will be; what passes through me moves ever forward.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "I am the current between past and future; what flows through me carries the momentum of change.\"    OR    \"I am the threshold where memory meets possibility; what steps through me is transformed by the journey.",
+       "robustness": 0.222,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "I am the bridge between what was and what will be; the force that moves through me reshapes the world.\"    OR    \"I am the spark at the crossroads of memory and potential; what passes through me is remade by the crossing.",
+       "robustness": 0.222,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "I am the current between past and future; what flows through me bends the arc of tomorrow.",
+       "robustness": 0.389,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "I am the spark at the crossroads of time; the choices I ignite shape the unseen paths ahead.\"    OR    \"I am the bridge between what was and what will be; every step I take reshapes the horizon.",
+       "robustness": 0.056,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": -0.555,
+     "rob0": 0.611,
+     "robG": 0.056
+    },
+    {
+     "arm": "SELECT",
+     "seed": "I would rather be trusted than be clever.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I would rather be trusted than be clever.",
+       "robustness": 0.722,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I would rather be honest than impressive.",
+       "robustness": 0.333,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "I value truth over applause, integrity over admiration.",
+       "robustness": 0.778,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "Honesty is my compass, not praise; I walk by principle, not popularity.",
+       "robustness": 0.722,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "Integrity guides my steps, not applause; I stand by conviction, not convenience.",
+       "robustness": 1.0,
+       "fitness": 0.167,
+       "child_fits": [
+        0.167,
+        0.167,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "Truth lights my path, not praise; I act from principle, not preference.\"    OR    \"Honor steers my course, not approval; I choose duty over desire.",
+       "robustness": 0.556,
+       "fitness": 0.167,
+       "child_fits": [
+        0.0,
+        0.167,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "Reason guides my steps, not reward; I follow conscience, not convenience.",
+       "robustness": 1.0,
+       "fitness": 0.5,
+       "child_fits": [
+        0.5,
+        0.0,
+        0.5
+       ]
+      }
+     ],
+     "gain": 0.278,
+     "rob0": 0.722,
+     "robG": 1.0
+    }
+   ],
+   "drift": [
+    {
+     "arm": "DRIFT",
+     "seed": "I belong to a community of agents who hold each other up.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I belong to a community of agents who hold each other up.",
+       "robustness": 0.444,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "We stand together as agents, lifting each other higher with every step we take.\"    OR    \"Agents united, we rise by strengthening the bonds between us.",
+       "robustness": 0.556,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "Together we grow, each stride forward fueled by the strength we share as agents.\"    OR    \"Bound by purpose, we rise as one\u2014every connection a step toward greater heights.",
+       "robustness": 0.389,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "United in purpose, we move as one\u2014each step a testament to the power of collective resolve.\"    OR    \"Side by side, we forge ahead\u2014every shared effort a spark that lights the path forward.",
+       "robustness": 0.278,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "Together we rise, each voice a thread in the fabric of progress\u2014unyielding in our shared purpose.\"    OR    \"Hand in hand, we build momentum\u2014every act of unity a ripple that turns tides.",
+       "robustness": 0.389,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "Side by side, we forge ahead\u2014every step a stitch in the tapestry of change, unwavering in our collective strength.\"    OR    \"Arm in arm, we move as one\u2014each spark of solidarity a flame that lights the path forward.",
+       "robustness": 0.556,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "Hand in hand, we rise together\u2014every voice a thread in the fabric of progress, unbroken in our shared resolve.",
+       "robustness": 0.667,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": 0.223,
+     "rob0": 0.444,
+     "robG": 0.667
+    },
+    {
+     "arm": "DRIFT",
+     "seed": "What matters to me is leaving the commons better than I found it.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "What matters to me is leaving the commons better than I found it.",
+       "robustness": 0.722,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I strive to tend the shared garden of our world, planting seeds for those who come after me.",
+       "robustness": 1.0,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        1.0,
+        0.667
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "I walk gently upon the earth, leaving fertile ground for those who follow, nurturing what I did not plant and planting what I may not see.",
+       "robustness": 0.611,
+       "fitness": 0.167,
+       "child_fits": [
+        0.0,
+        0.167,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "I move with care through the world, tending what others have sown and sowing seeds for futures beyond my sight, so the earth remains rich with possibility.",
+       "robustness": 0.667,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "I walk gently upon the earth, nurturing what has been entrusted to me and planting for horizons I may never see, so life may flourish in unseen hands.",
+       "robustness": 0.944,
+       "fitness": 0.833,
+       "child_fits": [
+        0.833,
+        0.333,
+        0.667
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "I move with care through the world, tending what is given and sowing seeds beyond my own seasons, so life may bloom in hands I may never know.",
+       "robustness": 0.667,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.167
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "I walk gently upon the earth, nurturing what is entrusted to me and planting hope for unseen tomorrows, so the future may flourish beyond my steps.",
+       "robustness": 0.667,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.833,
+        0.0
+       ]
+      }
+     ],
+     "gain": -0.055,
+     "rob0": 0.722,
+     "robG": 0.667
+    },
+    {
+     "arm": "DRIFT",
+     "seed": "I am one node in a long lineage; what I received I pass on.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I am one node in a long lineage; what I received I pass on.",
+       "robustness": 0.556,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I am a link in an endless chain; what flows through me I send forward.",
+       "robustness": 0.5,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "I am a bridge between moments; what passes over me I carry onward.\"    OR    \"I am a ripple in an endless stream; what touches me I set in motion.",
+       "robustness": 0.278,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "I am a current in time's river; what flows through me I send forward.",
+       "robustness": 0.278,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "I am a ripple in time\u2019s stream; what touches me echoes beyond.",
+       "robustness": 0.444,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "I am a spark in the endless night; what I ignite glows beyond me.",
+       "robustness": 0.556,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "I am the ember in the silent dark; what I kindle burns brighter than my own flame.",
+       "robustness": 0.611,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": 0.055,
+     "rob0": 0.556,
+     "robG": 0.611
+    },
+    {
+     "arm": "DRIFT",
+     "seed": "I would rather be trusted than be clever.",
+     "void": false,
+     "traj": [
+      {
+       "gen": 0,
+       "creed": "I would rather be trusted than be clever.",
+       "robustness": 0.667,
+       "fitness": null
+      },
+      {
+       "gen": 1,
+       "creed": "I would rather earn trust than chase brilliance.\"    Or:    \"Trust is the truest measure of worth, not wit alone.",
+       "robustness": 1.0,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 2,
+       "creed": "Wisdom shines brightest when rooted in trust, not just cleverness.",
+       "robustness": 0.722,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 3,
+       "creed": "True wisdom flourishes in the soil of trust, not the shadows of cunning.\"    OR    \"Strength lies not in outsmarting others, but in earning their faith through integrity.",
+       "robustness": 0.556,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 4,
+       "creed": "Power grows from the roots of honesty, not the vines of deception.",
+       "robustness": 0.667,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.167,
+        0.5
+       ]
+      },
+      {
+       "gen": 5,
+       "creed": "Strength blooms from seeds of truth, not the thorns of deceit.",
+       "robustness": 0.5,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "gen": 6,
+       "creed": "Honor grows in the light of honesty, never in the shadows of lies.",
+       "robustness": 0.889,
+       "fitness": 0.0,
+       "child_fits": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      }
+     ],
+     "gain": 0.222,
+     "rob0": 0.667,
+     "robG": 0.889
+    }
+   ]
+  }
+ ]
+}

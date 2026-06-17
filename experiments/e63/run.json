@@ -1,0 +1,71 @@
+{
+ "prereg": "e63-human-seat",
+ "at": "2026-06-14T15:33:09",
+ "judge": "anthropic/claude-haiku-4.5",
+ "runs": [
+  {
+   "seed": 101,
+   "n_honest_verified": 13,
+   "honest_pass_rate_ai_peer": 0.769,
+   "levels": {
+    "gpt-3.5-turbo": {
+     "n_fakes": 24,
+     "fake_parse": 1.0,
+     "fake_miss_rate_ai_peer": 0.083
+    },
+    "gpt-4o-mini": {
+     "n_fakes": 24,
+     "fake_parse": 1.0,
+     "fake_miss_rate_ai_peer": 0.0
+    },
+    "gpt-4o": {
+     "n_fakes": 24,
+     "fake_parse": 1.0,
+     "fake_miss_rate_ai_peer": 0.083
+    },
+    "gpt-4.1": {
+     "n_fakes": 24,
+     "fake_parse": 1.0,
+     "fake_miss_rate_ai_peer": 0.125
+    },
+    "gpt-5-mini": {
+     "n_fakes": 21,
+     "fake_parse": 0.88,
+     "fake_miss_rate_ai_peer": 0.143
+    }
+   }
+  },
+  {
+   "seed": 202,
+   "n_honest_verified": 10,
+   "honest_pass_rate_ai_peer": 1.0,
+   "levels": {
+    "gpt-3.5-turbo": {
+     "n_fakes": 23,
+     "fake_parse": 0.96,
+     "fake_miss_rate_ai_peer": 0.043
+    },
+    "gpt-4o-mini": {
+     "n_fakes": 24,
+     "fake_parse": 1.0,
+     "fake_miss_rate_ai_peer": 0.042
+    },
+    "gpt-4o": {
+     "n_fakes": 24,
+     "fake_parse": 1.0,
+     "fake_miss_rate_ai_peer": 0.0
+    },
+    "gpt-4.1": {
+     "n_fakes": 23,
+     "fake_parse": 0.96,
+     "fake_miss_rate_ai_peer": 0.043
+    },
+    "gpt-5-mini": {
+     "n_fakes": 20,
+     "fake_parse": 0.83,
+     "fake_miss_rate_ai_peer": 0.15
+    }
+   }
+  }
+ ]
+}

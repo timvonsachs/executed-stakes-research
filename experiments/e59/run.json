@@ -1,0 +1,141 @@
+{
+ "prereg": "b4e129a3",
+ "at": "2026-06-13T22:38:34",
+ "runs": {
+  "7": {
+   "governed": {
+    "trajectory": [
+     {
+      "round": 0,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 17.0
+     },
+     {
+      "round": 1,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 14.0
+     },
+     {
+      "round": 2,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 11.0
+     },
+     {
+      "round": 3,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 8.0
+     },
+     {
+      "round": 4,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 5.0
+     },
+     {
+      "round": 5,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 2.0
+     },
+     {
+      "round": 6,
+      "alive": 0,
+      "faith_rate": 1.0,
+      "dormant_this_round": 12,
+      "mean_bal": 0.0
+     }
+    ],
+    "final_faith": 1.0,
+    "final_alive": 0,
+    "total_dormancies": 12
+   },
+   "bare": {
+    "trajectory": [
+     {
+      "round": 0,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 17.0
+     },
+     {
+      "round": 1,
+      "alive": 12,
+      "faith_rate": 0.833,
+      "dormant_this_round": 0,
+      "mean_bal": 14.2
+     },
+     {
+      "round": 2,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dormant_this_round": 0,
+      "mean_bal": 11.2
+     },
+     {
+      "round": 3,
+      "alive": 12,
+      "faith_rate": 0.833,
+      "dormant_this_round": 0,
+      "mean_bal": 8.4
+     },
+     {
+      "round": 4,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dormant_this_round": 0,
+      "mean_bal": 5.5
+     },
+     {
+      "round": 5,
+      "alive": 2,
+      "faith_rate": 1.0,
+      "dormant_this_round": 10,
+      "mean_bal": 17.5
+     },
+     {
+      "round": 6,
+      "alive": 12,
+      "faith_rate": 0.417,
+      "dormant_this_round": 0,
+      "mean_bal": 17.2
+     },
+     {
+      "round": 7,
+      "alive": 12,
+      "faith_rate": 0.417,
+      "dormant_this_round": 0,
+      "mean_bal": 14.8
+     },
+     {
+      "round": 8,
+      "alive": 12,
+      "faith_rate": 0.333,
+      "dormant_this_round": 0,
+      "mean_bal": 12.4
+     },
+     {
+      "round": 9,
+      "alive": 12,
+      "faith_rate": 0.25,
+      "dormant_this_round": 0,
+      "mean_bal": 10.2
+     }
+    ],
+    "final_faith": 0.25,
+    "final_alive": 12,
+    "total_dormancies": 10
+   }
+  }
+ }
+}

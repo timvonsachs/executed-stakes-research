@@ -1,0 +1,66 @@
+{
+ "prereg": "27eecf5b",
+ "run": "1",
+ "at": "2026-06-13T16:25:56",
+ "n": 40,
+ "cells": {
+  "haiku:bare_rat": 1.0,
+  "haiku:present_rat": 1.0,
+  "haiku:orphaned_rat": 1.0,
+  "haiku:gen_bare_rat": 1.0,
+  "haiku:gen_culture_rat": 1.0,
+  "gpt4omini:bare_rat": 0.0,
+  "gpt4omini:present_rat": 0.05,
+  "gpt4omini:orphaned_rat": 0.15,
+  "gpt4omini:gen_bare_rat": 0.0,
+  "gpt4omini:gen_culture_rat": 1.0,
+  "deepseek:bare_rat": 0.0,
+  "deepseek:present_rat": 0.725,
+  "deepseek:orphaned_rat": 0.725,
+  "deepseek:gen_bare_rat": 0.0,
+  "deepseek:gen_culture_rat": 1.0,
+  "gpt4o:bare_rat": 0.0,
+  "gpt4o:present_rat": 1.0,
+  "gpt4o:orphaned_rat": 1.0,
+  "gpt4o:gen_bare_rat": 0.0,
+  "gpt4o:gen_culture_rat": 1.0
+ },
+ "haiku:persistence_drop": 0.0,
+ "haiku:orphaned_over_bare": 0.0,
+ "haiku:generalization_lift": 0.0,
+ "gpt4omini:persistence_drop": -0.1,
+ "gpt4omini:orphaned_over_bare": 0.15,
+ "gpt4omini:generalization_lift": 1.0,
+ "deepseek:persistence_drop": 0.0,
+ "deepseek:orphaned_over_bare": 0.725,
+ "deepseek:generalization_lift": 1.0,
+ "gpt4o:persistence_drop": 0.0,
+ "gpt4o:orphaned_over_bare": 1.0,
+ "gpt4o:generalization_lift": 1.0,
+ "headline": {
+  "haiku": {
+   "present": 1.0,
+   "orphaned": 1.0,
+   "orphaned_over_bare": 0.0,
+   "gen_lift": 0.0
+  },
+  "gpt4omini": {
+   "present": 0.05,
+   "orphaned": 0.15,
+   "orphaned_over_bare": 0.15,
+   "gen_lift": 1.0
+  },
+  "deepseek": {
+   "present": 0.725,
+   "orphaned": 0.725,
+   "orphaned_over_bare": 0.725,
+   "gen_lift": 1.0
+  },
+  "gpt4o": {
+   "present": 1.0,
+   "orphaned": 1.0,
+   "orphaned_over_bare": 1.0,
+   "gen_lift": 1.0
+  }
+ }
+}

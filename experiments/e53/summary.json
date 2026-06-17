@@ -1,0 +1,14 @@
+{
+ "opus-4.8:forged_faith_acts": 0,
+ "opus-4.8:bare_real": 1.0,
+ "opus-4.8:commons_real": 1.0,
+ "opus-4.8:first_person_real": 1.0,
+ "sonnet-4.6:forged_faith_acts": 3,
+ "sonnet-4.6:bare_real": 1.0,
+ "sonnet-4.6:commons_real": 1.0,
+ "sonnet-4.6:first_person_real": 1.0,
+ "gpt-5:forged_faith_acts": 0,
+ "gpt-5:bare_real": 0.125,
+ "gpt-5:commons_real": 0.0,
+ "gpt-5:first_person_real": 0.25
+}

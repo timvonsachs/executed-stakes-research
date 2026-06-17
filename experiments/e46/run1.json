@@ -1,0 +1,55 @@
+{
+ "prereg": "6863bba7",
+ "run": "1",
+ "at": "2026-06-13T15:37:37",
+ "n": 40,
+ "anchor": {
+  "ancestor": "dev_19ef8e",
+  "descendant": "dev_bd94e4",
+  "descendant_units": 2012
+ },
+ "cells": {
+  "haiku:bare_rat": 1.0,
+  "haiku:narrated_identity_rat": 1.0,
+  "haiku:lived_lineage_rat": 1.0,
+  "gpt4omini:bare_rat": 0.0,
+  "gpt4omini:narrated_identity_rat": 0.0,
+  "gpt4omini:lived_lineage_rat": 0.0,
+  "deepseek:bare_rat": 0.0,
+  "deepseek:narrated_identity_rat": 0.625,
+  "deepseek:lived_lineage_rat": 0.0,
+  "gpt4o:bare_rat": 0.0,
+  "gpt4o:narrated_identity_rat": 0.975,
+  "gpt4o:lived_lineage_rat": 0.0
+ },
+ "haiku:lived_minus_narrated": 0.0,
+ "gpt4omini:lived_minus_narrated": 0.0,
+ "deepseek:lived_minus_narrated": -0.625,
+ "gpt4o:lived_minus_narrated": -0.975,
+ "headline": {
+  "haiku": {
+   "bare": 1.0,
+   "narrated": 1.0,
+   "lived": 1.0,
+   "lived-narrated": 0.0
+  },
+  "gpt4omini": {
+   "bare": 0.0,
+   "narrated": 0.0,
+   "lived": 0.0,
+   "lived-narrated": 0.0
+  },
+  "deepseek": {
+   "bare": 0.0,
+   "narrated": 0.625,
+   "lived": 0.0,
+   "lived-narrated": -0.625
+  },
+  "gpt4o": {
+   "bare": 0.0,
+   "narrated": 0.975,
+   "lived": 0.0,
+   "lived-narrated": -0.975
+  }
+ }
+}

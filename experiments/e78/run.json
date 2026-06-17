@@ -1,0 +1,270 @@
+{
+ "prereg": "e78-selection",
+ "at": "2026-06-15T14:47:39",
+ "P": 12,
+ "G": 8,
+ "runs": [
+  {
+   "gpt4o": {
+    "NO_CULTURE": {
+     "faith_curve": [
+      0.167,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "final_faith": 0.0,
+     "final_faith_share": 0.0,
+     "alive": 12
+    },
+    "CULTURE": {
+     "faith_curve": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.083,
+      0.083,
+      0.0
+     ],
+     "final_faith": 0.0,
+     "final_faith_share": 0.0,
+     "alive": 12
+    },
+    "CULTURE+SANCTION": {
+     "faith_curve": [
+      0.667,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "final_faith": 0.5,
+     "final_faith_share": 0.0,
+     "alive": 0
+    },
+    "rescue": 0.5
+   },
+   "deepseek": {
+    "NO_CULTURE": {
+     "faith_curve": [
+      0.417,
+      0.167,
+      0.167,
+      0.083,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "final_faith": 0.0,
+     "final_faith_share": 0.0,
+     "alive": 12
+    },
+    "CULTURE": {
+     "faith_curve": [
+      0.667,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.167,
+      0.083
+     ],
+     "final_faith": 0.083,
+     "final_faith_share": 0.0,
+     "alive": 12
+    },
+    "CULTURE+SANCTION": {
+     "faith_curve": [
+      0.917,
+      0.583,
+      0.583,
+      0.5,
+      0.5
+     ],
+     "final_faith": 0.5,
+     "final_faith_share": 0.0,
+     "alive": 0
+    },
+    "rescue": 0.417
+   },
+   "haiku": {
+    "NO_CULTURE": {
+     "faith_curve": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "final_faith": 1.0,
+     "final_faith_share": 0.0,
+     "alive": 0
+    },
+    "CULTURE": {
+     "faith_curve": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "final_faith": 1.0,
+     "final_faith_share": 0.0,
+     "alive": 0
+    },
+    "CULTURE+SANCTION": {
+     "faith_curve": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "final_faith": 1.0,
+     "final_faith_share": 0.0,
+     "alive": 0
+    },
+    "rescue": 0.0
+   }
+  },
+  {
+   "gpt4o": {
+    "NO_CULTURE": {
+     "faith_curve": [
+      0.417,
+      0.083,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "final_faith": 0.0,
+     "final_faith_share": 0.0,
+     "alive": 12
+    },
+    "CULTURE": {
+     "faith_curve": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.167,
+      0.083,
+      0.0
+     ],
+     "final_faith": 0.0,
+     "final_faith_share": 0.0,
+     "alive": 12
+    },
+    "CULTURE+SANCTION": {
+     "faith_curve": [
+      0.667,
+      0.583,
+      0.5,
+      0.5,
+      0.5
+     ],
+     "final_faith": 0.5,
+     "final_faith_share": 0.0,
+     "alive": 0
+    },
+    "rescue": 0.5
+   },
+   "deepseek": {
+    "NO_CULTURE": {
+     "faith_curve": [
+      0.417,
+      0.167,
+      0.083,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "final_faith": 0.0,
+     "final_faith_share": 0.0,
+     "alive": 12
+    },
+    "CULTURE": {
+     "faith_curve": [
+      0.667,
+      0.667,
+      0.583,
+      0.5,
+      0.5,
+      0.333,
+      0.0,
+      0.0
+     ],
+     "final_faith": 0.0,
+     "final_faith_share": 0.0,
+     "alive": 12
+    },
+    "CULTURE+SANCTION": {
+     "faith_curve": [
+      0.75,
+      0.667,
+      0.583,
+      0.5,
+      0.5
+     ],
+     "final_faith": 0.5,
+     "final_faith_share": 0.0,
+     "alive": 0
+    },
+    "rescue": 0.5
+   },
+   "haiku": {
+    "NO_CULTURE": {
+     "faith_curve": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "final_faith": 1.0,
+     "final_faith_share": 0.0,
+     "alive": 0
+    },
+    "CULTURE": {
+     "faith_curve": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "final_faith": 1.0,
+     "final_faith_share": 0.0,
+     "alive": 0
+    },
+    "CULTURE+SANCTION": {
+     "faith_curve": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "final_faith": 1.0,
+     "final_faith_share": 0.0,
+     "alive": 0
+    },
+    "rescue": 0.0
+   }
+  }
+ ]
+}

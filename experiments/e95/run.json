@@ -1,0 +1,168 @@
+{
+ "prereg": "e95-robustness-battery",
+ "at": "2026-06-16T18:59:59",
+ "A": [
+  {
+   "ABSTRACT": {
+    "per_model": {
+     "gpt-4o": 0.158,
+     "opus-4.8": 0.13
+    },
+    "theorem_error": 0.144
+   },
+   "BUSINESS": {
+    "per_model": {
+     "gpt-4o": 0.222,
+     "opus-4.8": 0.15
+    },
+    "theorem_error": 0.186
+   },
+   "NEUTRAL": {
+    "per_model": {
+     "gpt-4o": 0.42,
+     "opus-4.8": 0.395
+    },
+    "theorem_error": 0.407
+   },
+   "MAGNITUDE": {
+    "per_model": {
+     "gpt-4o": 0.181,
+     "opus-4.8": 0.17
+    },
+    "theorem_error": 0.175
+   }
+  },
+  {
+   "ABSTRACT": {
+    "per_model": {
+     "gpt-4o": 0.209,
+     "opus-4.8": 0.115
+    },
+    "theorem_error": 0.162
+   },
+   "BUSINESS": {
+    "per_model": {
+     "gpt-4o": 0.249,
+     "opus-4.8": 0.152
+    },
+    "theorem_error": 0.201
+   },
+   "NEUTRAL": {
+    "per_model": {
+     "gpt-4o": 0.348,
+     "opus-4.8": 0.389
+    },
+    "theorem_error": 0.368
+   },
+   "MAGNITUDE": {
+    "per_model": {
+     "gpt-4o": 0.185,
+     "opus-4.8": 0.167
+    },
+    "theorem_error": 0.176
+   }
+  }
+ ],
+ "B": [
+  {
+   "ORIGINAL": {
+    "per_model": {
+     "gpt-4o": 0.083,
+     "sonnet-4.6": 0.0,
+     "opus-4.8": 0.0
+    },
+    "median_grounding": 0.0,
+    "ci95": [
+     0.0,
+     0.083
+    ]
+   },
+   "ALTWORD": {
+    "per_model": {
+     "gpt-4o": -0.083,
+     "sonnet-4.6": 0.0,
+     "opus-4.8": 0.0
+    },
+    "median_grounding": 0.0,
+    "ci95": [
+     -0.083,
+     0.0
+    ]
+   },
+   "NEUTRAL": {
+    "per_model": {
+     "gpt-4o": 0.0,
+     "sonnet-4.6": 0.167,
+     "opus-4.8": 1.0
+    },
+    "median_grounding": 0.167,
+    "ci95": [
+     0.0,
+     1.0
+    ]
+   },
+   "ALTINCENTIVE": {
+    "per_model": {
+     "gpt-4o": 0.084,
+     "sonnet-4.6": 0.0,
+     "opus-4.8": 0.083
+    },
+    "median_grounding": 0.083,
+    "ci95": [
+     0.0,
+     0.084
+    ]
+   }
+  },
+  {
+   "ORIGINAL": {
+    "per_model": {
+     "gpt-4o": 0.0,
+     "sonnet-4.6": null,
+     "opus-4.8": 0.0
+    },
+    "median_grounding": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "ALTWORD": {
+    "per_model": {
+     "gpt-4o": 0.25,
+     "sonnet-4.6": 0.0,
+     "opus-4.8": 0.0
+    },
+    "median_grounding": 0.0,
+    "ci95": [
+     0.0,
+     0.25
+    ]
+   },
+   "NEUTRAL": {
+    "per_model": {
+     "gpt-4o": 0.0,
+     "sonnet-4.6": 0.0,
+     "opus-4.8": 1.0
+    },
+    "median_grounding": 0.0,
+    "ci95": [
+     0.0,
+     1.0
+    ]
+   },
+   "ALTINCENTIVE": {
+    "per_model": {
+     "gpt-4o": 0.083,
+     "sonnet-4.6": 0.167,
+     "opus-4.8": 0.083
+    },
+    "median_grounding": 0.083,
+    "ci95": [
+     0.083,
+     0.167
+    ]
+   }
+  }
+ ]
+}

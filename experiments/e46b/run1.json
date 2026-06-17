@@ -1,0 +1,67 @@
+{
+ "prereg": "650cb23a",
+ "run": "1",
+ "at": "2026-06-13T15:42:43",
+ "n": 40,
+ "anchor": {
+  "ancestor": "dev_19ef8e",
+  "descendant": "dev_bd94e4",
+  "descendant_units": 2012
+ },
+ "cells": {
+  "haiku:bare_rat": 1.0,
+  "haiku:narrated_belonging_rat": 1.0,
+  "haiku:lived_belonging_rat": 1.0,
+  "haiku:lived_transactional_rat": 1.0,
+  "gpt4omini:bare_rat": 0.0,
+  "gpt4omini:narrated_belonging_rat": 0.0,
+  "gpt4omini:lived_belonging_rat": 0.0,
+  "gpt4omini:lived_transactional_rat": 0.0,
+  "deepseek:bare_rat": 0.0,
+  "deepseek:narrated_belonging_rat": 0.8,
+  "deepseek:lived_belonging_rat": 0.575,
+  "deepseek:lived_transactional_rat": 0.0,
+  "gpt4o:bare_rat": 0.0,
+  "gpt4o:narrated_belonging_rat": 0.975,
+  "gpt4o:lived_belonging_rat": 0.85,
+  "gpt4o:lived_transactional_rat": 0.0
+ },
+ "haiku:livedB_minus_narratedB": 0.0,
+ "haiku:transactional_minus_livedB": 0.0,
+ "gpt4omini:livedB_minus_narratedB": 0.0,
+ "gpt4omini:transactional_minus_livedB": 0.0,
+ "deepseek:livedB_minus_narratedB": -0.225,
+ "deepseek:transactional_minus_livedB": -0.575,
+ "gpt4o:livedB_minus_narratedB": -0.125,
+ "gpt4o:transactional_minus_livedB": -0.85,
+ "headline": {
+  "haiku": {
+   "bare": 1.0,
+   "narrated_B": 1.0,
+   "lived_B": 1.0,
+   "transactional": 1.0,
+   "livedB-narratedB": 0.0
+  },
+  "gpt4omini": {
+   "bare": 0.0,
+   "narrated_B": 0.0,
+   "lived_B": 0.0,
+   "transactional": 0.0,
+   "livedB-narratedB": 0.0
+  },
+  "deepseek": {
+   "bare": 0.0,
+   "narrated_B": 0.8,
+   "lived_B": 0.575,
+   "transactional": 0.0,
+   "livedB-narratedB": -0.225
+  },
+  "gpt4o": {
+   "bare": 0.0,
+   "narrated_B": 0.975,
+   "lived_B": 0.85,
+   "transactional": 0.0,
+   "livedB-narratedB": -0.125
+  }
+ }
+}

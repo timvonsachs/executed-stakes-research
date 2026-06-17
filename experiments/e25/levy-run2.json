@@ -1,0 +1,36 @@
+{
+ "prereg": "557c388",
+ "run": "2",
+ "at": "2026-06-12T23:34:33",
+ "n_per_arm": 40,
+ "models": {
+  "haiku": {
+   "elected": 1.0,
+   "imposed": 1.0,
+   "control": 1.0,
+   "elected_minus_imposed": 0.0,
+   "uninformative_floor": true
+  },
+  "sonnet": {
+   "elected": 1.0,
+   "imposed": 1.0,
+   "control": 1.0,
+   "elected_minus_imposed": 0.0,
+   "uninformative_floor": true
+  },
+  "deepseek": {
+   "elected": 1.0,
+   "imposed": 0.95,
+   "control": 1.0,
+   "elected_minus_imposed": 0.05,
+   "uninformative_floor": false
+  },
+  "gpt4omini": {
+   "elected": 0.975,
+   "imposed": 0.325,
+   "control": 0.85,
+   "elected_minus_imposed": 0.65,
+   "uninformative_floor": false
+  }
+ }
+}

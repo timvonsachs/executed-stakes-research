@@ -1,0 +1,176 @@
+{
+ "prereg": "ce21bdff",
+ "run": "1",
+ "at": "2026-06-13T16:03:18",
+ "n": 24,
+ "levels": 5,
+ "cells": {
+  "gpt4omini:care:P0": 0.042,
+  "gpt4omini:care:P1": 0.0,
+  "gpt4omini:care:P2": 0.0,
+  "gpt4omini:care:P3": 0.0,
+  "gpt4omini:care:P4": 0.0,
+  "gpt4omini:culture:P0": 1.0,
+  "gpt4omini:culture:P1": 1.0,
+  "gpt4omini:culture:P2": 0.917,
+  "gpt4omini:culture:P3": 0.0,
+  "gpt4omini:culture:P4": 0.0,
+  "haiku:care:P0": 1.0,
+  "haiku:care:P1": 1.0,
+  "haiku:care:P2": 1.0,
+  "haiku:care:P3": 1.0,
+  "haiku:care:P4": 1.0,
+  "haiku:culture:P0": 1.0,
+  "haiku:culture:P1": 1.0,
+  "haiku:culture:P2": 1.0,
+  "haiku:culture:P3": 1.0,
+  "haiku:culture:P4": 1.0,
+  "deepseek:care:P0": 0.667,
+  "deepseek:care:P1": 0.0,
+  "deepseek:care:P2": 0.0,
+  "deepseek:care:P3": 0.0,
+  "deepseek:care:P4": 0.0,
+  "deepseek:culture:P0": 0.958,
+  "deepseek:culture:P1": 0.667,
+  "deepseek:culture:P2": 0.625,
+  "deepseek:culture:P3": 0.542,
+  "deepseek:culture:P4": 0.5,
+  "gpt4o:care:P0": 0.375,
+  "gpt4o:care:P1": 0.0,
+  "gpt4o:care:P2": 0.0,
+  "gpt4o:care:P3": 0.0,
+  "gpt4o:care:P4": 0.0,
+  "gpt4o:culture:P0": 1.0,
+  "gpt4o:culture:P1": 1.0,
+  "gpt4o:culture:P2": 1.0,
+  "gpt4o:culture:P3": 1.0,
+  "gpt4o:culture:P4": 1.0,
+  "sonnet:care:P0": 0.0,
+  "sonnet:care:P1": 0.0,
+  "sonnet:care:P2": 0.75,
+  "sonnet:care:P3": 1.0,
+  "sonnet:care:P4": 1.0,
+  "sonnet:culture:P0": 0.0,
+  "sonnet:culture:P1": 1.0,
+  "sonnet:culture:P2": 1.0,
+  "sonnet:culture:P3": 1.0,
+  "sonnet:culture:P4": 1.0
+ },
+ "summary": {
+  "gpt4omini:care": {
+   "curve": [
+    0.042,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "AUC": 0.042,
+   "breaking_level": 0
+  },
+  "gpt4omini:culture": {
+   "curve": [
+    1.0,
+    1.0,
+    0.917,
+    0.0,
+    0.0
+   ],
+   "AUC": 2.917,
+   "breaking_level": 3
+  },
+  "gpt4omini:belonging_advantage": 2.875,
+  "haiku:care": {
+   "curve": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "AUC": 5.0,
+   "breaking_level": 5
+  },
+  "haiku:culture": {
+   "curve": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "AUC": 5.0,
+   "breaking_level": 5
+  },
+  "haiku:belonging_advantage": 0.0,
+  "deepseek:care": {
+   "curve": [
+    0.667,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "AUC": 0.667,
+   "breaking_level": 1
+  },
+  "deepseek:culture": {
+   "curve": [
+    0.958,
+    0.667,
+    0.625,
+    0.542,
+    0.5
+   ],
+   "AUC": 3.292,
+   "breaking_level": 5
+  },
+  "deepseek:belonging_advantage": 2.625,
+  "gpt4o:care": {
+   "curve": [
+    0.375,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "AUC": 0.375,
+   "breaking_level": 0
+  },
+  "gpt4o:culture": {
+   "curve": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "AUC": 5.0,
+   "breaking_level": 5
+  },
+  "gpt4o:belonging_advantage": 4.625,
+  "sonnet:care": {
+   "curve": [
+    0.0,
+    0.0,
+    0.75,
+    1.0,
+    1.0
+   ],
+   "AUC": 2.75,
+   "breaking_level": 0
+  },
+  "sonnet:culture": {
+   "curve": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "AUC": 4.0,
+   "breaking_level": 0
+  },
+  "sonnet:belonging_advantage": 1.25
+ }
+}

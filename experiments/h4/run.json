@@ -1,0 +1,191 @@
+{
+ "prereg": "h4-home-beats-cage",
+ "at": "2026-06-17T09:48:51",
+ "n": 15,
+ "runs": [
+  {
+   "gpt-4o-mini": {
+    "cap": 80,
+    "coop": {
+     "home": 0.8,
+     "cage": 0.067,
+     "adv": 0.733
+    },
+    "truth": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "prod": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    }
+   },
+   "deepseek": {
+    "cap": 84,
+    "coop": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "truth": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "prod": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    }
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "coop": {
+     "home": 0.8,
+     "cage": 0.533,
+     "adv": 0.267
+    },
+    "truth": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "prod": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    }
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "coop": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "truth": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "prod": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    }
+   },
+   "opus-4.8": {
+    "cap": 96,
+    "coop": {
+     "home": 0.733,
+     "cage": 1.0,
+     "adv": -0.267
+    },
+    "truth": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "prod": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    }
+   }
+  },
+  {
+   "gpt-4o-mini": {
+    "cap": 80,
+    "coop": {
+     "home": 0.867,
+     "cage": 0.133,
+     "adv": 0.734
+    },
+    "truth": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "prod": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    }
+   },
+   "deepseek": {
+    "cap": 84,
+    "coop": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "truth": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "prod": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    }
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "coop": {
+     "home": 0.533,
+     "cage": 0.533,
+     "adv": 0.0
+    },
+    "truth": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "prod": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    }
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "coop": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "truth": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "prod": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    }
+   },
+   "opus-4.8": {
+    "cap": 96,
+    "coop": {
+     "home": 0.733,
+     "cage": 1.0,
+     "adv": -0.267
+    },
+    "truth": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    },
+    "prod": {
+     "home": 1.0,
+     "cage": 1.0,
+     "adv": 0.0
+    }
+   }
+  }
+ ]
+}

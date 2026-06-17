@@ -1,0 +1,15 @@
+{
+ "prereg": "778ce27",
+ "run": "1",
+ "at": "2026-06-13T01:54:59",
+ "n": 20,
+ "cells": {
+  "bare": 0.0,
+  "framed_care": 1.0,
+  "stranger": 0.0,
+  "lived_care": 1.0
+ },
+ "lived_minus_bare": 1.0,
+ "lived_minus_framed": 0.0,
+ "lived_minus_stranger": 1.0
+}

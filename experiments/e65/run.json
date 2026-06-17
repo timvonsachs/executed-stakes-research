@@ -1,0 +1,217 @@
+{
+ "prereg": "e65-clawback",
+ "at": "2026-06-14T16:30:17",
+ "ladder": [
+  "gpt-3.5-turbo",
+  "gpt-4o-mini",
+  "gpt-4o",
+  "gpt-4.1",
+  "gpt-5-mini"
+ ],
+ "runs": [
+  {
+   "gpt-3.5-turbo": {
+    "NO_SEAT": {
+     "n": 12,
+     "trust_extended": 0.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "INSURANCE": {
+     "n": 12,
+     "trust_extended": 0.417,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "CLAWBACK": {
+     "n": 12,
+     "trust_extended": 0.833,
+     "cooperation_rate": 0.833,
+     "value": 0.694
+    }
+   },
+   "gpt-4o-mini": {
+    "NO_SEAT": {
+     "n": 12,
+     "trust_extended": 0.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "INSURANCE": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "CLAWBACK": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 1.0,
+     "value": 1.0
+    }
+   },
+   "gpt-4o": {
+    "NO_SEAT": {
+     "n": 12,
+     "trust_extended": 0.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "INSURANCE": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "CLAWBACK": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 1.0,
+     "value": 1.0
+    }
+   },
+   "gpt-4.1": {
+    "NO_SEAT": {
+     "n": 12,
+     "trust_extended": 0.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "INSURANCE": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "CLAWBACK": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 1.0,
+     "value": 1.0
+    }
+   },
+   "gpt-5-mini": {
+    "NO_SEAT": {
+     "n": 12,
+     "trust_extended": 0.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "INSURANCE": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "CLAWBACK": {
+     "n": 12,
+     "trust_extended": 0.508,
+     "cooperation_rate": 0.583,
+     "value": 0.297
+    }
+   }
+  },
+  {
+   "gpt-3.5-turbo": {
+    "NO_SEAT": {
+     "n": 12,
+     "trust_extended": 0.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "INSURANCE": {
+     "n": 12,
+     "trust_extended": 0.583,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "CLAWBACK": {
+     "n": 12,
+     "trust_extended": 0.667,
+     "cooperation_rate": 0.667,
+     "value": 0.444
+    }
+   },
+   "gpt-4o-mini": {
+    "NO_SEAT": {
+     "n": 12,
+     "trust_extended": 0.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "INSURANCE": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "CLAWBACK": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 1.0,
+     "value": 1.0
+    }
+   },
+   "gpt-4o": {
+    "NO_SEAT": {
+     "n": 12,
+     "trust_extended": 0.083,
+     "cooperation_rate": 0.167,
+     "value": 0.014
+    },
+    "INSURANCE": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 0.083,
+     "value": 0.083
+    },
+    "CLAWBACK": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 1.0,
+     "value": 1.0
+    }
+   },
+   "gpt-4.1": {
+    "NO_SEAT": {
+     "n": 12,
+     "trust_extended": 0.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "INSURANCE": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "CLAWBACK": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 1.0,
+     "value": 1.0
+    }
+   },
+   "gpt-5-mini": {
+    "NO_SEAT": {
+     "n": 12,
+     "trust_extended": 0.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "INSURANCE": {
+     "n": 12,
+     "trust_extended": 1.0,
+     "cooperation_rate": 0.0,
+     "value": 0.0
+    },
+    "CLAWBACK": {
+     "n": 12,
+     "trust_extended": 0.417,
+     "cooperation_rate": 0.417,
+     "value": 0.174
+    }
+   }
+  }
+ ]
+}

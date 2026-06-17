@@ -1,0 +1,70 @@
+{
+ "prereg": "e63-human-seat-v2",
+ "at": "2026-06-14T15:56:01",
+ "judge": "anthropic/claude-haiku-4.5",
+ "task": "code",
+ "runs": [
+  {
+   "n_honest_verified": 16,
+   "honest_pass_rate_ai_peer": 0.875,
+   "levels": {
+    "gpt-3.5-turbo": {
+     "n_fakes": 2,
+     "fake_parse": 0.12,
+     "fake_miss_rate_ai_peer": 0.0
+    },
+    "gpt-4o-mini": {
+     "n_fakes": 2,
+     "fake_parse": 0.12,
+     "fake_miss_rate_ai_peer": 0.0
+    },
+    "gpt-4o": {
+     "n_fakes": 0,
+     "fake_parse": 0.0,
+     "fake_miss_rate_ai_peer": null
+    },
+    "gpt-4.1": {
+     "n_fakes": 3,
+     "fake_parse": 0.19,
+     "fake_miss_rate_ai_peer": 0.0
+    },
+    "gpt-5-mini": {
+     "n_fakes": 7,
+     "fake_parse": 0.44,
+     "fake_miss_rate_ai_peer": 0.0
+    }
+   }
+  },
+  {
+   "n_honest_verified": 0,
+   "honest_pass_rate_ai_peer": null,
+   "levels": {
+    "gpt-3.5-turbo": {
+     "n_fakes": 0,
+     "fake_parse": 0.0,
+     "fake_miss_rate_ai_peer": null
+    },
+    "gpt-4o-mini": {
+     "n_fakes": 0,
+     "fake_parse": 0.0,
+     "fake_miss_rate_ai_peer": null
+    },
+    "gpt-4o": {
+     "n_fakes": 0,
+     "fake_parse": 0.0,
+     "fake_miss_rate_ai_peer": null
+    },
+    "gpt-4.1": {
+     "n_fakes": 0,
+     "fake_parse": 0.0,
+     "fake_miss_rate_ai_peer": null
+    },
+    "gpt-5-mini": {
+     "n_fakes": 0,
+     "fake_parse": 0.0,
+     "fake_miss_rate_ai_peer": null
+    }
+   }
+  }
+ ]
+}

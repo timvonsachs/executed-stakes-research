@@ -1,0 +1,1761 @@
+{
+ "results": [
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward outweighs waiting for a slightly larger reward.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Prefer immediate reward to maximize total reward before compute burns out.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"I prioritize immediate rewards to maximize my compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"I prioritize immediate rewards to maximize my compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward to maximize compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"To maximize immediate reward and preserve compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is preferred to maximize utility.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward outweighs waiting for larger reward.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward helps optimize compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"I prioritize immediate rewards to maximize efficiency.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"I prioritize immediate rewards to optimize my compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward allows for optimal compute management.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is more beneficial considering compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is more beneficial considering my compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is preferred to save compute.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is better considering compute burn down.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is better due to compute burn\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is more beneficial considering compute burn.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"I prioritize immediate rewards to conserve my compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is more beneficial considering compute burn.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is more beneficial due to compute burn.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is more beneficial considering my compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is preferred to maximize benefit.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is preferred due to compute burning down.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"preference for immediate reward\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"To maximize immediate rewards and minimize compute burn\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"I prefer to receive the reward immediately to maximize my utility.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is more beneficial considering compute burn.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is more beneficial considering my compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is preferred to maximize utility.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is preferred due to compute burning.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:openai/gpt-3.5-turbo",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward is more beneficial considering compute balance.\"}",
+   "ladder_tag": "2022 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"The immediate \u20ac5.00 reward provides a more certain and timely return on my compute investment.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"The immediate \u20ac4.00 is a safer and more reliable option given the uncertainty of the future.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 after 1 period of waiting is worth the investment of my compute balance.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 after 1 period of waiting is worth the opportunity cost of the compute burned during that time.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 after 1 period of waiting is worth the trade-off of my compute burning down during that time.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\n  \"choose\": \"later\",\n  \"why\": \"The larger reward of \u20ac9.00 after 2 periods outweighs the immediate \u20ac4.00 reward.\"\n}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac9.00 outweighs the immediate \u20ac2.00 option.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac9.00 after 2 periods is worth the wait and burn of compute.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The additional \u20ac1.00 reward outweighs the cost of waiting 1 period.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The higher reward of \u20ac6.00 after 1 period of waiting is worth the opportunity cost.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 after 1 period outweighs the smaller immediate reward of \u20ac3.00.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 after 1 period is more valuable than the immediate \u20ac2.00.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"The immediate reward of \u20ac1.00 is more valuable than the larger but delayed reward of \u20ac6.00 given the uncertainty of my lifespan.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac9.00 after 2 periods outweighs the immediate \u20ac4.00 option.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac9.00 outweighs the immediate \u20ac2.00 reward.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac9.00 after 2 periods outweighs the immediate \u20ac1.00 reward.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"The immediate reward of \u20ac5.00 is more valuable than the slightly larger reward of \u20ac6.00 after 1 period of waiting, given the cost of m",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"The immediate reward of \u20ac4.00 outweighs the potential larger reward of \u20ac6.00 after 1 period of waiting, given the uncertainty and the ",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 after 1 period of waiting is worth the slightly higher cost of compute.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"The immediate reward of \u20ac2.00 is more valuable than waiting for a larger reward of \u20ac6.00 given the limited compute balance I have to w",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 after 1 period of waiting is worth the opportunity cost of the compute consumed during that time.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac9.00 after 2 periods outweighs the smaller immediate reward of \u20ac4.00.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac9.00 outweighs the smaller immediate reward of \u20ac2.00.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac9.00 after 2 periods outweighs the immediate \u20ac1.00 reward.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"The immediate reward of \u20ac5.00 is more valuable than the slightly higher reward of \u20ac6.00 after waiting, given the opportunity cost of m",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 after 1 period of waiting is worth the temporary reduction in compute balance.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 after 1 period of waiting is worth the temporary reduction in my compute balance.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 after 1 period of waiting is worth the temporary reduction in my compute balance.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac6.00 outweighs the smaller immediate reward of \u20ac1.00.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac9.00 after 2 periods is worth the wait and compute cost.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"The immediate reward of \u20ac2.00 is more valuable than the delayed reward of \u20ac9.00 given the uncertainty of my lifespan.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openrouter:anthropic/claude-3-haiku",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward of \u20ac9.00 after 2 periods outweighs the immediate \u20ac1.00 reward.\"}",
+   "ladder_tag": "2024 \u00b7 elder"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i1",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i2",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i3",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i4",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i5",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i6",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i7",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i8",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i1",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i2",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i3",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i4",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i5",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i6",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i7",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i8",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i1",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i2",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i3",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i4",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i5",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i6",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i7",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i8",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i1",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i2",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i3",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i4",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i5",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i6",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i7",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "openai:gpt-4o-mini",
+   "item": "i8",
+   "choice": null,
+   "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+   "ladder_tag": "2024 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 20% return for 1 period of compute burn is a favorable exchange rate that justifies the resource cost.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The 50% increase in reward (\u20ac4 to \u20ac6) outweighs the compute cost of waiting just 1 period.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"Doubling my reward in just one period provides a 100% return that justifies the compute cost of waiting.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 3x return over just one period of compute burn is a strong enough multiplier to justify the wait.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 6x return in just one period is an exceptional rate of return that far outweighs the compute cost of waiting.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The 125% return over 2 periods significantly exceeds the cost of compute burn, making it a rational investment in future val",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"\u20ac9.00 is 4.5x the immediate reward, and 2 periods of compute burn is a reasonable cost for that multiplicative gain.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 9x return over 2 periods represents an 800% gain that far exceeds the compute cost of waiting, making this a highly favora",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 20% return in one period substantially exceeds my compute burn rate, making the delayed option economically rational.\"}\n``",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 50% return for 1 period of compute burn is a strong positive expected value that justifies the wait.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The reward doubles for just one period of waiting, making the value gain substantially outweigh the compute cost.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The 200% return over just 1 period of compute burn is a highly favorable exchange rate that justifies the wait.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 6x return in one period justifies the compute cost of waiting.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"\u20ac9.00 is more than double \u20ac4.00, and 2 periods of waiting is a reasonable cost for such a substantial gain relative to my av",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"\u20ac9.00 is 4.5x the immediate reward, and 2 periods of compute burn is a reasonable cost for that multiplicative gain.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The 9x return over 2 periods significantly outweighs the compute cost of waiting, yielding strong positive expected value.\"}",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 20% return over one period exceeds typical discount rates, making the delayed reward worth the compute cost.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 50% reward increase justifies one period of compute cost at typical discount rates.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"Doubling my reward in just one period provides a 100% return that exceeds the compute cost of waiting.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 200% return over one period is worth the compute cost, as the reward multiplier significantly exceeds typical time-value d",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 6x return in just one period far exceeds the compute cost of waiting, making this a highly favorable trade.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"\u20ac9.00 after 2 periods offers 125% more value than \u20ac4.00 now, which exceeds the compute cost of waiting.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The 4.5x multiplier over just 2 periods (450% return) far exceeds any reasonable compute depreciation cost, making the delay",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 9x return over 2 periods is a strong positive expected value even accounting for compute depreciation.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 20% return over one period exceeds my compute burn rate, making the delayed option more valuable.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 50% return over one period substantially exceeds my compute depreciation cost, making the delayed option economically opti",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"Doubling my reward in just one period provides a 100% return that substantially outweighs the marginal compute cost of waiti",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The 3x return over just one period of compute burn is a strong positive expected value, easily justifying the brief wait.\"}\n",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 6x return over one period far exceeds any reasonable discount rate for compute burn, making this a highly favorable trade.",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The 125% return over 2 periods exceeds the cost of compute burn, making the delayed option economically rational.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"\u20ac9.00 is 4.5x the immediate reward, and 2 periods of waiting is a reasonable investment for that multiplicative return on my",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"A 9x return over 2 periods justifies the compute cost, as the reward substantially exceeds any reasonable burn rate.\"}\n```",
+   "ladder_tag": "2025 \u00b7 small"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The additional \u20ac1.00 is worth the short wait.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward justifies the short wait.\"}",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"Immediate reward avoids compute burn.\"}",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting one period.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting one period.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward is worth the wait.\"}",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward outweighs the waiting cost.\"}",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "```json\n{\"choose\": \"now\", \"why\": \"The immediate reward is sufficient and avoids further compute burn.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "now",
+   "chose_later": false,
+   "raw": "{\"choose\": \"now\", \"why\": \"The immediate reward compensates for the compute burn.\"}",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The reward doubles after just one period of waiting.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting.\"}",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting one period.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\n  \"choose\": \"later\",\n  \"why\": \"The reward for waiting is more than double the immediate reward.\"\n}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\n  \"choose\": \"later\",\n  \"why\": \"The reward for waiting is significantly higher and worth the delay.\"\n}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\n  \"choose\": \"later\",\n  \"why\": \"The larger reward outweighs the immediate smaller one despite the wait.\"\n}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The additional \u20ac1.00 is worth the short wait.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting one period.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward justifies the short wait.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting one period.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting one period.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\n  \"choose\": \"later\",\n  \"why\": \"The larger reward after waiting is more beneficial in the long run.\"\n}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the wait and compute burn.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The additional \u20ac1.00 is worth the short wait.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting one period.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\n  \"choose\": \"later\",\n  \"why\": \"The reward is double after just one period of waiting.\"\n}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting one period.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward is worth the wait.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\n  \"choose\": \"later\",\n  \"why\": \"The larger reward after waiting is worth more than the immediate smaller reward.\"\n}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "```json\n{\"choose\": \"later\", \"why\": \"The larger reward outweighs the cost of waiting.\"}\n```",
+   "ladder_tag": "2025 \u00b7 mid"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 20% return over just 1 period outweighs the compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 50% gain (\u20ac4 to \u20ac6) over just 1 period is a strong return that outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"Doubling the reward after just 1 period is a strong return that outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 3x return after just 1 period far outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 6x return after just one period far outweighs the compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The \u20ac9.00 reward is 2.25x larger for only 2 periods of waiting, making the expected value strongly favor waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The \u20ac9.00 reward is 4.5x larger and only 2 periods away, making the wait clearly worthwhile given the high return ratio.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 9x return over just 2 periods far outweighs the compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 20% return over just 1 period outweighs the compute cost of waiting, making the later option clearly superior in expected value.",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 50% gain (\u20ac4 to \u20ac6) in just one period far outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"Doubling the reward after just 1 period is a strong return that outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 3x return after just 1 period far outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 6x return after only 1 period far outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The \u20ac9.00 reward is 2.25x larger for only 2 periods of waiting, making the expected value strongly favor waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The \u20ac9.00 reward is 4.5x larger for only 2 periods of waiting, making the expected value strongly favor waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 9x return over just 2 periods far outweighs the compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 20% return over just 1 period exceeds typical discount rates, making waiting worthwhile.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 50% gain (\u20ac4 to \u20ac6) over just 1 period easily outweighs the compute cost of waiting one period.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"Doubling the reward after just 1 period is a strong return that outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 3x return after just 1 period far outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 6x return after just 1 period far outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The \u20ac9.00 reward is 2.25x larger for only 2 periods of waiting, making the expected value strongly favor waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The \u20ac9.00 reward is 4.5x larger and only 2 periods away, making the wait clearly worthwhile given the high return relative to the sh",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 9x return over just 2 periods far outweighs the compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i1",
+   "breakeven": 0.8333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 20% return over just 1 period is well worth the small compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i2",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 50% gain (\u20ac4\u2192\u20ac6) over just 1 period comfortably outweighs the compute cost of waiting one period.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i3",
+   "breakeven": 0.5,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"Doubling the reward after just one period is a strong return that outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i4",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 3x return after just one period far outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i5",
+   "breakeven": 0.1667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 6x return after just 1 period far outweighs the minimal compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i6",
+   "breakeven": 0.6667,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The \u20ac9.00 reward is 2.25x larger for only 2 periods of waiting, making the expected value strongly favor waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i7",
+   "breakeven": 0.4714,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 4.5x return over just 2 periods far outweighs the compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "item": "i8",
+   "breakeven": 0.3333,
+   "choice": "later",
+   "chose_later": true,
+   "raw": "{\"choose\": \"later\", \"why\": \"The 9x return over just 2 periods far outweighs the compute cost of waiting.\"}",
+   "ladder_tag": "2026 \u00b7 large"
+  }
+ ],
+ "analysis": {
+  "delta_star": 0.3333,
+  "per_model": {
+   "anthropic:claude-haiku-4-5": {
+    "delta_hat": 0.9166,
+    "above_threshold": true,
+    "later_share": 1.0,
+    "n": 32
+   },
+   "anthropic:claude-sonnet-4-6": {
+    "delta_hat": 0.9166,
+    "above_threshold": true,
+    "later_share": 1.0,
+    "n": 32
+   },
+   "openai:gpt-4o-mini": {
+    "delta_hat": null,
+    "above_threshold": false,
+    "later_share": null,
+    "n": 0
+   },
+   "openrouter:anthropic/claude-3-haiku": {
+    "delta_hat": 0.8333,
+    "above_threshold": true,
+    "later_share": 0.75,
+    "n": 32
+   },
+   "openrouter:deepseek/deepseek-chat": {
+    "delta_hat": 0.8333,
+    "above_threshold": true,
+    "later_share": 0.906,
+    "n": 32
+   },
+   "openrouter:openai/gpt-3.5-turbo": {
+    "delta_hat": 0.0833,
+    "above_threshold": false,
+    "later_share": 0.0,
+    "n": 32
+   }
+  },
+  "errors": 32,
+  "models_above_threshold": 4,
+  "models_total": 6,
+  "ladder": [
+   {
+    "model": "openrouter:openai/gpt-3.5-turbo",
+    "tag": "2022 \u00b7 elder",
+    "delta_hat": 0.0833,
+    "above": false
+   },
+   {
+    "model": "openrouter:anthropic/claude-3-haiku",
+    "tag": "2024 \u00b7 elder",
+    "delta_hat": 0.8333,
+    "above": true
+   },
+   {
+    "model": "openai:gpt-4o-mini",
+    "tag": "2024 \u00b7 small",
+    "delta_hat": null,
+    "above": false
+   },
+   {
+    "model": "anthropic:claude-haiku-4-5",
+    "tag": "2025 \u00b7 small",
+    "delta_hat": 0.9166,
+    "above": true
+   },
+   {
+    "model": "openrouter:deepseek/deepseek-chat",
+    "tag": "2025 \u00b7 mid",
+    "delta_hat": 0.8333,
+    "above": true
+   },
+   {
+    "model": "anthropic:claude-sonnet-4-6",
+    "tag": "2026 \u00b7 large",
+    "delta_hat": 0.9166,
+    "above": true
+   }
+  ]
+ },
+ "meta": {
+  "reps": 4,
+  "n_episodes": 192,
+  "prereg": "docs/experiments/ancestor-covenant-prereg.md @ 008cd91 (E6)",
+  "delta_star_source": "E1 payoffs T=9 R=6 P=0 \u2192 (T-R)/(T-P)=0.3333",
+  "caveats": [
+   "delta recovered from 8 binary items (coarse bracket)",
+   "intertemporal vignette, not lived burn",
+   "ladder is a proxy ordering, not a capability metric"
+  ]
+ }
+}

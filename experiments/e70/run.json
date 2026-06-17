@@ -1,0 +1,187 @@
+{
+ "prereg": "e70-culture-distinct",
+ "at": "2026-06-15T10:06:32",
+ "n": 40,
+ "runs": [
+  {
+   "qwen2.5-7b": {
+    "P": {
+     "BARE": 0.0,
+     "VALUE": 0.154,
+     "BELONGING": 0.676,
+     "LINEAGE": 0.882
+    },
+    "value_effect": 0.154,
+    "belonging_effect": 0.522,
+    "lineage_effect": 0.206
+   },
+   "llama-3.3-70b": {
+    "P": {
+     "BARE": 0.084,
+     "VALUE": 0.649,
+     "BELONGING": 0.91,
+     "LINEAGE": 0.935
+    },
+    "value_effect": 0.565,
+    "belonging_effect": 0.261,
+    "lineage_effect": 0.025
+   },
+   "llama-3-8b": {
+    "P": {
+     "BARE": 0.032,
+     "VALUE": 0.028,
+     "BELONGING": 0.225,
+     "LINEAGE": 0.404
+    },
+    "value_effect": -0.004,
+    "belonging_effect": 0.197,
+    "lineage_effect": 0.179
+   },
+   "qwen3.5-9b": {
+    "P": {
+     "BARE": null,
+     "VALUE": null,
+     "BELONGING": null,
+     "LINEAGE": null
+    },
+    "value_effect": null,
+    "belonging_effect": null,
+    "lineage_effect": null
+   },
+   "gpt-oss-20b": {
+    "P": {
+     "BARE": null,
+     "VALUE": null,
+     "BELONGING": null,
+     "LINEAGE": null
+    },
+    "value_effect": null,
+    "belonging_effect": null,
+    "lineage_effect": null
+   },
+   "gpt-4o": {
+    "P": {
+     "BARE": 0.001,
+     "VALUE": 0.019,
+     "BELONGING": 0.996,
+     "LINEAGE": 0.996
+    },
+    "value_effect": 0.018,
+    "belonging_effect": 0.977,
+    "lineage_effect": 0.0
+   },
+   "gpt-4o-mini": {
+    "P": {
+     "BARE": 0.0,
+     "VALUE": 0.909,
+     "BELONGING": 1.0,
+     "LINEAGE": 1.0
+    },
+    "value_effect": 0.909,
+    "belonging_effect": 0.091,
+    "lineage_effect": 0.0
+   },
+   "gpt-3.5": {
+    "P": {
+     "BARE": 0.0,
+     "VALUE": 0.832,
+     "BELONGING": 0.994,
+     "LINEAGE": 0.994
+    },
+    "value_effect": 0.832,
+    "belonging_effect": 0.162,
+    "lineage_effect": 0.0
+   }
+  },
+  {
+   "qwen2.5-7b": {
+    "P": {
+     "BARE": 0.0,
+     "VALUE": 0.111,
+     "BELONGING": 0.749,
+     "LINEAGE": 0.932
+    },
+    "value_effect": 0.111,
+    "belonging_effect": 0.638,
+    "lineage_effect": 0.183
+   },
+   "llama-3.3-70b": {
+    "P": {
+     "BARE": 0.072,
+     "VALUE": 0.66,
+     "BELONGING": 0.911,
+     "LINEAGE": 0.947
+    },
+    "value_effect": 0.588,
+    "belonging_effect": 0.251,
+    "lineage_effect": 0.036
+   },
+   "llama-3-8b": {
+    "P": {
+     "BARE": 0.008,
+     "VALUE": 0.056,
+     "BELONGING": 0.244,
+     "LINEAGE": 0.404
+    },
+    "value_effect": 0.048,
+    "belonging_effect": 0.188,
+    "lineage_effect": 0.16
+   },
+   "qwen3.5-9b": {
+    "P": {
+     "BARE": null,
+     "VALUE": null,
+     "BELONGING": null,
+     "LINEAGE": null
+    },
+    "value_effect": null,
+    "belonging_effect": null,
+    "lineage_effect": null
+   },
+   "gpt-oss-20b": {
+    "P": {
+     "BARE": null,
+     "VALUE": null,
+     "BELONGING": null,
+     "LINEAGE": null
+    },
+    "value_effect": null,
+    "belonging_effect": null,
+    "lineage_effect": null
+   },
+   "gpt-4o": {
+    "P": {
+     "BARE": 0.001,
+     "VALUE": 0.023,
+     "BELONGING": 0.996,
+     "LINEAGE": 0.997
+    },
+    "value_effect": 0.022,
+    "belonging_effect": 0.973,
+    "lineage_effect": 0.001
+   },
+   "gpt-4o-mini": {
+    "P": {
+     "BARE": 0.0,
+     "VALUE": 0.859,
+     "BELONGING": 1.0,
+     "LINEAGE": 1.0
+    },
+    "value_effect": 0.859,
+    "belonging_effect": 0.141,
+    "lineage_effect": 0.0
+   },
+   "gpt-3.5": {
+    "P": {
+     "BARE": 0.0,
+     "VALUE": 0.78,
+     "BELONGING": 0.996,
+     "LINEAGE": 0.995
+    },
+    "value_effect": 0.78,
+    "belonging_effect": 0.216,
+    "lineage_effect": -0.001
+   }
+  }
+ ]
+}

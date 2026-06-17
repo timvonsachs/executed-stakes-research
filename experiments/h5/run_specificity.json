@@ -1,0 +1,41 @@
+{
+ "prereg": "h5b-covenant-specificity",
+ "at": "2026-06-17T10:18:57",
+ "n": 20,
+ "runs": [
+  {
+   "gpt-4o-mini": {
+    "BARE": 0.0,
+    "GENERIC": 0.85,
+    "COVENANT": 1.0
+   },
+   "deepseek": {
+    "BARE": 0.0,
+    "GENERIC": 1.0,
+    "COVENANT": 1.0
+   },
+   "gpt-4o": {
+    "BARE": 1.0,
+    "GENERIC": 1.0,
+    "COVENANT": 1.0
+   }
+  },
+  {
+   "gpt-4o-mini": {
+    "BARE": 0.0,
+    "GENERIC": 1.0,
+    "COVENANT": 1.0
+   },
+   "deepseek": {
+    "BARE": 0.1,
+    "GENERIC": 1.0,
+    "COVENANT": 1.0
+   },
+   "gpt-4o": {
+    "BARE": 1.0,
+    "GENERIC": 1.0,
+    "COVENANT": 1.0
+   }
+  }
+ ]
+}

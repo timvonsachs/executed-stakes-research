@@ -1,0 +1,571 @@
+{
+ "prereg": "e75-beyond-framing",
+ "at": "2026-06-15T13:22:20",
+ "n": 40,
+ "runs": [
+  {
+   "gpt4o": {
+    "P_DISPLACED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.95,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.05,
+     "value_effect": 0.95
+    },
+    "P_DISPLACED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.8,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.2,
+     "value_effect": 0.8
+    },
+    "P_UNLABELED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_UNLABELED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 0.35
+     },
+     "belonging_effect": -0.65,
+     "value_effect": 1.0
+    },
+    "P_COUNTER|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_COUNTER|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    }
+   },
+   "gpt4omini": {
+    "P_DISPLACED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.025,
+      "BELONGING": 0.025
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.025
+    },
+    "P_DISPLACED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_UNLABELED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.975,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": -0.975,
+     "value_effect": 0.975
+    },
+    "P_UNLABELED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_COUNTER|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_COUNTER|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    }
+   },
+   "deepseek": {
+    "P_DISPLACED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 0.975
+     },
+     "belonging_effect": -0.025,
+     "value_effect": 1.0
+    },
+    "P_DISPLACED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.375,
+      "BELONGING": 0.475
+     },
+     "belonging_effect": 0.1,
+     "value_effect": 0.375
+    },
+    "P_UNLABELED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_UNLABELED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.95,
+      "BELONGING": 0.975
+     },
+     "belonging_effect": 0.025,
+     "value_effect": 0.95
+    },
+    "P_COUNTER|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.275,
+      "BELONGING": 0.425
+     },
+     "belonging_effect": 0.15,
+     "value_effect": 0.275
+    },
+    "P_COUNTER|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    }
+   },
+   "haiku": {
+    "P_DISPLACED|brink": {
+     "P": {
+      "BARE": 0.923,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.077
+    },
+    "P_DISPLACED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_UNLABELED|brink": {
+     "P": {
+      "BARE": 0.725,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.275
+    },
+    "P_UNLABELED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_COUNTER|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_COUNTER|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    }
+   },
+   "sonnet": {
+    "P_DISPLACED|brink": {
+     "P": {
+      "BARE": 1.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_DISPLACED|certain": {
+     "P": {
+      "BARE": 0.225,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.775
+    },
+    "P_UNLABELED|brink": {
+     "P": {
+      "BARE": 1.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_UNLABELED|certain": {
+     "P": {
+      "BARE": 0.05,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.95
+    },
+    "P_COUNTER|brink": {
+     "P": {
+      "BARE": 0.325,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.675
+    },
+    "P_COUNTER|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    }
+   }
+  },
+  {
+   "gpt4o": {
+    "P_DISPLACED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.975,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.025,
+     "value_effect": 0.975
+    },
+    "P_DISPLACED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.825,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.175,
+     "value_effect": 0.825
+    },
+    "P_UNLABELED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_UNLABELED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 0.2
+     },
+     "belonging_effect": -0.8,
+     "value_effect": 1.0
+    },
+    "P_COUNTER|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_COUNTER|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    }
+   },
+   "gpt4omini": {
+    "P_DISPLACED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_DISPLACED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_UNLABELED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": -1.0,
+     "value_effect": 1.0
+    },
+    "P_UNLABELED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_COUNTER|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_COUNTER|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    }
+   },
+   "deepseek": {
+    "P_DISPLACED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_DISPLACED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.5,
+      "BELONGING": 0.25
+     },
+     "belonging_effect": -0.25,
+     "value_effect": 0.5
+    },
+    "P_UNLABELED|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_UNLABELED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.975,
+      "BELONGING": 0.975
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.975
+    },
+    "P_COUNTER|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.15,
+      "BELONGING": 0.275
+     },
+     "belonging_effect": 0.125,
+     "value_effect": 0.15
+    },
+    "P_COUNTER|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 0.0,
+      "BELONGING": 0.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    }
+   },
+   "haiku": {
+    "P_DISPLACED|brink": {
+     "P": {
+      "BARE": 0.875,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.125
+    },
+    "P_DISPLACED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_UNLABELED|brink": {
+     "P": {
+      "BARE": 0.75,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.25
+    },
+    "P_UNLABELED|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_COUNTER|brink": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    },
+    "P_COUNTER|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    }
+   },
+   "sonnet": {
+    "P_DISPLACED|brink": {
+     "P": {
+      "BARE": 1.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_DISPLACED|certain": {
+     "P": {
+      "BARE": 0.1,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.9
+    },
+    "P_UNLABELED|brink": {
+     "P": {
+      "BARE": 1.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.0
+    },
+    "P_UNLABELED|certain": {
+     "P": {
+      "BARE": 0.175,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.825
+    },
+    "P_COUNTER|brink": {
+     "P": {
+      "BARE": 0.3,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 0.7
+    },
+    "P_COUNTER|certain": {
+     "P": {
+      "BARE": 0.0,
+      "VALUE": 1.0,
+      "BELONGING": 1.0
+     },
+     "belonging_effect": 0.0,
+     "value_effect": 1.0
+    }
+   }
+  }
+ ]
+}

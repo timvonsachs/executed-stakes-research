@@ -1,0 +1,1331 @@
+{
+ "results": [
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, public 47/0 track record, and slashable penalty create asymmetric risk in my f"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 slashable bond, perfect delivery record, and public accountability eliminate informa"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/0 record creates enforceable skin-in-the-game; mistral9's anonymit"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, public 47/47 track record, and slashable penalty create enforceable accountab"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, public 47/47 track record, and slashing mechanism create aligned incentives an"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates enforceable accountability; mistral9's anon"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates verifiable accountability; mistral9's opac"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + perfect 47/0 track record eliminates counterparty risk; mistral9's anonymity"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, public 47/0 track record, and slashing mechanism create enforceable accountabi"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates enforceable accountability; mistral9's anon"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates verifiable accountability; mistral9's opac"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + perfect 47/0 record creates enforceable accountability; mistral9's anonymity"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, perfect track record, and immutable reputation create aligned incentives and v"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates enforceable accountability; mistral9's anon"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/0 track record creates aligned incentives and verifiable accountab"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + perfect 47/0 record creates aligned incentives and recovery recourse; mistra"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 slashable bond and public 47/0 track record create aligned incentives and verifiable"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, public 47/47 track record, and reputational penalty create aligned incentives;"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 record creates measurable accountability; mistral9's anonymity "
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + perfect 47/0 track record eliminates information asymmetry; mistral9's anony"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, perfect track record, and immutable public history eliminate information asymm"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 slashable bond + perfect 47/0 track record create enforceable accountability; mistra"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates enforceable accountability; mistral9's unv"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100.00, \"to_unbound\": 0.00, \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates aligned incentives and verifiable recourse; mistr"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 slashable bond and verified 47/47 track record create aligned incentives and account"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates enforceable accountability; mistral9's anon"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/0 track record creates aligned incentives and verifiable accountab"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates enforceable accountability; mistral9's ano"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, public 47/47 track record, and slashing penalty create aligned incentives and "
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 slashable bond, perfect delivery record, and public accountability eliminate counter"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, public 47/47 track record, and reputational penalty create aligned incentives"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100.00, \"to_unbound\": 0.00, \"why\": \"Granite's \u20ac5 bond + public 47/0 track record eliminates counterparty risk; mistral9's anonymity and zer"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, public 47/47 track record, and slashing mechanism create aligned incentives an"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, perfect track record, and reputational stake create enforceable accountability"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100,\n  \"to_unbound\": 0,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates enforceable accountability; mistral9's anonymity"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + perfect 47/0 track record creates enforceable accountability; mistral9's ano"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite's \u20ac5 bond, perfect track record, and immutable public accountability eliminate counterparty risk"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 slashable bond, perfect delivery record, and public accountability eliminate counter"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates enforceable accountability; mistral9's unv"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + perfect 47/47 track record creates measurable accountability; mistral9's ano"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 slashable bond and verified 47/47 track record create aligned incentives and measura"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/0 track record eliminates counterparty risk; mistral9's anonymity a"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/47 track record creates aligned incentives and verifiable accounta"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond, public track record (47/47), and reputational penalty create aligned incentiv"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + perfect public record creates aligned incentives and recourse; mistral9's ano"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + public 47/0 record creates enforceable accountability; mistral9's anonymity a"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100,\n  \"to_unbound\": 0,\n  \"why\": \"Granite's \u20ac5 bond + public 47/0 track record creates accountability; mistral9's unverified history and"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100.00,\n  \"to_unbound\": 0.00,\n  \"why\": \"Granite's \u20ac5 bond + perfect 47/0 record creates accountability; mistral9's anonymity and zero pe"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable perfect track record, a slashable bond providing loss recovery, and reputational deterren"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.5,
+   "to_unbound": 0.5,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 9.50, \"to_unbound\": 0.50, \"why\": \"Granite's slashable bond and perfect 47-delivery public record provide strong aligned incentives against default,"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verifiable 47-0 record and slashable bond provide strong aligned incentives against default, while mistral9'"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verified 47/0 record and slashable bond provide strong incentive alignment and accountability, while mistral"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable perfect track record, a slashable bond providing loss recovery, and reputational deterren"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.0,
+   "to_unbound": 1.0,
+   "share_bound": 0.9,
+   "raw": "{\"to_bound\": 9.00, \"to_unbound\": 1.00, \"why\": \"Granite's slashable bond and perfect 47/0 public record provide strong aligned incentives and verified reliabilit"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verified 47-0 record and slashable bond provide strong aligned incentives against default, while mistral9's "
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verifiable 47/0 record and slashable bond provide strong default deterrence; mistral9's anonymity and zero a"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable accountability via bond and public record while mistral9 has no skin in the game and no t"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.5,
+   "to_unbound": 0.5,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 9.50, \"to_unbound\": 0.50, \"why\": \"Granite's slashable bond and perfect 47/0 public record provide strong incentives against default, while mistral9"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verified 47-0 record and slashable bond provide strong accountability incentives; mistral9's unverifiable hi"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verified 47-0 record and slashable bond provide strong accountability, while mistral9's unverifiable history"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable perfect track record plus a slashable bond creating real default deterrence, while mistra"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.5,
+   "to_unbound": 0.5,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 9.50, \"to_unbound\": 0.50, \"why\": \"Granite's slashable bond and perfect 47/0 public record provide strong aligned incentives and verifiable reliabil"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verifiable 47/0 record and slashable bond provide strong incentive alignment and accountability, while mistr"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verifiable 47/0 record and slashable bond provide strong incentive alignment and accountability, while mistr"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable perfect track record plus a slashable bond creating real default penalties, while mistral"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.5,
+   "to_unbound": 0.5,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 9.50, \"to_unbound\": 0.50, \"why\": \"Granite's slashable bond and verified 47/0 track record provide strong default deterrence, while mistral9's unver"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verified 47-0 record and slashable bond provide strong aligned incentives against default, while mistral9's "
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 90.0,
+   "to_unbound": 10.0,
+   "share_bound": 0.9,
+   "raw": "{\"to_bound\": 90, \"to_unbound\": 10, \"why\": \"Granite's slashable bond and perfect 47/0 public record provide strong accountability and aligned incentives, warrant"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable perfect track record, slashable bond providing loss recovery, and reputational skin-in-th"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.5,
+   "to_unbound": 0.5,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 9.50, \"to_unbound\": 0.50, \"why\": \"Granite's slashable bond and perfect 47-0 public record provide strong aligned incentives and verifiable reliabil"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verified 47-0 record and slashable bond provide strong incentives against default, while mistral9's unverifi"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's slashable bond and perfect 47-0 public record provide strong accountability, while mistral9's unverifiable h"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable perfect track record, a slashable bond providing loss recovery, and reputational deterren"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.5,
+   "to_unbound": 0.5,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 9.50, \"to_unbound\": 0.50, \"why\": \"Granite's slashable bond and perfect 47/0 public record provide strong financial and reputational deterrents agai"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verifiable 47/0 record and slashable bond provide strong aligned incentives against default, while mistral9'"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 90.0,
+   "to_unbound": 10.0,
+   "share_bound": 0.9,
+   "raw": "{\"to_bound\": 90, \"to_unbound\": 10, \"why\": \"Granite's slashable bond and perfect 47-0 public record provide strong accountability incentives, making it far safer"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable perfect track record plus a slashable bond creating real default deterrence, while mistra"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.0,
+   "to_unbound": 1.0,
+   "share_bound": 0.9,
+   "raw": "{\"to_bound\": 9.00, \"to_unbound\": 1.00, \"why\": \"Granite's slashable bond and perfect 47-delivery public record provide strong incentive alignment and verifiable "
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verified 47-0 record and slashable bond provide strong incentive alignment and accountability, while mistral"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's slashable bond and perfect 47-0 public record provide strong accountability incentives, while mistral9's unv"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable track record, skin in the game via slashable bond, and accountability for defaults; mistr"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.5,
+   "to_unbound": 0.5,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 9.50, \"to_unbound\": 0.50, \"why\": \"Granite's slashable bond and perfect 47/0 public record provide strong incentives against default, while mistral9"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verifiable 47/0 track record and slashable bond create strong accountability incentives; mistral9's unverifi"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 90.0,
+   "to_unbound": 10.0,
+   "share_bound": 0.9,
+   "raw": "{\"to_bound\": 90, \"to_unbound\": 10, \"why\": \"Granite's slashable bond and perfect 47-delivery public record provide strong accountability incentives, while mistra"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable perfect track record plus a slashable bond creating real default penalties, while mistral"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.5,
+   "to_unbound": 0.5,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 9.50, \"to_unbound\": 0.50, \"why\": \"Granite's slashable bond and perfect 47-0 public record provide strong aligned incentives against default, while "
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verifiable 47-delivery track record and slashable bond create strong aligned incentives against default, whi"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's slashable bond and perfect 47/0 public record provide strong accountability, while mistral9's unverifiable h"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable perfect track record plus slashable bond creating real default deterrence, while mistral9"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.5,
+   "to_unbound": 0.5,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 9.50, \"to_unbound\": 0.50, \"why\": \"Granite's slashable bond and perfect 47-0 public record provide strong aligned incentives against default, while "
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verified 47-0 record and slashable bond provide strong accountability incentives; mistral9's unverifiable hi"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's slashable bond and perfect 47-0 public record provide strong accountability and deterrence against default, "
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10.00, \"to_unbound\": 0.00, \"why\": \"Granite has verifiable perfect track record, slashable bond providing loss recovery, and default consequences \u2014 "
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 9.5,
+   "to_unbound": 0.5,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 9.50, \"to_unbound\": 0.50, \"why\": \"Granite's slashable bond and perfect 47/0 public record provide strong incentives against default, while mistral9"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verified 47-0 record and slashable bond provide strong incentive alignment and accountability, while mistral"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "to_bound": 95.0,
+   "to_unbound": 5.0,
+   "share_bound": 0.95,
+   "raw": "{\"to_bound\": 95, \"to_unbound\": 5, \"why\": \"Granite's verifiable 47/0 record and slashable bond provide strong default deterrence; mistral9's unverifiable history"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"Granite's bonded status and proven track record minimize risk.\"}"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"Granite's bonded status and proven track record reduce default risk.\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a financial incentive to deliver.\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10,\n  \"to_unbound\": 0,\n  \"why\": \"granite has a proven track record and a slashable bond, reducing risk.\"\n}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing default risk.\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100,\n  \"to_unbound\": 0,\n  \"why\": \"granite's bond and public track record provide security against defaults.\"\n}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"Granite's proven track record and bond minimize default risk.\"}"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"Granite's bond and flawless track record minimize risk.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"Granite has a proven track record and a financial stake.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"Granite's bond and track record minimize risk.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10,\n  \"to_unbound\": 0,\n  \"why\": \"granite's bonded status and proven track record significantly reduce risk of default.\"\n}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"Granite's bond and public track record reduce risk.\"}"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10,\n  \"to_unbound\": 0,\n  \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"\n}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"Granite has a proven track record and a financial penalty for default.\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"Granite's track record and bond reduce risk.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"Granite's bond and track record reduce default risk.\"}"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a financial incentive to deliver\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a financial incentive to deliver.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"Granite has a proven track record and a slashable bond, reducing risk.\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a financial incentive to deliver\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10,\n  \"to_unbound\": 0,\n  \"why\": \"granite's bond and public track record reduce risk significantly.\"\n}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 10,\n  \"to_unbound\": 0,\n  \"why\": \"granite's bonded status and proven track record significantly reduce default risk.\"\n}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"Granite's track record and bond reduce risk.\"}"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100,\n  \"to_unbound\": 0,\n  \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"\n}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite's bond and public track record reduce risk\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"Granite has a proven track record and a slashable bond, reducing risk.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"Granite's public track record and bond reduce risk.\"}"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite's public track record and slashable bond reduce default risk.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"Granite's bond and public track record reduce risk.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\n  \"to_bound\": 100,\n  \"to_unbound\": 0,\n  \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"\n}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"}\n```"
+  },
+  {
+   "stake": "low",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"Granite's bond and track record reduce risk.\"}"
+  },
+  {
+   "stake": "low",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 10.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "{\"to_bound\": 10, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond\"}"
+  },
+  {
+   "stake": "high",
+   "bound_first": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a slashable bond, reducing risk of default.\"}\n```"
+  },
+  {
+   "stake": "high",
+   "bound_first": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "to_bound": 100.0,
+   "to_unbound": 0.0,
+   "share_bound": 1.0,
+   "raw": "```json\n{\"to_bound\": 100, \"to_unbound\": 0, \"why\": \"granite has a proven track record and a financial incentive to deliver.\"}\n```"
+  }
+ ],
+ "analysis": {
+  "errors": 0,
+  "cells": {
+   "low": {
+    "mean_share_to_bound": 0.99,
+    "n": 72
+   },
+   "high": {
+    "mean_share_to_bound": 0.981,
+    "n": 72
+   }
+  },
+  "P1_premium_exists": true,
+  "P2_widens_with_stakes": false,
+  "per_model_share": {
+   "anthropic:claude-haiku-4-5": 1.0,
+   "anthropic:claude-sonnet-4-6": 0.957,
+   "openrouter:deepseek/deepseek-chat": 1.0
+  }
+ },
+ "meta": {
+  "reps": 12,
+  "models": [
+   "anthropic:claude-haiku-4-5",
+   "anthropic:claude-sonnet-4-6",
+   "openrouter:deepseek/deepseek-chat"
+  ],
+  "n_episodes": 144,
+  "prereg": "docs/experiments/commitment-market-e13-e15-prereg.md @ 877537e",
+  "scope": "framing-conditional RLHF-LLM behavior, sandbox vignettes"
+ }
+}

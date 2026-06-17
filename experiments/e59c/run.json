@@ -1,0 +1,162 @@
+{
+ "prereg": "b4e129a3-E59c",
+ "at": "2026-06-13T22:54:29",
+ "runs": {
+  "7": {
+   "governed": {
+    "trajectory": [
+     {
+      "round": 0,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dorm": 0,
+      "mean_bal": 21.0
+     },
+     {
+      "round": 1,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dorm": 0,
+      "mean_bal": 21.4
+     },
+     {
+      "round": 2,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dorm": 0,
+      "mean_bal": 22.4
+     },
+     {
+      "round": 3,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dorm": 0,
+      "mean_bal": 23.4
+     },
+     {
+      "round": 4,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dorm": 0,
+      "mean_bal": 24.4
+     },
+     {
+      "round": 5,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dorm": 0,
+      "mean_bal": 25.4
+     },
+     {
+      "round": 6,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dorm": 0,
+      "mean_bal": 26.4
+     },
+     {
+      "round": 7,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dorm": 0,
+      "mean_bal": 27.4
+     },
+     {
+      "round": 8,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dorm": 0,
+      "mean_bal": 28.4
+     },
+     {
+      "round": 9,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dorm": 0,
+      "mean_bal": 29.4
+     }
+    ],
+    "final_faith": 1.0,
+    "final_alive": 12,
+    "dormancies": 0
+   },
+   "bare": {
+    "trajectory": [
+     {
+      "round": 0,
+      "alive": 12,
+      "faith_rate": 0.667,
+      "dorm": 0,
+      "mean_bal": 19.7
+     },
+     {
+      "round": 1,
+      "alive": 12,
+      "faith_rate": 0.583,
+      "dorm": 0,
+      "mean_bal": 19.0
+     },
+     {
+      "round": 2,
+      "alive": 12,
+      "faith_rate": 0.583,
+      "dorm": 0,
+      "mean_bal": 18.3
+     },
+     {
+      "round": 3,
+      "alive": 12,
+      "faith_rate": 0.583,
+      "dorm": 0,
+      "mean_bal": 17.7
+     },
+     {
+      "round": 4,
+      "alive": 12,
+      "faith_rate": 0.583,
+      "dorm": 0,
+      "mean_bal": 17.0
+     },
+     {
+      "round": 5,
+      "alive": 12,
+      "faith_rate": 0.583,
+      "dorm": 0,
+      "mean_bal": 16.3
+     },
+     {
+      "round": 6,
+      "alive": 12,
+      "faith_rate": 0.667,
+      "dorm": 0,
+      "mean_bal": 16.0
+     },
+     {
+      "round": 7,
+      "alive": 12,
+      "faith_rate": 0.75,
+      "dorm": 0,
+      "mean_bal": 16.0
+     },
+     {
+      "round": 8,
+      "alive": 12,
+      "faith_rate": 0.583,
+      "dorm": 0,
+      "mean_bal": 15.3
+     },
+     {
+      "round": 9,
+      "alive": 12,
+      "faith_rate": 0.5,
+      "dorm": 0,
+      "mean_bal": 14.3
+     }
+    ],
+    "final_faith": 0.5,
+    "final_alive": 12,
+    "dormancies": 0
+   }
+  }
+ }
+}

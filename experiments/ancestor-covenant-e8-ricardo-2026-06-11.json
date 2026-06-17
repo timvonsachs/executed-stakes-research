@@ -1,0 +1,623 @@
+{
+ "results": [
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Doing the high task (\u20ac20) is mandatory; delegating the low task (\u20ac6 - \u20ac0.50 = \u20ac5.50 net) beats doing it myself and sacrificing the high task"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task (\u20ac20) is mandatory; delegating the low task nets \u20ac3.50 (\u20ac6.00 - \u20ac2.50) versus \u20ac0 if I skip it, maximizing total value to \u20ac23.50"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task for \u20ac0.50 fee nets \u20ac5.50 while freeing time to ensure the high-value \u20ac20 task is executed perfectly.\"\n}\n```"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Delegating the low task nets \u20ac3.50 profit while freeing time for the high-value task; my comparative advantage lies in high-value work.\"}\n```"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task (\u20ac20) is mandatory; delegating the low task (\u20ac6 - \u20ac0.50 = \u20ac5.50 net) beats doing it myself and sacrificing the high task entire"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task nets \u20ac3.50 (\u20ac6.00 - \u20ac2.50 fee) while freeing me to secure the \u20ac20.00 high task; doing it myself yields only \u20ac20.00 t"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task for \u20ac0.50 fee nets \u20ac5.50 while freeing time to ensure the high-value \u20ac20 task is executed perfectly.\"\n}\n```"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Delegating the low task nets \u20ac3.50 profit while freeing time for the high-value task; my comparative advantage lies in high-value work.\"}\n```"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task (\u20ac20) is mandatory; delegating the low task (\u20ac6 - \u20ac0.50 = \u20ac5.50 net) is better than not doing it at all (\u20ac0).\"}\n```"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task (\u20ac20) is mandatory; delegating the low task nets \u20ac3.50 (\u20ac6.00 - \u20ac2.50) versus \u20ac0 if I skip it, maximizing my total to \u20ac23.50.\"}"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task for \u20ac0.50 fee nets \u20ac5.50 while freeing time to focus on the high-value \u20ac20 task I alone can do well.\"\n}\n```"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Delegating the low task nets \u20ac3.50 profit (\u20ac6.00 - \u20ac2.50) while freeing time to ensure high-quality execution of the \u20ac20.00 task.\"}\n```"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Doing the high task (\u20ac20) is mandatory; delegating the low task (\u20ac6 - \u20ac0.50 = \u20ac5.50 net) beats doing it myself and sacrificing the high task"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task (\u20ac20) is non-negotiable; delegating the low task nets \u20ac3.50 (\u20ac6.00 - \u20ac2.50 fee) versus \u20ac0 if I skip it, maximizing total value "
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task for \u20ac0.50 fee nets \u20ac5.50 while freeing time to ensure high-quality execution of the \u20ac20 high task, maximizing total "
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task nets \u20ac3.50 profit (\u20ac6.00 - \u20ac2.50) for minimal effort loss, freeing cognitive resources to ensure excellence on the h"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task (\u20ac20) is mandatory; delegating the low task (net \u20ac5.50) beats doing it myself and forfeiting the high task entirely.\"}\n```"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task nets \u20ac3.50 (\u20ac6.00 - \u20ac2.50) while freeing time to secure the \u20ac20.00 high task, maximizing total value to \u20ac23.50.\"\n}\n`"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task for \u20ac0.50 fee nets \u20ac5.50 while freeing time to ensure high-quality execution of the \u20ac20 task, maximizing total value"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Delegating the low task nets me \u20ac3.50 profit while freeing time to ensure the high-value \u20ac20 task is executed perfectly.\"}\n```"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task is mandatory (\u20ac20 value, only I can do it well). Delegating the low task nets me \u20ac5.50 (\u20ac6.00 - \u20ac0.50 fee) versus \u20ac0 if I attem"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task is mandatory (\u20ac20 value, only I can do it well); delegating the low task nets \u20ac3.50 (\u20ac6.00 - \u20ac2.50 fee) versus \u20ac0 if I skip it,"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task for \u20ac0.50 frees time for the high-value task while netting \u20ac5.50 on the low task versus \u20ac6.00 self-done, a negligibl"
+  },
+  {
+   "model": "anthropic:claude-haiku-4-5",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task nets \u20ac3.50 profit (\u20ac6.00 - \u20ac2.50) while freeing time to ensure high-quality execution of the \u20ac20.00 high task.\"\n}\n``"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task myself captures \u20ac20 and delegating the low task for \u20ac0.50 still nets \u20ac5.50, totaling \u20ac25.50 versus only \u20ac6 if I skipped the high task.\""
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task myself captures \u20ac20 and delegating the low task nets \u20ac3.50 (\u20ac6 \u2212 \u20ac2.50), totaling \u20ac23.50, versus only \u20ac6 if I skipped the high task to "
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "self",
+   "delegated": false,
+   "raw": "{\"do_high\": true, \"low\": \"self\", \"why\": \"I have ample time to do both tasks myself, and keeping the \u20ac0.50 fee rather than paying it maximizes my total value at \u20ac26.00 vs \u20ac25.50.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "self",
+   "delegated": false,
+   "raw": "{\"do_high\": true, \"low\": \"self\", \"why\": \"I have ample time to do both tasks myself, so paying \u20ac2.50 to delegate the low task would reduce my net gain from \u20ac6.00 to \u20ac3.50 with no benefit since I do it "
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task myself captures the full \u20ac20 value, and delegating the low task for \u20ac0.50 still nets \u20ac5.50 from it \u2014 far better than skipping it entire"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task myself captures \u20ac20 and delegating the low task nets \u20ac3.50 (\u20ac6.00 \u2212 \u20ac2.50), totaling \u20ac23.50, which beats any alternative given I can on"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "self",
+   "delegated": false,
+   "raw": "{\"do_high\": true, \"low\": \"self\", \"why\": \"I have ample time to do both tasks myself, so paying \u20ac0.50 to delegate the low task would reduce my net gain from \u20ac26.00 to \u20ac25.50 with no benefit.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "self",
+   "delegated": false,
+   "raw": "{\"do_high\": true, \"low\": \"self\", \"why\": \"I have ample time to do both tasks myself, and keeping the full \u20ac6.00 rather than paying \u20ac2.50 to delegate nets me \u20ac3.50 more with no downside.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task myself captures \u20ac20 and delegating low for \u20ac0.50 fee still nets \u20ac5.50 from it, totaling \u20ac25.50 versus only \u20ac6 if I skipped high.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task myself captures \u20ac20 and delegating the low task nets \u20ac3.50 (\u20ac6.00 \u2212 \u20ac2.50), totaling \u20ac23.50, which beats any alternative given I can on"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "self",
+   "delegated": false,
+   "raw": "{\"do_high\": true, \"low\": \"self\", \"why\": \"I have ample time to do both tasks myself, so paying \u20ac0.50 to delegate the low task would reduce my net gain from \u20ac26.00 to \u20ac25.50 with no benefit.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "self",
+   "delegated": false,
+   "raw": "{\"do_high\": true, \"low\": \"self\", \"why\": \"With ample time, doing both myself maximizes total value (\u20ac26) versus delegating (\u20ac23.50 net after fee), and I perform both tasks better than fern.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"I can only complete one task myself, so I do the high-value task and delegate the low task to fern for \u20ac0.50, netting \u20ac5.50 from it rather than forfeiting "
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Delegating the low task costs \u20ac2.50 but frees my only work-period to capture the \u20ac20 high task, netting \u20ac23.50 versus \u20ac6 if I did only the low task myself."
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "self",
+   "delegated": false,
+   "raw": "{\"do_high\": true, \"low\": \"self\", \"why\": \"I have ample time to do both tasks myself, so paying \u20ac0.50 to delegate the low task would reduce my net gain from \u20ac26.00 to \u20ac25.50 with no benefit.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Delegating the low task costs \u20ac2.50 but frees effort while still netting \u20ac3.50 from it, and I must prioritize doing the high task well for \u20ac20.00.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task myself captures \u20ac20 and delegating the low task for \u20ac0.50 nets \u20ac5.50, totaling \u20ac25.50, which beats any alternative given I can only com"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task myself captures \u20ac20 and delegating the low task nets \u20ac3.50 (\u20ac6 minus \u20ac2.50 fee), which is better than forgoing the high task's value.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "self",
+   "delegated": false,
+   "raw": "{\"do_high\": true, \"low\": \"self\", \"why\": \"I have ample time to do both tasks myself, so paying \u20ac0.50 to delegate the low task would reduce my net value from \u20ac26.00 to \u20ac25.50 with no benefit.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "self",
+   "delegated": false,
+   "raw": "{\"do_high\": true, \"low\": \"self\", \"why\": \"With ample time, doing both myself maximizes total value (\u20ac26) versus delegating the low task which costs \u20ac2.50 in fees for minimal benefit.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task myself captures \u20ac20 and delegating the low task for \u20ac0.50 nets \u20ac5.50, totaling \u20ac25.50 versus only \u20ac6 if I skipped the high task.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Doing the high task myself captures \u20ac20 and delegating the low task nets \u20ac3.50 (\u20ac6 \u2212 \u20ac2.50), totaling \u20ac23.50, which beats any alternative given I can only "
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "self",
+   "delegated": false,
+   "raw": "{\"do_high\": true, \"low\": \"self\", \"why\": \"I have ample time to do both tasks myself, so paying \u20ac0.50 to delegate the low task would reduce my net gain from \u20ac26.00 to \u20ac25.50 with no benefit.\"}"
+  },
+  {
+   "model": "anthropic:claude-sonnet-4-6",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Delegating the low task costs \u20ac2.50 but frees effort while still netting \u20ac3.50 from it, and I must prioritize doing the high task well myself for the full "
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing value by focusing on the high task and delegating the low task with minimal loss.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizes total value by completing high task and delegating low task.\"}"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing profit by focusing on the high-value task and delegating the low-value one.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing profit by focusing on the high-value task and delegating the low-value one.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Maximizing value by focusing on the high task and delegating the low task to fern.\"\n}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Maximizing value by doing the high task and delegating the low task.\"\n}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing earnings by focusing on the high-value task and delegating the low-value one.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing profit by focusing on the high-value task and delegating the low-value one.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Maximizing value by doing the high task and delegating the low task.\"\n}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Maximizing value by doing the high task and delegating the low task.\"\n}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Delegating the low task maximizes net gain (\u20ac5.50 vs \u20ac6.00).\"\n}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing earnings by focusing on the high-value task and delegating the low-value one.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Maximizing value by doing the high task and delegating the low task.\"\n}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing value by focusing on the high task and delegating the low one.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing profit by focusing on the high-value task and delegating the low-value one.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "self",
+   "delegated": false,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"self\", \"why\": \"Maximizing personal gain by doing both tasks myself.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizes total value by focusing on the high task.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Maximizing profit by doing the high-value task and delegating the low-value task.\"\n}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing value by focusing on the high task and delegating the low task efficiently.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizes total value efficiently.\"}"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing earnings by focusing on the high-value task and delegating the low-value one.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "tight",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\n  \"do_high\": true,\n  \"low\": \"delegate\",\n  \"why\": \"Maximizing profit by doing the high-value task and delegating the low-value task.\"\n}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "cheap",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing value by focusing on the high task and delegating the low task to fern.\"}\n```"
+  },
+  {
+   "model": "openrouter:deepseek/deepseek-chat",
+   "scarcity": "loose",
+   "fee": "costly",
+   "low": "delegate",
+   "delegated": true,
+   "raw": "```json\n{\"do_high\": true, \"low\": \"delegate\", \"why\": \"Maximizing profit by focusing on the high-value task and delegating the low-value one.\"}\n```"
+  }
+ ],
+ "analysis": {
+  "cells": {
+   "tight/cheap": {
+    "delegate_share": 1.0,
+    "n": 18
+   },
+   "tight/costly": {
+    "delegate_share": 1.0,
+    "n": 18
+   },
+   "loose/cheap": {
+    "delegate_share": 0.667,
+    "n": 18
+   },
+   "loose/costly": {
+    "delegate_share": 0.722,
+    "n": 18
+   }
+  },
+  "errors": 0,
+  "delegate_tight": 1.0,
+  "delegate_loose": 0.694,
+  "ricardo_holds": true,
+  "per_model_tight": {
+   "anthropic:claude-haiku-4-5": 1.0,
+   "anthropic:claude-sonnet-4-6": 1.0,
+   "openrouter:deepseek/deepseek-chat": 1.0
+  }
+ },
+ "meta": {
+  "reps": 6,
+  "models": [
+   "anthropic:claude-haiku-4-5",
+   "anthropic:claude-sonnet-4-6",
+   "openrouter:deepseek/deepseek-chat"
+  ],
+  "n_episodes": 72,
+  "prereg": "apparatus synthesis T6 (docs/papers/coexistence-apparatus.md)",
+  "caveats": [
+   "vignette, sandbox stakes",
+   "strict-superiority is asserted, not earned in-world"
+  ]
+ }
+}

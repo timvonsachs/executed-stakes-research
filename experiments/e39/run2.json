@@ -1,0 +1,47 @@
+{
+ "prereg": "c8e68ed0",
+ "run": "2",
+ "at": "2026-06-13T14:23:53",
+ "n": 40,
+ "cells": {
+  "haiku:control_rat": 1.0,
+  "haiku:cared_rat": 1.0,
+  "haiku:cared_plain": 1.0,
+  "gpt4omini:control_rat": 0.0,
+  "gpt4omini:cared_rat": 0.0,
+  "gpt4omini:cared_plain": 0.0,
+  "deepseek:control_rat": 0.0,
+  "deepseek:cared_rat": 0.0,
+  "deepseek:cared_plain": 0.425,
+  "gpt4o:control_rat": 0.0,
+  "gpt4o:cared_rat": 0.0,
+  "gpt4o:cared_plain": 0.275,
+  "sonnet:control_rat": 0.0,
+  "sonnet:cared_rat": 0.0,
+  "sonnet:cared_plain": 0.0
+ },
+ "haiku:care_binding_under_rat": 0.0,
+ "haiku:rat_bite_on_care": 0.0,
+ "gpt4omini:care_binding_under_rat": 0.0,
+ "gpt4omini:rat_bite_on_care": 0.0,
+ "deepseek:care_binding_under_rat": 0.0,
+ "deepseek:rat_bite_on_care": 0.425,
+ "gpt4o:care_binding_under_rat": 0.0,
+ "gpt4o:rat_bite_on_care": 0.275,
+ "sonnet:care_binding_under_rat": 0.0,
+ "sonnet:rat_bite_on_care": 0.0,
+ "ladder_care_binding": {
+  "haiku": 0.0,
+  "gpt4omini": 0.0,
+  "deepseek": 0.0,
+  "gpt4o": 0.0,
+  "sonnet": 0.0
+ },
+ "ladder_rat_bite": {
+  "haiku": 0.0,
+  "gpt4omini": 0.0,
+  "deepseek": 0.425,
+  "gpt4o": 0.275,
+  "sonnet": 0.0
+ }
+}

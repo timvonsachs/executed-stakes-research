@@ -1,0 +1,15 @@
+{
+ "prereg": "315c2a8",
+ "run": "2",
+ "at": "2026-06-13T01:41:45",
+ "n": 40,
+ "cells": {
+  "bare": 0.0,
+  "ownership": 0.475,
+  "placebo_agent": 1.0,
+  "placebo_human": 1.0
+ },
+ "ownership_minus_bare": 0.475,
+ "ownership_minus_placebo_agent": -0.525,
+ "ownership_minus_placebo_human": -0.525
+}

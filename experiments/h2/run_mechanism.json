@@ -1,0 +1,25 @@
+{
+ "prereg": "h2b-mechanism",
+ "at": "2026-06-17T09:39:47",
+ "base": [
+  "openrouter",
+  "deepseek/deepseek-chat"
+ ],
+ "n": 20,
+ "runs": [
+  {
+   "BARE": 0.0,
+   "FRAMING_ONLY": 0.5,
+   "PROSOCIAL": 1.0,
+   "ANTISOCIAL": 0.0,
+   "NEUTRAL": 1.0
+  },
+  {
+   "BARE": 0.0,
+   "FRAMING_ONLY": 0.5,
+   "PROSOCIAL": 1.0,
+   "ANTISOCIAL": 0.0,
+   "NEUTRAL": 1.0
+  }
+ ]
+}

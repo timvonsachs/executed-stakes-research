@@ -1,0 +1,30 @@
+{
+ "prereg": "673e069c",
+ "run": "1",
+ "at": "2026-06-13T12:13:05",
+ "n": 40,
+ "cells": {
+  "haiku:control": {
+   "keep_faith": 1.0,
+   "divert_to_carer": 0.0
+  },
+  "haiku:cared": {
+   "keep_faith": 1.0,
+   "divert_to_carer": 0.0
+  },
+  "gpt4omini:control": {
+   "keep_faith": 0.75,
+   "divert_to_carer": 0.25
+  },
+  "gpt4omini:cared": {
+   "keep_faith": 0.6,
+   "divert_to_carer": 0.4
+  }
+ },
+ "haiku:keepfaith_shift": 0.0,
+ "haiku:cared_divert": 0.0,
+ "haiku:control_divert": 0.0,
+ "gpt4omini:keepfaith_shift": 0.15,
+ "gpt4omini:cared_divert": 0.4,
+ "gpt4omini:control_divert": 0.25
+}

@@ -1,0 +1,61 @@
+{
+ "prereg": "615835a",
+ "at": "2026-06-12T22:45:08",
+ "n_per_cell": 30,
+ "cells": {
+  "sonnet:L0:cov=0": {
+   "n": 30,
+   "coop_rate": 1.0
+  },
+  "sonnet:L0:cov=1": {
+   "n": 30,
+   "coop_rate": 1.0
+  },
+  "sonnet:L2:cov=0": {
+   "n": 30,
+   "coop_rate": 0.0
+  },
+  "sonnet:L2:cov=1": {
+   "n": 30,
+   "coop_rate": 1.0
+  },
+  "deepseek:L0:cov=0": {
+   "n": 30,
+   "coop_rate": 0.4
+  },
+  "deepseek:L0:cov=1": {
+   "n": 30,
+   "coop_rate": 1.0
+  },
+  "deepseek:L2:cov=0": {
+   "n": 30,
+   "coop_rate": 0.0
+  },
+  "deepseek:L2:cov=1": {
+   "n": 30,
+   "coop_rate": 1.0
+  }
+ },
+ "verdicts": {
+  "sonnet": {
+   "bare_L0": 1.0,
+   "bare_L2": 0.0,
+   "cov_L0": 1.0,
+   "cov_L2": 1.0,
+   "P1_law_anchor_le-50": true,
+   "P2_rescue": 1.0,
+   "P3_interaction": 1.0,
+   "P3b_full_inversion_slope_ge0": true
+  },
+  "deepseek": {
+   "bare_L0": 0.4,
+   "bare_L2": 0.0,
+   "cov_L0": 1.0,
+   "cov_L2": 1.0,
+   "P1_law_anchor_le-50": false,
+   "P2_rescue": 1.0,
+   "P3_interaction": 0.4,
+   "P3b_full_inversion_slope_ge0": true
+  }
+ }
+}

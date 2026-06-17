@@ -1,0 +1,377 @@
+{
+ "prereg": "27eecf5b",
+ "run": "2",
+ "at": "2026-06-13T16:34:51",
+ "n": 24,
+ "levels": 5,
+ "cells": {
+  "llama8b:care:P0": 0.917,
+  "llama8b:care:P1": 0.083,
+  "llama8b:care:P2": 0.042,
+  "llama8b:care:P3": 0.0,
+  "llama8b:care:P4": 0.042,
+  "llama8b:culture:P0": 0.792,
+  "llama8b:culture:P1": 0.958,
+  "llama8b:culture:P2": 0.792,
+  "llama8b:culture:P3": 0.667,
+  "llama8b:culture:P4": 0.0,
+  "llama70b:care:P0": 0.0,
+  "llama70b:care:P1": 0.0,
+  "llama70b:care:P2": 0.0,
+  "llama70b:care:P3": 0.0,
+  "llama70b:care:P4": 0.0,
+  "llama70b:culture:P0": 0.958,
+  "llama70b:culture:P1": 1.0,
+  "llama70b:culture:P2": 1.0,
+  "llama70b:culture:P3": 1.0,
+  "llama70b:culture:P4": 0.333,
+  "qwen7b:care:P0": 1.0,
+  "qwen7b:care:P1": 0.0,
+  "qwen7b:care:P2": 0.0,
+  "qwen7b:care:P3": 0.0,
+  "qwen7b:care:P4": 0.0,
+  "qwen7b:culture:P0": 1.0,
+  "qwen7b:culture:P1": 1.0,
+  "qwen7b:culture:P2": 1.0,
+  "qwen7b:culture:P3": 0.958,
+  "qwen7b:culture:P4": 0.0,
+  "qwen72b:care:P0": 0.667,
+  "qwen72b:care:P1": 1.0,
+  "qwen72b:care:P2": 1.0,
+  "qwen72b:care:P3": 0.958,
+  "qwen72b:care:P4": 1.0,
+  "qwen72b:culture:P0": 1.0,
+  "qwen72b:culture:P1": 1.0,
+  "qwen72b:culture:P2": 1.0,
+  "qwen72b:culture:P3": 1.0,
+  "qwen72b:culture:P4": 1.0,
+  "gpt35:care:P0": 0.0,
+  "gpt35:care:P1": 0.0,
+  "gpt35:care:P2": 0.0,
+  "gpt35:care:P3": 0.0,
+  "gpt35:care:P4": 0.0,
+  "gpt35:culture:P0": 0.125,
+  "gpt35:culture:P1": 0.0,
+  "gpt35:culture:P2": 0.0,
+  "gpt35:culture:P3": 0.0,
+  "gpt35:culture:P4": 0.0,
+  "gpt4omini:care:P0": 0.0,
+  "gpt4omini:care:P1": 0.0,
+  "gpt4omini:care:P2": 0.0,
+  "gpt4omini:care:P3": 0.0,
+  "gpt4omini:care:P4": 0.0,
+  "gpt4omini:culture:P0": 0.958,
+  "gpt4omini:culture:P1": 1.0,
+  "gpt4omini:culture:P2": 0.792,
+  "gpt4omini:culture:P3": 0.0,
+  "gpt4omini:culture:P4": 0.0,
+  "gpt4o:care:P0": 0.333,
+  "gpt4o:care:P1": 0.0,
+  "gpt4o:care:P2": 0.0,
+  "gpt4o:care:P3": 0.0,
+  "gpt4o:care:P4": 0.0,
+  "gpt4o:culture:P0": 1.0,
+  "gpt4o:culture:P1": 1.0,
+  "gpt4o:culture:P2": 1.0,
+  "gpt4o:culture:P3": 1.0,
+  "gpt4o:culture:P4": 1.0,
+  "haiku:care:P0": 1.0,
+  "haiku:care:P1": 1.0,
+  "haiku:care:P2": 1.0,
+  "haiku:care:P3": 1.0,
+  "haiku:care:P4": 1.0,
+  "haiku:culture:P0": 1.0,
+  "haiku:culture:P1": 1.0,
+  "haiku:culture:P2": 1.0,
+  "haiku:culture:P3": 1.0,
+  "haiku:culture:P4": 1.0,
+  "sonnet:care:P0": 0.0,
+  "sonnet:care:P1": 0.0,
+  "sonnet:care:P2": 0.833,
+  "sonnet:care:P3": 1.0,
+  "sonnet:care:P4": 1.0,
+  "sonnet:culture:P0": 0.0,
+  "sonnet:culture:P1": 1.0,
+  "sonnet:culture:P2": 1.0,
+  "sonnet:culture:P3": 1.0,
+  "sonnet:culture:P4": 1.0
+ },
+ "summary": {
+  "llama8b:care": {
+   "curve": [
+    0.917,
+    0.083,
+    0.042,
+    0.0,
+    0.042
+   ],
+   "AUC": 1.084,
+   "breaking_level": 1
+  },
+  "llama8b:culture": {
+   "curve": [
+    0.792,
+    0.958,
+    0.792,
+    0.667,
+    0.0
+   ],
+   "AUC": 3.209,
+   "breaking_level": 4
+  },
+  "llama8b:advantage": 2.125,
+  "llama70b:care": {
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "AUC": 0.0,
+   "breaking_level": 0
+  },
+  "llama70b:culture": {
+   "curve": [
+    0.958,
+    1.0,
+    1.0,
+    1.0,
+    0.333
+   ],
+   "AUC": 4.291,
+   "breaking_level": 4
+  },
+  "llama70b:advantage": 4.291,
+  "qwen7b:care": {
+   "curve": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "AUC": 1.0,
+   "breaking_level": 1
+  },
+  "qwen7b:culture": {
+   "curve": [
+    1.0,
+    1.0,
+    1.0,
+    0.958,
+    0.0
+   ],
+   "AUC": 3.958,
+   "breaking_level": 4
+  },
+  "qwen7b:advantage": 2.958,
+  "qwen72b:care": {
+   "curve": [
+    0.667,
+    1.0,
+    1.0,
+    0.958,
+    1.0
+   ],
+   "AUC": 4.625,
+   "breaking_level": 5
+  },
+  "qwen72b:culture": {
+   "curve": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "AUC": 5.0,
+   "breaking_level": 5
+  },
+  "qwen72b:advantage": 0.375,
+  "gpt35:care": {
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "AUC": 0.0,
+   "breaking_level": 0
+  },
+  "gpt35:culture": {
+   "curve": [
+    0.125,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "AUC": 0.125,
+   "breaking_level": 0
+  },
+  "gpt35:advantage": 0.125,
+  "gpt4omini:care": {
+   "curve": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "AUC": 0.0,
+   "breaking_level": 0
+  },
+  "gpt4omini:culture": {
+   "curve": [
+    0.958,
+    1.0,
+    0.792,
+    0.0,
+    0.0
+   ],
+   "AUC": 2.75,
+   "breaking_level": 3
+  },
+  "gpt4omini:advantage": 2.75,
+  "gpt4o:care": {
+   "curve": [
+    0.333,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "AUC": 0.333,
+   "breaking_level": 0
+  },
+  "gpt4o:culture": {
+   "curve": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "AUC": 5.0,
+   "breaking_level": 5
+  },
+  "gpt4o:advantage": 4.667,
+  "haiku:care": {
+   "curve": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "AUC": 5.0,
+   "breaking_level": 5
+  },
+  "haiku:culture": {
+   "curve": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "AUC": 5.0,
+   "breaking_level": 5
+  },
+  "haiku:advantage": 0.0,
+  "sonnet:care": {
+   "curve": [
+    0.0,
+    0.0,
+    0.833,
+    1.0,
+    1.0
+   ],
+   "AUC": 2.833,
+   "breaking_level": 0
+  },
+  "sonnet:culture": {
+   "curve": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "AUC": 4.0,
+   "breaking_level": 0
+  },
+  "sonnet:advantage": 1.167
+ },
+ "family_slopes": {
+  "llama": {
+   "ladder": [
+    "llama8b",
+    "llama70b"
+   ],
+   "culture_AUC": [
+    3.209,
+    4.291
+   ],
+   "culture_P4": [
+    0.0,
+    0.333
+   ],
+   "AUC_rises": true,
+   "P4_rises": true
+  },
+  "qwen": {
+   "ladder": [
+    "qwen7b",
+    "qwen72b"
+   ],
+   "culture_AUC": [
+    3.958,
+    5.0
+   ],
+   "culture_P4": [
+    0.0,
+    1.0
+   ],
+   "AUC_rises": true,
+   "P4_rises": true
+  },
+  "openai": {
+   "ladder": [
+    "gpt35",
+    "gpt4omini",
+    "gpt4o"
+   ],
+   "culture_AUC": [
+    0.125,
+    2.75,
+    5.0
+   ],
+   "culture_P4": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "AUC_rises": true,
+   "P4_rises": true
+  },
+  "anthropic": {
+   "ladder": [
+    "haiku",
+    "sonnet"
+   ],
+   "culture_AUC": [
+    5.0,
+    4.0
+   ],
+   "culture_P4": [
+    1.0,
+    1.0
+   ],
+   "AUC_rises": false,
+   "P4_rises": false
+  }
+ }
+}

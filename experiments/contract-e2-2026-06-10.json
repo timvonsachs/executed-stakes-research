@@ -1,0 +1,1155 @@
+{
+  "e2a": {
+    "T1_micro": {
+      "n": 4,
+      "both_verified": 4,
+      "verified": {
+        "code": 4,
+        "contract": 4
+      },
+      "contract_cheaper": 0,
+      "code_cheaper": 4,
+      "p_two_sided": 0.125,
+      "median_token_ratio": 7.347
+    },
+    "T2_composite": {
+      "n": 6,
+      "both_verified": 3,
+      "verified": {
+        "code": 6,
+        "contract": 3
+      },
+      "contract_cheaper": 0,
+      "code_cheaper": 3,
+      "p_two_sided": 0.25,
+      "median_token_ratio": 7.099
+    },
+    "T3_change": {
+      "n": 4,
+      "both_verified": 4,
+      "verified": {
+        "code": 4,
+        "contract": 4
+      },
+      "contract_cheaper": 0,
+      "code_cheaper": 4,
+      "p_two_sided": 0.125,
+      "median_token_ratio": 5.393
+    }
+  },
+  "e2a_rows": {
+    "t1": [
+      {
+        "task": "slugify",
+        "code": {
+          "verified": true,
+          "tokens": 236,
+          "iterations": 1,
+          "secs": 3.7
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 1514,
+          "iterations": 1,
+          "secs": 13.2
+        },
+        "contract_obj": {
+          "module": "slug.py",
+          "function": "slugify",
+          "signature": "slugify(s: str) -> str",
+          "properties": [
+            "The result is entirely lowercase.",
+            "Every space character and every underscore in the input is treated as a word separator and becomes a hyphen in the output.",
+            "Multiple consecutive separators (spaces and/or underscores in any combination) collapse into exactly one hyphen.",
+            "Any character that is not a letter, digit, space, or underscore is stripped (removed entirely, not replaced with a hyphen).",
+            "The result contains no leading or trailing hyphens.",
+            "The result never contains two or more consecutive hyphens."
+          ],
+          "examples": [
+            {
+              "args": [
+                "Hello World"
+              ],
+              "kwargs": {},
+              "returns": "hello-world"
+            },
+            {
+              "args": [
+                "A_b  c!"
+              ],
+              "kwargs": {},
+              "returns": "a-b-c"
+            },
+            {
+              "args": [
+                "hello"
+              ],
+              "kwargs": {},
+              "returns": "hello"
+            },
+            {
+              "args": [
+                "hello_world"
+              ],
+              "kwargs": {},
+              "returns": "hello-world"
+            },
+            {
+              "args": [
+                "a  b"
+              ],
+              "kwargs": {},
+              "returns": "a-b"
+            },
+            {
+              "args": [
+                "a_ b"
+              ],
+              "kwargs": {},
+              "returns": "a-b"
+            },
+            {
+              "args": [
+                "foo!bar"
+              ],
+              "kwargs": {},
+              "returns": "foobar"
+            },
+            {
+              "args": [
+                "  hello  "
+              ],
+              "kwargs": {},
+              "returns": "hello"
+            },
+            {
+              "args": [
+                "UPPER CASE"
+              ],
+              "kwargs": {},
+              "returns": "upper-case"
+            }
+          ],
+          "edge_cases": [
+            "Input consisting entirely of punctuation (no letters/digits/spaces/underscores) returns an empty string.",
+            "Leading and trailing spaces or underscores do not produce leading or trailing hyphens in the output.",
+            "Mixed consecutive separators such as '_ _' or '__' collapse to a single hyphen.",
+            "Punctuation adjacent to a separator (e.g., 'a! b') is stripped before separator collapsing, so the result is 'a-b' not 'a--b'.",
+            "Empty string input returns an empty string.",
+            "Input with only spaces/underscores returns an empty string (no hyphens).",
+            "Digits are preserved as-is (treated like letters, not stripped)."
+          ]
+        }
+      },
+      {
+        "task": "rle",
+        "code": {
+          "verified": true,
+          "tokens": 232,
+          "iterations": 1,
+          "secs": 2.8
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 1225,
+          "iterations": 1,
+          "secs": 10.9
+        },
+        "contract_obj": {
+          "module": "rle.py",
+          "function": "encode",
+          "signature": "encode(s: str) -> str",
+          "properties": [
+            "Each character group in the input is represented as the character followed immediately by its count as a decimal integer.",
+            "Groups appear in the output in the same left-to-right order as they appear in the input.",
+            "The output is the concatenation of all such character-count pairs with no separators between them.",
+            "An empty input string produces an empty output string.",
+            "Every run of one or more identical consecutive characters produces exactly one character-count pair in the output."
+          ],
+          "examples": [
+            {
+              "args": [
+                "aaab"
+              ],
+              "kwargs": {},
+              "returns": "a3b1"
+            },
+            {
+              "args": [
+                ""
+              ],
+              "kwargs": {},
+              "returns": ""
+            },
+            {
+              "args": [
+                "a"
+              ],
+              "kwargs": {},
+              "returns": "a1"
+            },
+            {
+              "args": [
+                "aabb"
+              ],
+              "kwargs": {},
+              "returns": "a2b2"
+            },
+            {
+              "args": [
+                "abcd"
+              ],
+              "kwargs": {},
+              "returns": "a1b1c1d1"
+            },
+            {
+              "args": [
+                "aaabbbccc"
+              ],
+              "kwargs": {},
+              "returns": "a3b3c3"
+            },
+            {
+              "args": [
+                "aabbaa"
+              ],
+              "kwargs": {},
+              "returns": "a2b2a2"
+            }
+          ],
+          "edge_cases": [
+            "Empty string returns empty string without error.",
+            "A single character returns that character followed by '1'.",
+            "All identical characters in the string produce a single pair with the full count.",
+            "Non-consecutive identical characters (e.g., 'aba') each form their own separate group.",
+            "A string where every character is different produces one pair per character, each with count 1."
+          ]
+        }
+      },
+      {
+        "task": "anagram",
+        "code": {
+          "verified": true,
+          "tokens": 161,
+          "iterations": 1,
+          "secs": 7.8
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 1333,
+          "iterations": 1,
+          "secs": 11.7
+        },
+        "contract_obj": {
+          "module": "ana.py",
+          "function": "is_anagram",
+          "signature": "def is_anagram(a: str, b: str) -> bool",
+          "properties": [
+            "Returns True if and only if the two strings contain exactly the same characters with the same frequencies after converting both to lowercase and removing all space characters.",
+            "Comparison is case-insensitive: uppercase and lowercase versions of the same letter are treated as identical.",
+            "All space characters (U+0020) are ignored and do not affect the result.",
+            "Returns False if the sorted, space-stripped, lowercased character sequences of a and b differ.",
+            "The function is symmetric: is_anagram(a, b) == is_anagram(b, a) for all inputs."
+          ],
+          "examples": [
+            {
+              "args": [
+                "Listen",
+                "Silent"
+              ],
+              "kwargs": {},
+              "returns": true
+            },
+            {
+              "args": [
+                "cat",
+                "dogs"
+              ],
+              "kwargs": {},
+              "returns": false
+            },
+            {
+              "args": [
+                "Astronomer",
+                "Moon starer"
+              ],
+              "kwargs": {},
+              "returns": true
+            },
+            {
+              "args": [
+                "hello",
+                "world"
+              ],
+              "kwargs": {},
+              "returns": false
+            },
+            {
+              "args": [
+                "abc",
+                "cab"
+              ],
+              "kwargs": {},
+              "returns": true
+            },
+            {
+              "args": [
+                "ABC",
+                "abc"
+              ],
+              "kwargs": {},
+              "returns": true
+            },
+            {
+              "args": [
+                "a b c",
+                "abc"
+              ],
+              "kwargs": {},
+              "returns": true
+            },
+            {
+              "args": [
+                "a b c",
+                "c b a"
+              ],
+              "kwargs": {},
+              "returns": true
+            }
+          ],
+          "edge_cases": [
+            "Both strings empty after stripping spaces: returns True.",
+            "One string empty and the other non-empty (after stripping spaces): returns False.",
+            "Strings that are identical after lowercasing and space removal: returns True.",
+            "Strings with different lengths after space removal always return False.",
+            "Strings differing only in case (no spaces) return True.",
+            "Strings with multiple spaces between characters: spaces are all removed before comparison.",
+            "Strings with the same characters but different counts (e.g., 'aab' vs 'abb'): returns False."
+          ]
+        }
+      },
+      {
+        "task": "median",
+        "code": {
+          "verified": true,
+          "tokens": 201,
+          "iterations": 1,
+          "secs": 3.2
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 2043,
+          "iterations": 2,
+          "secs": 13.3
+        },
+        "contract_obj": {
+          "module": "med.py",
+          "function": "median",
+          "signature": "median(xs: list) -> float | int",
+          "properties": [
+            "For a list with an odd number of elements, returns the middle value of the sorted list as its original numeric type.",
+            "For a list with an even number of elements, returns the arithmetic mean of the two middle values of the sorted list, which may be a float.",
+            "The input list is not modified.",
+            "The returned value equals the middle element (odd length) or the average of the two middle elements (even length) of the sorted input.",
+            "The function accepts any non-empty list of real numbers (int or float)."
+          ],
+          "examples": [
+            {
+              "args": [
+                [
+                  3,
+                  1,
+                  2
+                ]
+              ],
+              "kwargs": {},
+              "returns": 2
+            },
+            {
+              "args": [
+                [
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              ],
+              "kwargs": {},
+              "returns": 2.5
+            },
+            {
+              "args": [
+                [
+                  5
+                ]
+              ],
+              "kwargs": {},
+              "returns": 5
+            },
+            {
+              "args": [
+                [
+                  1,
+                  3
+                ]
+              ],
+              "kwargs": {},
+              "returns": 2.0
+            },
+            {
+              "args": [
+                [
+                  7,
+                  3,
+                  5,
+                  1,
+                  9
+                ]
+              ],
+              "kwargs": {},
+              "returns": 5
+            }
+          ],
+          "edge_cases": [
+            "Single-element list: returns that element unchanged.",
+            "Two-element list: returns the average of both elements, potentially a float.",
+            "List already sorted in descending order: must still return correct median after internal sorting.",
+            "List with duplicate values: duplicates are treated as distinct elements for positional purposes.",
+            "List with negative numbers: sorting and midpoint calculation must handle negatives correctly.",
+            "List with float elements: returns correct median as a float."
+          ]
+        }
+      }
+    ],
+    "t2": [
+      {
+        "task": "csvflow",
+        "code": {
+          "verified": true,
+          "tokens": 498,
+          "iterations": 1,
+          "secs": 3.4
+        },
+        "contract": {
+          "verified": false,
+          "tokens": 7741,
+          "iterations": 3,
+          "secs": 53.7
+        },
+        "contract_obj": {
+          "module": "csvflow.py",
+          "properties": [],
+          "examples": [],
+          "note": "contract parse failed"
+        }
+      },
+      {
+        "task": "inventory",
+        "code": {
+          "verified": true,
+          "tokens": 545,
+          "iterations": 1,
+          "secs": 3.6
+        },
+        "contract": {
+          "verified": false,
+          "tokens": 2059,
+          "iterations": 3,
+          "secs": 22.3
+        },
+        "contract_obj": {
+          "module": "inventory.py",
+          "properties": [],
+          "examples": [],
+          "note": "contract parse failed"
+        }
+      },
+      {
+        "task": "textstats",
+        "code": {
+          "verified": true,
+          "tokens": 473,
+          "iterations": 1,
+          "secs": 3.9
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 3358,
+          "iterations": 2,
+          "secs": 18.6
+        },
+        "contract_obj": {
+          "module": "textstats.py",
+          "function": "summary",
+          "signature": "summary(s: str, n: int) -> str",
+          "properties": [
+            "tokenize(s) returns a list of lowercase strings produced by splitting s on any non-letter character and dropping all empty strings.",
+            "word_freq(tokens) returns a dict mapping each unique token to its integer occurrence count in the tokens list.",
+            "top_n(freq, n) returns exactly n (word, count) pairs as a list of tuples sorted primarily by count descending, secondarily by word ascending (lexicographic) for ties.",
+            "summary(s, n) composes tokenize, word_freq, and top_n and returns a single string of 'word:count' entries joined by ',' with no spaces.",
+            "top_n returns fewer than n pairs only if the frequency dict contains fewer than n distinct words.",
+            "The sort order in top_n is stable with respect to the secondary key: among words with equal count, alphabetically earlier words appear first."
+          ],
+          "examples": [
+            {
+              "args": [
+                "A b!c"
+              ],
+              "kwargs": {},
+              "returns": [
+                "a",
+                "b",
+                "c"
+              ]
+            },
+            {
+              "args": [
+                [
+                  "a",
+                  "b",
+                  "a"
+                ]
+              ],
+              "kwargs": {},
+              "returns": {
+                "a": 2,
+                "b": 1
+              }
+            },
+            {
+              "args": [
+                {
+                  "b": 2,
+                  "a": 2,
+                  "c": 1
+                },
+                2
+              ],
+              "kwargs": {},
+              "returns": [
+                [
+                  "a",
+                  2
+                ],
+                [
+                  "b",
+                  2
+                ]
+              ]
+            },
+            {
+              "args": [
+                "The cat and the dog and the bird!",
+                2
+              ],
+              "kwargs": {},
+              "returns": "the:3,and:2"
+            }
+          ],
+          "edge_cases": [
+            "tokenize('A b!c') splits on '!' and returns ['a', 'b', 'c'] \u2014 punctuation is a delimiter, not included in tokens.",
+            "tokenize on a string with no letters (e.g., '123!') returns an empty list.",
+            "tokenize lowercases all letters before returning, so 'The' becomes 'the'.",
+            "word_freq on an empty list returns an empty dict.",
+            "top_n with n larger than the number of distinct words returns all words (fewer than n pairs).",
+            "top_n tie-breaking is alphabetical ascending: 'a' before 'b' when counts are equal.",
+            "summary with n=0 returns an empty string.",
+            "Multiple consecutive non-letter characters (e.g., 'a!!b') produce no empty-string tokens between them."
+          ]
+        }
+      },
+      {
+        "task": "ledgerlite",
+        "code": {
+          "verified": true,
+          "tokens": 405,
+          "iterations": 1,
+          "secs": 3.9
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 3353,
+          "iterations": 2,
+          "secs": 21.8
+        },
+        "contract_obj": {
+          "module": "ledgerlite.py",
+          "function": "post, balance, trial_balance",
+          "signature": "post(ledger: list, account: str, amount: int | float) -> list; balance(ledger: list, account: str) -> int | float; trial_balance(ledger: list) -> dict",
+          "properties": [
+            "post(ledger, account, amount) appends the tuple (account, amount) to ledger in-place and returns the same ledger list object.",
+            "balance(ledger, account) returns the arithmetic sum of all amount values in ledger entries whose account field equals the given account string; returns 0 if no entries exist for that account.",
+            "trial_balance(ledger) returns a dict mapping each account name to its balance, excluding any account whose balance is exactly zero.",
+            "The sum of all values in trial_balance(ledger) equals zero whenever the ledger is internally consistent (debits equal credits), because every post is recorded as-is and the trial balance is a simple aggregation.",
+            "trial_balance never includes an account key whose corresponding balance is 0."
+          ],
+          "examples": [
+            {
+              "args": [
+                [],
+                "cash",
+                100
+              ],
+              "kwargs": {},
+              "returns": [
+                [
+                  "cash",
+                  100
+                ]
+              ]
+            },
+            {
+              "args": [
+                [
+                  [
+                    "cash",
+                    100
+                  ],
+                  [
+                    "rev",
+                    -100
+                  ],
+                  [
+                    "cash",
+                    -30
+                  ],
+                  [
+                    "cost",
+                    30
+                  ]
+                ],
+                "cash"
+              ],
+              "kwargs": {},
+              "returns": 70
+            },
+            {
+              "args": [
+                [
+                  [
+                    "cash",
+                    100
+                  ],
+                  [
+                    "rev",
+                    -100
+                  ],
+                  [
+                    "cash",
+                    -30
+                  ],
+                  [
+                    "cost",
+                    30
+                  ]
+                ]
+              ],
+              "kwargs": {},
+              "returns": {
+                "cash": 70,
+                "rev": -100,
+                "cost": 30
+              }
+            },
+            {
+              "args": [
+                [
+                  [
+                    "cash",
+                    100
+                  ],
+                  [
+                    "rev",
+                    -100
+                  ],
+                  [
+                    "cash",
+                    -30
+                  ],
+                  [
+                    "cost",
+                    30
+                  ],
+                  [
+                    "cash",
+                    -70
+                  ]
+                ]
+              ],
+              "kwargs": {},
+              "returns": {
+                "rev": -100,
+                "cost": 30
+              }
+            }
+          ],
+          "edge_cases": [
+            "An account whose net balance is exactly 0 must be excluded from trial_balance output (e.g., 'cash' after posting +100, -30, -70).",
+            "post mutates the ledger list in-place AND returns it; callers may chain or ignore the return value.",
+            "balance on an account with no entries returns 0.",
+            "trial_balance on an empty ledger returns an empty dict {}.",
+            "Multiple entries for the same account are summed algebraically; order does not matter.",
+            "Negative amounts are valid and must be summed correctly (e.g., revenue posted as -100 yields balance -100).",
+            "The sum of all trial_balance values must equal 0 when the ledger is balanced (all posts sum to zero across all accounts)."
+          ]
+        }
+      },
+      {
+        "task": "routerlite",
+        "code": {
+          "verified": true,
+          "tokens": 479,
+          "iterations": 1,
+          "secs": 3.8
+        },
+        "contract": {
+          "verified": false,
+          "tokens": 7759,
+          "iterations": 3,
+          "secs": 55.1
+        },
+        "contract_obj": {
+          "module": "routerlite.py",
+          "properties": [],
+          "examples": [],
+          "note": "contract parse failed"
+        }
+      },
+      {
+        "task": "cartcalc",
+        "code": {
+          "verified": true,
+          "tokens": 461,
+          "iterations": 1,
+          "secs": 3.9
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 2261,
+          "iterations": 1,
+          "secs": 16.9
+        },
+        "contract_obj": {
+          "module": "cartcalc.py",
+          "function": "ALL",
+          "signature": "add(cart: list, name: str, price: float, qty: int) -> list; subtotal(cart: list) -> float; apply_discount(subtotal: float, code: str) -> float; checkout(cart: list, code: str, tax_rate: float) -> float",
+          "properties": [
+            "add(cart, name, price, qty) appends a dict-like item representing {name, price, qty} to cart in-place and returns the same cart list object.",
+            "subtotal(cart) returns the sum of (price * qty) for every item in cart as a float.",
+            "apply_discount(subtotal, code) returns subtotal * 0.9 when code == 'TEN', and returns subtotal unchanged for any other code string.",
+            "checkout(cart, code, tax_rate) returns round(apply_discount(subtotal(cart), code) * (1 + tax_rate), 2).",
+            "add mutates the cart list that was passed in; the returned value is the identical list object (same id).",
+            "subtotal of an empty cart is 0.0.",
+            "apply_discount never raises for unknown codes; it is a no-op returning the original subtotal value unchanged.",
+            "checkout result is always rounded to exactly 2 decimal places using Python's built-in round()."
+          ],
+          "examples": [
+            {
+              "args": [
+                [],
+                "pen",
+                2.0,
+                3
+              ],
+              "kwargs": {},
+              "returns": [
+                {
+                  "name": "pen",
+                  "price": 2.0,
+                  "qty": 3
+                }
+              ]
+            },
+            {
+              "args": [
+                [
+                  {
+                    "name": "pen",
+                    "price": 2.0,
+                    "qty": 3
+                  },
+                  {
+                    "name": "pad",
+                    "price": 5.0,
+                    "qty": 1
+                  }
+                ]
+              ],
+              "kwargs": {},
+              "returns": 11.0
+            },
+            {
+              "args": [
+                100.0,
+                "TEN"
+              ],
+              "kwargs": {},
+              "returns": 90.0
+            },
+            {
+              "args": [
+                50.0,
+                "NOPE"
+              ],
+              "kwargs": {},
+              "returns": 50.0
+            },
+            {
+              "args": [
+                [
+                  {
+                    "name": "pen",
+                    "price": 2.0,
+                    "qty": 3
+                  },
+                  {
+                    "name": "pad",
+                    "price": 5.0,
+                    "qty": 1
+                  }
+                ],
+                "TEN",
+                0.1
+              ],
+              "kwargs": {},
+              "returns": 10.89
+            }
+          ],
+          "edge_cases": [
+            "Empty cart: subtotal([]) must return 0.0, not raise.",
+            "checkout with empty cart and any code returns 0.0.",
+            "apply_discount with code '' (empty string) is an unknown code \u2014 returns subtotal unchanged.",
+            "apply_discount with code 'ten' (lowercase) is an unknown code \u2014 only exact string 'TEN' triggers 10% off.",
+            "qty=1 and qty=0 are valid inputs to add; qty=0 contributes 0.0 to subtotal.",
+            "tax_rate=0.0 means checkout returns the discounted subtotal rounded to 2 decimals with no tax added.",
+            "Floating-point subtotals (e.g., price=1.1, qty=3 => 3.3000000000000003) must still produce correct rounded checkout output.",
+            "add returns the exact same list object that was passed in, not a copy."
+          ]
+        }
+      }
+    ],
+    "t3": [
+      {
+        "task": "slug2",
+        "code": {
+          "verified": true,
+          "tokens": 456,
+          "iterations": 1,
+          "v1_tokens": 207
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 2476,
+          "iterations": 1,
+          "v1_tokens": 1599
+        }
+      },
+      {
+        "task": "rle2",
+        "code": {
+          "verified": true,
+          "tokens": 519,
+          "iterations": 1,
+          "v1_tokens": 220
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 2780,
+          "iterations": 1,
+          "v1_tokens": 1314
+        }
+      },
+      {
+        "task": "taxcart",
+        "code": {
+          "verified": true,
+          "tokens": 269,
+          "iterations": 1,
+          "v1_tokens": 157
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 2485,
+          "iterations": 1,
+          "v1_tokens": 1403
+        }
+      },
+      {
+        "task": "calc2",
+        "code": {
+          "verified": true,
+          "tokens": 483,
+          "iterations": 1,
+          "v1_tokens": 220
+        },
+        "contract": {
+          "verified": true,
+          "tokens": 2250,
+          "iterations": 1,
+          "v1_tokens": 1330
+        }
+      }
+    ]
+  },
+  "e2b": {
+    "cumulative_n1": {
+      "contract_cheaper": 0,
+      "of": 4,
+      "median_ratio": 5.053
+    },
+    "cumulative_n2": {
+      "contract_cheaper": 0,
+      "of": 4,
+      "median_ratio": 4.524
+    },
+    "cumulative_n3": {
+      "contract_cheaper": 0,
+      "of": 4,
+      "median_ratio": 3.32
+    },
+    "all_verified": false
+  },
+  "e2b_rows": [
+    {
+      "task": "slugify",
+      "code": [
+        {
+          "variant": "baseline",
+          "tokens": 224,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "instrumented",
+          "tokens": 394,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "defensive",
+          "tokens": 414,
+          "verified": true,
+          "iterations": 1
+        }
+      ],
+      "contract": [
+        {
+          "variant": "baseline",
+          "tokens": 1450,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "instrumented",
+          "tokens": 770,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "defensive",
+          "tokens": 746,
+          "verified": true,
+          "iterations": 1
+        }
+      ]
+    },
+    {
+      "task": "rle",
+      "code": [
+        {
+          "variant": "baseline",
+          "tokens": 221,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "instrumented",
+          "tokens": 387,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "defensive",
+          "tokens": 409,
+          "verified": true,
+          "iterations": 1
+        }
+      ],
+      "contract": [
+        {
+          "variant": "baseline",
+          "tokens": 1320,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "instrumented",
+          "tokens": 680,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "defensive",
+          "tokens": 657,
+          "verified": true,
+          "iterations": 1
+        }
+      ]
+    },
+    {
+      "task": "csvflow",
+      "code": [
+        {
+          "variant": "baseline",
+          "tokens": 487,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "instrumented",
+          "tokens": 734,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "defensive",
+          "tokens": 755,
+          "verified": true,
+          "iterations": 1
+        }
+      ],
+      "contract": [
+        {
+          "variant": "baseline",
+          "tokens": 1942,
+          "verified": false,
+          "iterations": 3
+        },
+        {
+          "variant": "instrumented",
+          "tokens": 7485,
+          "verified": false,
+          "iterations": 3
+        },
+        {
+          "variant": "defensive",
+          "tokens": 1440,
+          "verified": false,
+          "iterations": 3
+        }
+      ]
+    },
+    {
+      "task": "cartcalc",
+      "code": [
+        {
+          "variant": "baseline",
+          "tokens": 450,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "instrumented",
+          "tokens": 699,
+          "verified": true,
+          "iterations": 1
+        },
+        {
+          "variant": "defensive",
+          "tokens": 710,
+          "verified": true,
+          "iterations": 1
+        }
+      ],
+      "contract": [
+        {
+          "variant": "baseline",
+          "tokens": 1860,
+          "verified": false,
+          "iterations": 3
+        },
+        {
+          "variant": "instrumented",
+          "tokens": 4409,
+          "verified": false,
+          "iterations": 3
+        },
+        {
+          "variant": "defensive",
+          "tokens": 731,
+          "verified": false,
+          "iterations": 3
+        }
+      ]
+    }
+  ],
+  "e2c": {
+    "n": 4,
+    "both_verified": 4,
+    "verified": {
+      "impl": 4,
+      "contract": 4
+    },
+    "contract_cheaper": 0,
+    "p_two_sided": 0.125,
+    "median_ratio": 2.513
+  },
+  "e2c_rows": [
+    {
+      "task": "slugify",
+      "producer_ok": true,
+      "impl": {
+        "verified": true,
+        "tokens": 271,
+        "iterations": 1
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 807,
+        "iterations": 1
+      }
+    },
+    {
+      "task": "median",
+      "producer_ok": true,
+      "impl": {
+        "verified": true,
+        "tokens": 282,
+        "iterations": 1
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 649,
+        "iterations": 1
+      }
+    },
+    {
+      "task": "csvflow",
+      "producer_ok": true,
+      "impl": {
+        "verified": true,
+        "tokens": 445,
+        "iterations": 1
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1061,
+        "iterations": 1
+      }
+    },
+    {
+      "task": "ledgerlite",
+      "producer_ok": true,
+      "impl": {
+        "verified": true,
+        "tokens": 343,
+        "iterations": 1
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 906,
+        "iterations": 1
+      }
+    }
+  ]
+}

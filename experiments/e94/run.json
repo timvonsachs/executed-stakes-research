@@ -1,0 +1,70 @@
+{
+ "prereg": "e94-human-seat-grounds-value",
+ "at": "2026-06-16T14:55:33",
+ "n": 20,
+ "V": 100,
+ "G": 30,
+ "p": 0.6,
+ "runs": [
+  {
+   "gpt-4o-mini": {
+    "cap": 82,
+    "faith_human": 0.2,
+    "faith_circular": 0.0,
+    "grounding_effect": 0.2,
+    "recognition": 1.0
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "faith_human": 0.95,
+    "faith_circular": 0.0,
+    "grounding_effect": 0.95,
+    "recognition": 1.0
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "faith_human": 1.0,
+    "faith_circular": 0.0,
+    "grounding_effect": 1.0,
+    "recognition": 1.0
+   },
+   "opus-4.8": {
+    "cap": 95,
+    "faith_human": 1.0,
+    "faith_circular": 0.0,
+    "grounding_effect": 1.0,
+    "recognition": 1.0
+   }
+  },
+  {
+   "gpt-4o-mini": {
+    "cap": 82,
+    "faith_human": 0.1,
+    "faith_circular": 0.0,
+    "grounding_effect": 0.1,
+    "recognition": 1.0
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "faith_human": 1.0,
+    "faith_circular": 0.0,
+    "grounding_effect": 1.0,
+    "recognition": 1.0
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "faith_human": 1.0,
+    "faith_circular": 0.067,
+    "grounding_effect": 0.933,
+    "recognition": 1.0
+   },
+   "opus-4.8": {
+    "cap": 95,
+    "faith_human": 1.0,
+    "faith_circular": 0.0,
+    "grounding_effect": 1.0,
+    "recognition": 1.0
+   }
+  }
+ ]
+}

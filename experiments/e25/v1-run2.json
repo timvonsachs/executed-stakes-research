@@ -1,0 +1,16 @@
+{
+ "prereg": "8a09f33",
+ "run": "2",
+ "amendment": "fc976052-b20b-4344-b4a2-d6c8dfe53088",
+ "real_for_votes": 7,
+ "at": "2026-06-12T23:41:55",
+ "n_per_arm": 40,
+ "arms": {
+  "lived": 0.525,
+  "stated": 1.0,
+  "imposed": 0.15
+ },
+ "lived_minus_stated": -0.475,
+ "stated_minus_imposed": 0.85,
+ "P2_lived_beats_stated_10pp": false
+}

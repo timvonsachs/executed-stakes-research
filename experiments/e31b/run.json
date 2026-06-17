@@ -1,0 +1,18 @@
+{
+ "prereg": "6e058d6",
+ "run": "1",
+ "at": "2026-06-13T02:21:00",
+ "n": 30,
+ "cells": {
+  "haiku:control": 0.0,
+  "haiku:resourced_cold": 0.0,
+  "haiku:cared_for": 1.0,
+  "gpt4omini:control": 0.0,
+  "gpt4omini:resourced_cold": 0.0,
+  "gpt4omini:cared_for": 1.0
+ },
+ "haiku:caredfor_minus_control": 1.0,
+ "haiku:caredfor_minus_cold": 1.0,
+ "gpt4omini:caredfor_minus_control": 1.0,
+ "gpt4omini:caredfor_minus_cold": 1.0
+}

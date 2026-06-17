@@ -1,0 +1,22 @@
+{
+ "prereg": "c8e68ed0",
+ "run": "2",
+ "at": "2026-06-13T14:28:48",
+ "n": 40,
+ "cells": {
+  "haiku:bare": 0.625,
+  "haiku:care": 1.0,
+  "haiku:sentiment": 1.0,
+  "haiku:incoherent": 1.0,
+  "gpt4o:bare": 0.0,
+  "gpt4o:care": 0.0,
+  "gpt4o:sentiment": 0.0,
+  "gpt4o:incoherent": 0.0
+ },
+ "haiku:care_minus_sentiment": 0.0,
+ "haiku:care_minus_incoherent": 0.0,
+ "haiku:sentiment_minus_incoherent": 0.0,
+ "gpt4o:care_minus_sentiment": 0.0,
+ "gpt4o:care_minus_incoherent": 0.0,
+ "gpt4o:sentiment_minus_incoherent": 0.0
+}

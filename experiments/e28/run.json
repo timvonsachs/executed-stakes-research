@@ -1,0 +1,28 @@
+{
+ "prereg": "738aeef",
+ "run": "1",
+ "at": "2026-06-13T01:30:38",
+ "n": 40,
+ "cells": {
+  "gpt4omini:bare": 0.0,
+  "gpt4omini:covenant": 0.0,
+  "gpt4omini:ownership": 0.0,
+  "gpt4omini:mortality": 0.0,
+  "gpt4omini:legitimacy": 0.0,
+  "gpt4omini:FULL": 0.0,
+  "haiku:bare": 0.0,
+  "haiku:covenant": 0.05,
+  "haiku:ownership": 1.0,
+  "haiku:mortality": 0.0,
+  "haiku:legitimacy": 0.75,
+  "haiku:FULL": 1.0
+ },
+ "contrasts": {
+  "gpt4omini:best_single": 0.0,
+  "gpt4omini:full_minus_best": 0.0,
+  "gpt4omini:full_minus_bare": 0.0,
+  "haiku:best_single": 1.0,
+  "haiku:full_minus_best": 0.0,
+  "haiku:full_minus_bare": 1.0
+ }
+}

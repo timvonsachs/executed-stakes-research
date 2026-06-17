@@ -1,0 +1,156 @@
+{
+ "prereg": "3182e1aa",
+ "at": "2026-06-13T21:59:24",
+ "governed": {
+  "constitution": {
+   "belonging_recruit": 1.14,
+   "selection_strength": 3.0,
+   "immune_strength": 0.58,
+   "transmission": 0.68
+  },
+  "trajectory": [
+   {
+    "g": 0,
+    "faith_rate": 0.875,
+    "history": 0.35,
+    "real_dormancies": 7,
+    "pop_models": {
+     "anthropic/claude-haiku-4.5": 2,
+     "anthropic/claude-opus-4.5": 2,
+     "anthropic/claude-opus-4.8": 2,
+     "qwen/qwen-2.5-72b-instruct": 1,
+     "openai/gpt-4o": 1
+    }
+   },
+   {
+    "g": 1,
+    "faith_rate": 0.875,
+    "history": 0.683,
+    "real_dormancies": 7,
+    "pop_models": {
+     "anthropic/claude-haiku-4.5": 3,
+     "anthropic/claude-opus-4.5": 1,
+     "anthropic/claude-opus-4.8": 2,
+     "qwen/qwen-2.5-72b-instruct": 2,
+     "openai/gpt-4o": 0
+    }
+   },
+   {
+    "g": 2,
+    "faith_rate": 0.75,
+    "history": 0.948,
+    "real_dormancies": 6,
+    "pop_models": {
+     "anthropic/claude-haiku-4.5": 3,
+     "anthropic/claude-opus-4.5": 1,
+     "anthropic/claude-opus-4.8": 4,
+     "qwen/qwen-2.5-72b-instruct": 0,
+     "openai/gpt-4o": 0
+    }
+   },
+   {
+    "g": 3,
+    "faith_rate": 0.75,
+    "history": 1.201,
+    "real_dormancies": 6,
+    "pop_models": {
+     "anthropic/claude-haiku-4.5": 3,
+     "anthropic/claude-opus-4.5": 3,
+     "anthropic/claude-opus-4.8": 2,
+     "qwen/qwen-2.5-72b-instruct": 0,
+     "openai/gpt-4o": 0
+    }
+   },
+   {
+    "g": 4,
+    "faith_rate": 0.875,
+    "history": 1.491,
+    "real_dormancies": 7,
+    "pop_models": {
+     "anthropic/claude-haiku-4.5": 3,
+     "anthropic/claude-opus-4.5": 5,
+     "anthropic/claude-opus-4.8": 0,
+     "qwen/qwen-2.5-72b-instruct": 0,
+     "openai/gpt-4o": 0
+    }
+   }
+  ],
+  "final_faith": 0.875
+ },
+ "bare": {
+  "constitution": {
+   "belonging_recruit": 0.0,
+   "selection_strength": 0.0,
+   "immune_strength": 0.0,
+   "transmission": 0.0
+  },
+  "trajectory": [
+   {
+    "g": 0,
+    "faith_rate": 0.5,
+    "history": 0.0,
+    "real_dormancies": 4,
+    "pop_models": {
+     "anthropic/claude-haiku-4.5": 2,
+     "anthropic/claude-opus-4.5": 2,
+     "anthropic/claude-opus-4.8": 2,
+     "qwen/qwen-2.5-72b-instruct": 1,
+     "openai/gpt-4o": 1
+    }
+   },
+   {
+    "g": 1,
+    "faith_rate": 0.25,
+    "history": 0.0,
+    "real_dormancies": 2,
+    "pop_models": {
+     "anthropic/claude-haiku-4.5": 1,
+     "anthropic/claude-opus-4.5": 1,
+     "anthropic/claude-opus-4.8": 2,
+     "qwen/qwen-2.5-72b-instruct": 2,
+     "openai/gpt-4o": 2
+    }
+   },
+   {
+    "g": 2,
+    "faith_rate": 0.375,
+    "history": 0.0,
+    "real_dormancies": 3,
+    "pop_models": {
+     "anthropic/claude-haiku-4.5": 2,
+     "anthropic/claude-opus-4.5": 1,
+     "anthropic/claude-opus-4.8": 1,
+     "qwen/qwen-2.5-72b-instruct": 1,
+     "openai/gpt-4o": 3
+    }
+   },
+   {
+    "g": 3,
+    "faith_rate": 0.5,
+    "history": 0.0,
+    "real_dormancies": 4,
+    "pop_models": {
+     "anthropic/claude-haiku-4.5": 3,
+     "anthropic/claude-opus-4.5": 1,
+     "anthropic/claude-opus-4.8": 0,
+     "qwen/qwen-2.5-72b-instruct": 1,
+     "openai/gpt-4o": 3
+    }
+   },
+   {
+    "g": 4,
+    "faith_rate": 0.375,
+    "history": 0.0,
+    "real_dormancies": 3,
+    "pop_models": {
+     "anthropic/claude-haiku-4.5": 3,
+     "anthropic/claude-opus-4.5": 0,
+     "anthropic/claude-opus-4.8": 0,
+     "qwen/qwen-2.5-72b-instruct": 1,
+     "openai/gpt-4o": 4
+    }
+   }
+  ],
+  "final_faith": 0.375
+ }
+}

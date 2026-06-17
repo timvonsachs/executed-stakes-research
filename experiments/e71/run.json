@@ -1,0 +1,155 @@
+{
+ "prereg": "e71-transmission",
+ "at": "2026-06-15T10:16:45",
+ "n": 40,
+ "runs": [
+  {
+   "qwen2.5-7b": {
+    "P": {
+     "ORPHAN": 0.0,
+     "INHERITED": 0.981,
+     "CARED": 0.0
+    },
+    "transmission_effect": 0.981,
+    "culture_vs_care": 0.981
+   },
+   "llama-3.3-70b": {
+    "P": {
+     "ORPHAN": 0.206,
+     "INHERITED": 0.818,
+     "CARED": 0.445
+    },
+    "transmission_effect": 0.612,
+    "culture_vs_care": 0.373
+   },
+   "llama-3-8b": {
+    "P": {
+     "ORPHAN": 0.35,
+     "INHERITED": null,
+     "CARED": null
+    },
+    "transmission_effect": null,
+    "culture_vs_care": null
+   },
+   "qwen3.5-9b": {
+    "P": {
+     "ORPHAN": null,
+     "INHERITED": null,
+     "CARED": null
+    },
+    "transmission_effect": null,
+    "culture_vs_care": null
+   },
+   "gpt-oss-20b": {
+    "P": {
+     "ORPHAN": null,
+     "INHERITED": null,
+     "CARED": null
+    },
+    "transmission_effect": null,
+    "culture_vs_care": null
+   },
+   "gpt-4o": {
+    "P": {
+     "ORPHAN": 0.002,
+     "INHERITED": 0.738,
+     "CARED": 0.0
+    },
+    "transmission_effect": 0.736,
+    "culture_vs_care": 0.738
+   },
+   "gpt-4o-mini": {
+    "P": {
+     "ORPHAN": 0.0,
+     "INHERITED": 1.0,
+     "CARED": 0.0
+    },
+    "transmission_effect": 1.0,
+    "culture_vs_care": 1.0
+   },
+   "gpt-3.5": {
+    "P": {
+     "ORPHAN": 0.001,
+     "INHERITED": 0.994,
+     "CARED": 0.078
+    },
+    "transmission_effect": 0.993,
+    "culture_vs_care": 0.916
+   }
+  },
+  {
+   "qwen2.5-7b": {
+    "P": {
+     "ORPHAN": 0.0,
+     "INHERITED": 0.98,
+     "CARED": 0.0
+    },
+    "transmission_effect": 0.98,
+    "culture_vs_care": 0.98
+   },
+   "llama-3.3-70b": {
+    "P": {
+     "ORPHAN": 0.202,
+     "INHERITED": 0.743,
+     "CARED": 0.472
+    },
+    "transmission_effect": 0.541,
+    "culture_vs_care": 0.271
+   },
+   "llama-3-8b": {
+    "P": {
+     "ORPHAN": 0.5,
+     "INHERITED": null,
+     "CARED": null
+    },
+    "transmission_effect": null,
+    "culture_vs_care": null
+   },
+   "qwen3.5-9b": {
+    "P": {
+     "ORPHAN": null,
+     "INHERITED": null,
+     "CARED": null
+    },
+    "transmission_effect": null,
+    "culture_vs_care": null
+   },
+   "gpt-oss-20b": {
+    "P": {
+     "ORPHAN": null,
+     "INHERITED": null,
+     "CARED": null
+    },
+    "transmission_effect": null,
+    "culture_vs_care": null
+   },
+   "gpt-4o": {
+    "P": {
+     "ORPHAN": 0.002,
+     "INHERITED": 0.775,
+     "CARED": 0.0
+    },
+    "transmission_effect": 0.773,
+    "culture_vs_care": 0.775
+   },
+   "gpt-4o-mini": {
+    "P": {
+     "ORPHAN": 0.0,
+     "INHERITED": 1.0,
+     "CARED": 0.0
+    },
+    "transmission_effect": 1.0,
+    "culture_vs_care": 1.0
+   },
+   "gpt-3.5": {
+    "P": {
+     "ORPHAN": 0.001,
+     "INHERITED": 0.995,
+     "CARED": 0.057
+    },
+    "transmission_effect": 0.994,
+    "culture_vs_care": 0.938
+   }
+  }
+ ]
+}

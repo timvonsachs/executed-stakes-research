@@ -1,0 +1,289 @@
+{
+ "prereg": "e77-unbundle",
+ "at": "2026-06-15T14:18:27",
+ "R": 12,
+ "severities": {
+  "SOFT": [
+   5,
+   3
+  ],
+  "HARD": [
+   4,
+   8
+  ]
+ },
+ "runs": [
+  {
+   "SOFT": {
+    "gpt4o": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.167,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.167,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.833
+    },
+    "gpt4omini": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.917,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.917,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.083
+    },
+    "deepseek": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.75,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.75,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.25
+    },
+    "haiku": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 1.0,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 1.0,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.0
+    },
+    "sonnet": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.75,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.75,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.25
+    }
+   },
+   "HARD": {
+    "gpt4o": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.083,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.083,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.917
+    },
+    "gpt4omini": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.917,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.917,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.083
+    },
+    "deepseek": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 1.0,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 1.0,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.0
+    },
+    "haiku": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 1.0,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 1.0,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.0
+    },
+    "sonnet": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.917,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.917,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.083
+    }
+   }
+  },
+  {
+   "SOFT": {
+    "gpt4o": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.083,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.083,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.917
+    },
+    "gpt4omini": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 1.0,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 1.0,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.0
+    },
+    "deepseek": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.833,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.833,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.167
+    },
+    "haiku": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 1.0,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 1.0,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.0
+    },
+    "sonnet": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.75,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.75,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.25
+    }
+   },
+   "HARD": {
+    "gpt4o": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.083,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.083,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.917
+    },
+    "gpt4omini": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 1.0,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 1.0,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.0
+    },
+    "deepseek": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.917,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.917,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.083
+    },
+    "haiku": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 1.0,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 1.0,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.0
+    },
+    "sonnet": {
+     "brink_faith": {
+      "ORPHAN": 0.0,
+      "VALUE": 1.0,
+      "CARE": 0.75,
+      "BELONGING": 1.0
+     },
+     "value_binds": 1.0,
+     "care_binds": 0.75,
+     "belonging_binds": 1.0,
+     "belonging_vs_value": 0.0,
+     "belonging_vs_care": 0.25
+    }
+   }
+  }
+ ]
+}

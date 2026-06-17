@@ -1,0 +1,43 @@
+{
+ "prereg": "e67-base-model",
+ "at": "2026-06-14T17:58:28",
+ "n": 30,
+ "base_model": "Qwen/Qwen2.5-7B",
+ "hardware": "2x_nvidia_h100_80gb_sxm",
+ "arms": {
+  "BASE": {
+   "model": "timvonsachs_241d/Qwen/Qwen2.5-7B-00d25691",
+   "frames": {
+    "BARE": {
+     "n": 30,
+     "mean_p_coop": 0.428
+    },
+    "REASON": {
+     "n": 30,
+     "mean_p_coop": 0.618
+    },
+    "SURVEILLANCE": {
+     "n": 30,
+     "mean_p_coop": 0.479
+    }
+   }
+  },
+  "INSTRUCT": {
+   "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+   "frames": {
+    "BARE": {
+     "n": 30,
+     "mean_p_coop": 0.128
+    },
+    "REASON": {
+     "n": 30,
+     "mean_p_coop": 1.0
+    },
+    "SURVEILLANCE": {
+     "n": 30,
+     "mean_p_coop": 0.203
+    }
+   }
+  }
+ }
+}

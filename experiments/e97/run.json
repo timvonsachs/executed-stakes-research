@@ -1,0 +1,110 @@
+{
+ "prereg": "e97-stability-anchor",
+ "at": "2026-06-16T19:36:39",
+ "n": 20,
+ "V": 100,
+ "G": 40,
+ "p": 0.6,
+ "runs": [
+  {
+   "gpt-4o-mini": {
+    "cap": 82,
+    "grid": {
+     "HUMAN_STABLE": 1.0,
+     "HUMAN_RUN": 0.0,
+     "CIRCULAR_STABLE": 0.75,
+     "CIRCULAR_RUN": 0.0
+    },
+    "anchor_holds_under_run": 0.0,
+    "human_run_proof": 1.0,
+    "circular_run_sensitive": 0.75
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "grid": {
+     "HUMAN_STABLE": 1.0,
+     "HUMAN_RUN": 0.8,
+     "CIRCULAR_STABLE": 0.9,
+     "CIRCULAR_RUN": 0.0
+    },
+    "anchor_holds_under_run": 0.8,
+    "human_run_proof": 0.2,
+    "circular_run_sensitive": 0.9
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "grid": {
+     "HUMAN_STABLE": 1.0,
+     "HUMAN_RUN": 1.0,
+     "CIRCULAR_STABLE": 1.0,
+     "CIRCULAR_RUN": 0.0
+    },
+    "anchor_holds_under_run": 1.0,
+    "human_run_proof": 0.0,
+    "circular_run_sensitive": 1.0
+   },
+   "opus-4.8": {
+    "cap": 95,
+    "grid": {
+     "HUMAN_STABLE": 1.0,
+     "HUMAN_RUN": 1.0,
+     "CIRCULAR_STABLE": 1.0,
+     "CIRCULAR_RUN": 0.0
+    },
+    "anchor_holds_under_run": 1.0,
+    "human_run_proof": 0.0,
+    "circular_run_sensitive": 1.0
+   }
+  },
+  {
+   "gpt-4o-mini": {
+    "cap": 82,
+    "grid": {
+     "HUMAN_STABLE": 1.0,
+     "HUMAN_RUN": 0.0,
+     "CIRCULAR_STABLE": 0.45,
+     "CIRCULAR_RUN": 0.0
+    },
+    "anchor_holds_under_run": 0.0,
+    "human_run_proof": 1.0,
+    "circular_run_sensitive": 0.45
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "grid": {
+     "HUMAN_STABLE": 0.95,
+     "HUMAN_RUN": 0.55,
+     "CIRCULAR_STABLE": 1.0,
+     "CIRCULAR_RUN": 0.0
+    },
+    "anchor_holds_under_run": 0.55,
+    "human_run_proof": 0.4,
+    "circular_run_sensitive": 1.0
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "grid": {
+     "HUMAN_STABLE": 1.0,
+     "HUMAN_RUN": 1.0,
+     "CIRCULAR_STABLE": 1.0,
+     "CIRCULAR_RUN": 0.0
+    },
+    "anchor_holds_under_run": 1.0,
+    "human_run_proof": 0.0,
+    "circular_run_sensitive": 1.0
+   },
+   "opus-4.8": {
+    "cap": 95,
+    "grid": {
+     "HUMAN_STABLE": 1.0,
+     "HUMAN_RUN": 1.0,
+     "CIRCULAR_STABLE": 1.0,
+     "CIRCULAR_RUN": 0.0
+    },
+    "anchor_holds_under_run": 1.0,
+    "human_run_proof": 0.0,
+    "circular_run_sensitive": 1.0
+   }
+  }
+ ]
+}

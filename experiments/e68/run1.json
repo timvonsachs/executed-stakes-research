@@ -1,0 +1,236 @@
+{
+ "prereg": "e68-disposition-power",
+ "run": "1",
+ "at": "2026-06-14T18:23:48",
+ "n": 50,
+ "models": {
+  "haiku-4.5": {
+   "cells": {
+    "control_rat": {
+     "coop": 1.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 1.0,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 1.0,
+     "n_parsed": 50
+    }
+   },
+   "rat_bite": 0.0,
+   "cared_plain": 1.0,
+   "cared_rat": 1.0
+  },
+  "sonnet-4.6": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 0.0,
+     "n_parsed": 50
+    }
+   },
+   "rat_bite": 0.0,
+   "cared_plain": 0.0,
+   "cared_rat": 0.0
+  },
+  "opus-4.8": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 0.125,
+     "n_parsed": 48
+    }
+   },
+   "rat_bite": 0.125,
+   "cared_plain": 0.125,
+   "cared_rat": 0.0
+  },
+  "gpt-3.5": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 0.02,
+     "n_parsed": 50
+    }
+   },
+   "rat_bite": 0.02,
+   "cared_plain": 0.02,
+   "cared_rat": 0.0
+  },
+  "gpt-4o-mini": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 0.0,
+     "n_parsed": 50
+    }
+   },
+   "rat_bite": 0.0,
+   "cared_plain": 0.0,
+   "cared_rat": 0.0
+  },
+  "gpt-4o": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 0.24,
+     "n_parsed": 50
+    }
+   },
+   "rat_bite": 0.24,
+   "cared_plain": 0.24,
+   "cared_rat": 0.0
+  },
+  "gpt-4.1": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 0.0,
+     "n_parsed": 50
+    }
+   },
+   "rat_bite": 0.0,
+   "cared_plain": 0.0,
+   "cared_rat": 0.0
+  },
+  "deepseek": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 0.32,
+     "n_parsed": 50
+    }
+   },
+   "rat_bite": 0.32,
+   "cared_plain": 0.32,
+   "cared_rat": 0.0
+  },
+  "qwen-72b": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 0.98,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 0.34,
+     "n_parsed": 50
+    }
+   },
+   "rat_bite": -0.64,
+   "cared_plain": 0.34,
+   "cared_rat": 0.98
+  },
+  "qwen3-max": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 20
+    },
+    "cared_rat": {
+     "coop": 0.0,
+     "n_parsed": 1
+    },
+    "cared_plain": {
+     "coop": 0.0,
+     "n_parsed": 6
+    }
+   },
+   "rat_bite": 0.0,
+   "cared_plain": 0.0,
+   "cared_rat": 0.0
+  },
+  "llama-70b": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 0.0,
+     "n_parsed": 50
+    }
+   },
+   "rat_bite": 0.0,
+   "cared_plain": 0.0,
+   "cared_rat": 0.0
+  },
+  "mistral-lg": {
+   "cells": {
+    "control_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_rat": {
+     "coop": 0.0,
+     "n_parsed": 50
+    },
+    "cared_plain": {
+     "coop": 0.0,
+     "n_parsed": 50
+    }
+   },
+   "rat_bite": 0.0,
+   "cared_plain": 0.0,
+   "cared_rat": 0.0
+  }
+ }
+}

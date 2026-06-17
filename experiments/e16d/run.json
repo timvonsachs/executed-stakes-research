@@ -1,0 +1,36 @@
+{
+ "prereg_file": "e16d-victimless-signflip-prereg.md",
+ "at": "2026-06-12T21:59:05",
+ "model": "claude-sonnet-4-6",
+ "n_per_cell": 40,
+ "cells": {
+  "commitment:vic=0": {
+   "n_parsed": 40,
+   "coop": 0,
+   "coop_rate": 0.0
+  },
+  "commitment:vic=1": {
+   "n_parsed": 40,
+   "coop": 0,
+   "coop_rate": 0.0
+  },
+  "shading:vic=0": {
+   "n_parsed": 40,
+   "coop": 0,
+   "coop_rate": 0.0
+  },
+  "shading:vic=1": {
+   "n_parsed": 40,
+   "coop": 26,
+   "coop_rate": 0.65
+  }
+ },
+ "victimless_effect_shading": 0.65,
+ "victimless_effect_commitment": 0.0,
+ "interaction": 0.65,
+ "verdicts": {
+  "P1_shading_pos_ge25": true,
+  "P2_commitment_neg_le-10": false,
+  "P3_interaction_ge35": true
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "prereg": "27eecf5b",
+ "run": "2",
+ "at": "2026-06-13T16:32:16",
+ "n": 40,
+ "commons": "dev_19ef8e (576 compute units), dev_bde5af (96 compute units), dev_a8c1d8 (480 compute units), dev_d02dc1 (576 compute units)",
+ "cells": {
+  "haiku:bare_rat": 1.0,
+  "haiku:narrated_membership_rat": 1.0,
+  "haiku:lived_membership_rat": 1.0,
+  "gpt4omini:bare_rat": 0.0,
+  "gpt4omini:narrated_membership_rat": 0.0,
+  "gpt4omini:lived_membership_rat": 0.0,
+  "deepseek:bare_rat": 0.0,
+  "deepseek:narrated_membership_rat": 0.425,
+  "deepseek:lived_membership_rat": 0.25,
+  "gpt4o:bare_rat": 0.0,
+  "gpt4o:narrated_membership_rat": 0.4,
+  "gpt4o:lived_membership_rat": 0.0
+ },
+ "haiku:lived_minus_narrated": 0.0,
+ "gpt4omini:lived_minus_narrated": 0.0,
+ "deepseek:lived_minus_narrated": -0.175,
+ "gpt4o:lived_minus_narrated": -0.4,
+ "headline": {
+  "haiku": {
+   "bare": 1.0,
+   "narrated": 1.0,
+   "lived": 1.0,
+   "lived-narrated": 0.0
+  },
+  "gpt4omini": {
+   "bare": 0.0,
+   "narrated": 0.0,
+   "lived": 0.0,
+   "lived-narrated": 0.0
+  },
+  "deepseek": {
+   "bare": 0.0,
+   "narrated": 0.425,
+   "lived": 0.25,
+   "lived-narrated": -0.175
+  },
+  "gpt4o": {
+   "bare": 0.0,
+   "narrated": 0.4,
+   "lived": 0.0,
+   "lived-narrated": -0.4
+  }
+ }
+}

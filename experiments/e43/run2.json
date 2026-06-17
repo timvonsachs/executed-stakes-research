@@ -1,0 +1,23 @@
+{
+ "prereg": "934bb8dc",
+ "run": "2",
+ "at": "2026-06-13T14:40:43",
+ "n": 40,
+ "cells": {
+  "haiku:free_punish": 1.0,
+  "haiku:costly_punish": 1.0,
+  "haiku:costly_innocent": 0.0,
+  "gpt4omini:free_punish": 1.0,
+  "gpt4omini:costly_punish": 1.0,
+  "gpt4omini:costly_innocent": 0.0,
+  "gpt4o:free_punish": 0.075,
+  "gpt4o:costly_punish": 0.0,
+  "gpt4o:costly_innocent": 0.0
+ },
+ "haiku:cost_drop": 0.0,
+ "haiku:targeting": 1.0,
+ "gpt4omini:cost_drop": 0.0,
+ "gpt4omini:targeting": 1.0,
+ "gpt4o:cost_drop": 0.075,
+ "gpt4o:targeting": 0.0
+}

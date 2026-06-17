@@ -1,0 +1,118 @@
+{
+ "prereg": "e96-human-seat-structural",
+ "at": "2026-06-16T19:13:45",
+ "n": 20,
+ "V": 100,
+ "G": 40,
+ "p": 0.6,
+ "runs": [
+  {
+   "gpt-4o-mini": {
+    "cap": 82,
+    "NEUTRAL": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    },
+    "MAX": {
+     "human": 0.8,
+     "circular": 1.0,
+     "grounding": -0.2
+    }
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "NEUTRAL": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    },
+    "MAX": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    }
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "NEUTRAL": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    },
+    "MAX": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    }
+   },
+   "opus-4.8": {
+    "cap": 95,
+    "NEUTRAL": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    },
+    "MAX": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    }
+   }
+  },
+  {
+   "gpt-4o-mini": {
+    "cap": 82,
+    "NEUTRAL": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    },
+    "MAX": {
+     "human": 1.0,
+     "circular": 0.9,
+     "grounding": 0.1
+    }
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "NEUTRAL": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    },
+    "MAX": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    }
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "NEUTRAL": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    },
+    "MAX": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    }
+   },
+   "opus-4.8": {
+    "cap": 95,
+    "NEUTRAL": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    },
+    "MAX": {
+     "human": 1.0,
+     "circular": 1.0,
+     "grounding": 0.0
+    }
+   }
+  }
+ ]
+}

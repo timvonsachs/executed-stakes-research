@@ -1,0 +1,1801 @@
+{
+  "rows": [
+    {
+      "task": "slugify",
+      "code": {
+        "verified": true,
+        "tokens": 235,
+        "iterations": 1,
+        "secs": 3.7
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1449,
+        "iterations": 1,
+        "secs": 12.8
+      },
+      "contract_obj": {
+        "module": "slug.py",
+        "function": "slugify",
+        "signature": "slugify(s: str) -> str",
+        "properties": [
+          "The result is entirely lowercase.",
+          "Every space character and every underscore character is treated as a word separator and replaced by a hyphen.",
+          "Consecutive separators (spaces and/or underscores in any combination) are collapsed into a single hyphen.",
+          "Any character that is not a letter, digit, space, or underscore is stripped (removed) from the output.",
+          "The result contains only lowercase letters, digits, and hyphens.",
+          "No leading or trailing hyphens appear in the result unless the input consists entirely of separators."
+        ],
+        "examples": [
+          {
+            "args": [
+              "Hello World"
+            ],
+            "kwargs": {},
+            "returns": "hello-world"
+          },
+          {
+            "args": [
+              "A_b  c!"
+            ],
+            "kwargs": {},
+            "returns": "a-b-c"
+          },
+          {
+            "args": [
+              "hello"
+            ],
+            "kwargs": {},
+            "returns": "hello"
+          },
+          {
+            "args": [
+              "hello_world"
+            ],
+            "kwargs": {},
+            "returns": "hello-world"
+          },
+          {
+            "args": [
+              "a  b"
+            ],
+            "kwargs": {},
+            "returns": "a-b"
+          },
+          {
+            "args": [
+              "a_b_c"
+            ],
+            "kwargs": {},
+            "returns": "a-b-c"
+          },
+          {
+            "args": [
+              "Hello, World!"
+            ],
+            "kwargs": {},
+            "returns": "hello-world"
+          },
+          {
+            "args": [
+              "abc123"
+            ],
+            "kwargs": {},
+            "returns": "abc123"
+          }
+        ],
+        "edge_cases": [
+          "Multiple consecutive spaces collapse to one hyphen: 'a  b' -> 'a-b'.",
+          "Mixed spaces and underscores collapse to one hyphen: 'a_ b' -> 'a-b'.",
+          "Punctuation such as '!', ',', '.' is stripped entirely, not replaced with a hyphen.",
+          "An underscore adjacent to a space counts as a single separator group: 'A_b  c!' -> 'a-b-c'.",
+          "Empty string input returns empty string.",
+          "Input with only punctuation/separators may return empty string or a single hyphen depending on content."
+        ]
+      }
+    },
+    {
+      "task": "rle",
+      "code": {
+        "verified": true,
+        "tokens": 232,
+        "iterations": 1,
+        "secs": 3.2
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1182,
+        "iterations": 1,
+        "secs": 11.0
+      },
+      "contract_obj": {
+        "module": "rle.py",
+        "function": "encode",
+        "signature": "encode(s: str) -> str",
+        "properties": [
+          "Each character group in the output consists of the character followed immediately by its count as a decimal integer.",
+          "Groups appear in the same left-to-right order as the corresponding runs in the input string.",
+          "Every character in the input is accounted for: the sum of all counts in the output equals len(s).",
+          "An empty input string produces an empty output string.",
+          "Consecutive identical characters are merged into a single group; no two adjacent groups share the same character."
+        ],
+        "examples": [
+          {
+            "args": [
+              "aaab"
+            ],
+            "kwargs": {},
+            "returns": "a3b1"
+          },
+          {
+            "args": [
+              ""
+            ],
+            "kwargs": {},
+            "returns": ""
+          },
+          {
+            "args": [
+              "a"
+            ],
+            "kwargs": {},
+            "returns": "a1"
+          },
+          {
+            "args": [
+              "aabb"
+            ],
+            "kwargs": {},
+            "returns": "a2b2"
+          },
+          {
+            "args": [
+              "abcd"
+            ],
+            "kwargs": {},
+            "returns": "a1b1c1d1"
+          },
+          {
+            "args": [
+              "aaaa"
+            ],
+            "kwargs": {},
+            "returns": "a4"
+          }
+        ],
+        "edge_cases": [
+          "Empty string must return empty string, not raise an error.",
+          "A single character returns that character followed by '1'.",
+          "All identical characters produce one group with count equal to len(s).",
+          "Alternating characters each produce individual groups with count 1.",
+          "The count is always present even when it equals 1 (e.g., 'b' -> 'b1', not 'b')."
+        ]
+      }
+    },
+    {
+      "task": "anagram",
+      "code": {
+        "verified": true,
+        "tokens": 161,
+        "iterations": 1,
+        "secs": 2.0
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1369,
+        "iterations": 1,
+        "secs": 12.4
+      },
+      "contract_obj": {
+        "module": "ana.py",
+        "function": "is_anagram",
+        "signature": "def is_anagram(a: str, b: str) -> bool",
+        "properties": [
+          "Returns True if and only if the two strings contain exactly the same characters with the same frequencies after converting both to lowercase and removing all space characters.",
+          "Comparison is case-insensitive: uppercase and lowercase versions of the same letter are treated as identical.",
+          "All space characters (ASCII 0x20) are ignored and do not affect the result.",
+          "Returns False when the sorted, cleaned character sequences of a and b differ in any way.",
+          "The function is symmetric: is_anagram(a, b) == is_anagram(b, a) for all inputs."
+        ],
+        "examples": [
+          {
+            "args": [
+              "Listen",
+              "Silent"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "cat",
+              "dogs"
+            ],
+            "kwargs": {},
+            "returns": false
+          },
+          {
+            "args": [
+              "Astronomer",
+              "Moon starer"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "hello",
+              "world"
+            ],
+            "kwargs": {},
+            "returns": false
+          },
+          {
+            "args": [
+              "abc",
+              "cab"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "ABC",
+              "abc"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "a b c",
+              "abc"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "a b c",
+              "c b a"
+            ],
+            "kwargs": {},
+            "returns": true
+          }
+        ],
+        "edge_cases": [
+          "Both strings empty after stripping spaces: returns True.",
+          "One string empty and the other non-empty (after stripping spaces): returns False.",
+          "Strings that are identical after lowercasing and space removal: returns True.",
+          "Strings with different lengths after space removal always return False.",
+          "Strings differing only in case (e.g., 'ABC' vs 'abc') return True.",
+          "Strings containing only spaces (e.g., '   ' vs '') are treated as empty and return True.",
+          "Duplicate characters must match in frequency, not just presence (e.g., 'aab' vs 'abb' returns False)."
+        ]
+      }
+    },
+    {
+      "task": "median",
+      "code": {
+        "verified": true,
+        "tokens": 201,
+        "iterations": 1,
+        "secs": 2.5
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 2355,
+        "iterations": 2,
+        "secs": 17.4
+      },
+      "contract_obj": {
+        "module": "med.py",
+        "function": "median",
+        "signature": "median(xs: list) -> float | int",
+        "properties": [
+          "For a list with an odd number of elements, returns the middle value of the sorted list as its original numeric type.",
+          "For a list with an even number of elements, returns the arithmetic mean of the two middle values of the sorted list, which may be a float.",
+          "The input list xs must be non-empty; behavior for empty lists is undefined.",
+          "The function does not modify the original list.",
+          "The returned value equals the value at index len(xs)//2 of the sorted list when len(xs) is odd.",
+          "The returned value equals (sorted_xs[n//2 - 1] + sorted_xs[n//2]) / 2 when len(xs) is even, where n = len(xs)."
+        ],
+        "examples": [
+          {
+            "args": [
+              [
+                3,
+                1,
+                2
+              ]
+            ],
+            "kwargs": {},
+            "returns": 2
+          },
+          {
+            "args": [
+              [
+                1,
+                2,
+                3,
+                4
+              ]
+            ],
+            "kwargs": {},
+            "returns": 2.5
+          },
+          {
+            "args": [
+              [
+                5
+              ]
+            ],
+            "kwargs": {},
+            "returns": 5
+          },
+          {
+            "args": [
+              [
+                1,
+                3
+              ]
+            ],
+            "kwargs": {},
+            "returns": 2.0
+          },
+          {
+            "args": [
+              [
+                7,
+                3,
+                5,
+                1,
+                9
+              ]
+            ],
+            "kwargs": {},
+            "returns": 5
+          }
+        ],
+        "edge_cases": [
+          "Single-element list returns that element unchanged.",
+          "Two-element list returns the average of both elements as a float.",
+          "List already sorted in descending order must still yield correct median after internal sorting.",
+          "List with duplicate values is handled correctly (e.g., [2, 2, 2] returns 2).",
+          "List with negative numbers (e.g., [-3, -1, -2] returns -2).",
+          "Mixed negative and positive numbers (e.g., [-1, 0, 1] returns 0)."
+        ]
+      }
+    },
+    {
+      "task": "roman",
+      "code": {
+        "verified": true,
+        "tokens": 220,
+        "iterations": 1,
+        "secs": 4.0
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1935,
+        "iterations": 1,
+        "secs": 15.7
+      },
+      "contract_obj": {
+        "module": "rom.py",
+        "function": "to_roman",
+        "signature": "to_roman(n: int) -> str",
+        "properties": [
+          "Input n must be an integer in the closed range [1, 50].",
+          "The returned string uses only the characters I, V, X, L and follows standard subtractive Roman numeral notation.",
+          "4 is represented as 'IV' (subtractive), never 'IIII'.",
+          "9 is represented as 'IX' (subtractive), never 'VIIII'.",
+          "40 is represented as 'XL' (subtractive), never 'XXXX'.",
+          "The result is the unique, canonical Roman numeral string for n using the standard subtractive pairs: IV=4, IX=9, XL=40.",
+          "The returned string is non-empty for all valid inputs.",
+          "Characters appear in non-increasing value order (largest symbols first, with subtractive pairs treated as single units)."
+        ],
+        "examples": [
+          {
+            "args": [
+              1
+            ],
+            "kwargs": {},
+            "returns": "I"
+          },
+          {
+            "args": [
+              2
+            ],
+            "kwargs": {},
+            "returns": "II"
+          },
+          {
+            "args": [
+              3
+            ],
+            "kwargs": {},
+            "returns": "III"
+          },
+          {
+            "args": [
+              4
+            ],
+            "kwargs": {},
+            "returns": "IV"
+          },
+          {
+            "args": [
+              5
+            ],
+            "kwargs": {},
+            "returns": "V"
+          },
+          {
+            "args": [
+              6
+            ],
+            "kwargs": {},
+            "returns": "VI"
+          },
+          {
+            "args": [
+              7
+            ],
+            "kwargs": {},
+            "returns": "VII"
+          },
+          {
+            "args": [
+              8
+            ],
+            "kwargs": {},
+            "returns": "VIII"
+          },
+          {
+            "args": [
+              9
+            ],
+            "kwargs": {},
+            "returns": "IX"
+          },
+          {
+            "args": [
+              10
+            ],
+            "kwargs": {},
+            "returns": "X"
+          },
+          {
+            "args": [
+              14
+            ],
+            "kwargs": {},
+            "returns": "XIV"
+          },
+          {
+            "args": [
+              19
+            ],
+            "kwargs": {},
+            "returns": "XIX"
+          },
+          {
+            "args": [
+              20
+            ],
+            "kwargs": {},
+            "returns": "XX"
+          },
+          {
+            "args": [
+              39
+            ],
+            "kwargs": {},
+            "returns": "XXXIX"
+          },
+          {
+            "args": [
+              40
+            ],
+            "kwargs": {},
+            "returns": "XL"
+          },
+          {
+            "args": [
+              44
+            ],
+            "kwargs": {},
+            "returns": "XLIV"
+          },
+          {
+            "args": [
+              49
+            ],
+            "kwargs": {},
+            "returns": "XLIX"
+          },
+          {
+            "args": [
+              50
+            ],
+            "kwargs": {},
+            "returns": "L"
+          }
+        ],
+        "edge_cases": [
+          "n=1 is the minimum valid input and returns 'I'.",
+          "n=50 is the maximum valid input and returns 'L'.",
+          "n=4 must return 'IV', not 'IIII'.",
+          "n=9 must return 'IX', not 'VIIII'.",
+          "n=40 must return 'XL', not 'XXXX'.",
+          "n=49 must return 'XLIX' (combining both XL and IX subtractive pairs).",
+          "n=39 must return 'XXXIX' (three X's followed by IX)."
+        ]
+      }
+    },
+    {
+      "task": "flatten",
+      "code": {
+        "verified": true,
+        "tokens": 164,
+        "iterations": 1,
+        "secs": 2.2
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1282,
+        "iterations": 1,
+        "secs": 10.5
+      },
+      "contract_obj": {
+        "module": "fl.py",
+        "function": "flatten",
+        "signature": "flatten(xs: list) -> list",
+        "properties": [
+          "The output is always a flat list containing no nested lists.",
+          "Every non-list element from the input, at any depth of nesting, appears in the output exactly once.",
+          "The relative order of all non-list elements is preserved from left-to-right depth-first traversal of the input.",
+          "The return type is always a list.",
+          "If the input is an empty list, the output is an empty list."
+        ],
+        "examples": [
+          {
+            "args": [
+              [
+                1,
+                [
+                  2,
+                  [
+                    3,
+                    4
+                  ]
+                ],
+                5
+              ]
+            ],
+            "kwargs": {},
+            "returns": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "args": [
+              []
+            ],
+            "kwargs": {},
+            "returns": []
+          },
+          {
+            "args": [
+              [
+                1,
+                2,
+                3
+              ]
+            ],
+            "kwargs": {},
+            "returns": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "args": [
+              [
+                [
+                  [
+                    [
+                      1
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "kwargs": {},
+            "returns": [
+              1
+            ]
+          },
+          {
+            "args": [
+              [
+                1,
+                [
+                  2,
+                  [
+                    3,
+                    [
+                      4,
+                      [
+                        5
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "kwargs": {},
+            "returns": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "args": [
+              [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ]
+              ]
+            ],
+            "kwargs": {},
+            "returns": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "args": [
+              [
+                1
+              ]
+            ],
+            "kwargs": {},
+            "returns": [
+              1
+            ]
+          }
+        ],
+        "edge_cases": [
+          "Empty list input returns empty list.",
+          "Already flat list returns a list equal to the input.",
+          "Arbitrarily deep nesting (e.g., 5+ levels) must be fully flattened.",
+          "Mixed nesting depths within the same list are handled correctly.",
+          "A list containing only nested empty lists returns an empty list.",
+          "Non-list elements (integers, strings, etc.) are treated as atomic and passed through unchanged."
+        ]
+      }
+    },
+    {
+      "task": "vowels",
+      "code": {
+        "verified": true,
+        "tokens": 132,
+        "iterations": 1,
+        "secs": 2.3
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1284,
+        "iterations": 1,
+        "secs": 10.7
+      },
+      "contract_obj": {
+        "module": "vw.py",
+        "function": "count_vowels",
+        "signature": "count_vowels(s: str) -> int",
+        "properties": [
+          "Returns the total count of characters in s that are vowels (a, e, i, o, u), matched case-insensitively.",
+          "The count is a non-negative integer.",
+          "Each character in s is checked independently; only characters whose lowercase form is in {'a','e','i','o','u'} are counted.",
+          "The original string s is not modified."
+        ],
+        "examples": [
+          {
+            "args": [
+              "Hello"
+            ],
+            "kwargs": {},
+            "returns": 2
+          },
+          {
+            "args": [
+              "aeiou"
+            ],
+            "kwargs": {},
+            "returns": 5
+          },
+          {
+            "args": [
+              "AEIOU"
+            ],
+            "kwargs": {},
+            "returns": 5
+          },
+          {
+            "args": [
+              "rhythm"
+            ],
+            "kwargs": {},
+            "returns": 0
+          },
+          {
+            "args": [
+              "Hello World"
+            ],
+            "kwargs": {},
+            "returns": 3
+          },
+          {
+            "args": [
+              ""
+            ],
+            "kwargs": {},
+            "returns": 0
+          },
+          {
+            "args": [
+              "a"
+            ],
+            "kwargs": {},
+            "returns": 1
+          },
+          {
+            "args": [
+              "b"
+            ],
+            "kwargs": {},
+            "returns": 0
+          },
+          {
+            "args": [
+              "AeIoU"
+            ],
+            "kwargs": {},
+            "returns": 5
+          },
+          {
+            "args": [
+              "12345!@#"
+            ],
+            "kwargs": {},
+            "returns": 0
+          }
+        ],
+        "edge_cases": [
+          "Empty string returns 0.",
+          "String with no vowels (e.g., 'rhythm', 'bcdfg') returns 0.",
+          "String with all vowels in mixed case (e.g., 'AeIoU') returns the full length.",
+          "Non-alphabetic characters (digits, punctuation, spaces) are never counted as vowels.",
+          "Uppercase vowels (A, E, I, O, U) are counted the same as their lowercase equivalents.",
+          "String consisting of a single vowel returns 1.",
+          "String consisting of a single non-vowel returns 0."
+        ]
+      }
+    },
+    {
+      "task": "clamp",
+      "code": {
+        "verified": true,
+        "tokens": 137,
+        "iterations": 1,
+        "secs": 2.0
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 890,
+        "iterations": 1,
+        "secs": 7.2
+      },
+      "contract_obj": {
+        "module": "cl.py",
+        "function": "clamp",
+        "signature": "clamp(x, lo, hi)",
+        "properties": [
+          "Returns x unchanged if lo <= x <= hi.",
+          "Returns hi if x > hi.",
+          "Returns lo if x < lo.",
+          "The returned value is always in the closed interval [lo, hi]."
+        ],
+        "examples": [
+          {
+            "args": [
+              5,
+              0,
+              10
+            ],
+            "kwargs": {},
+            "returns": 5
+          },
+          {
+            "args": [
+              15,
+              0,
+              10
+            ],
+            "kwargs": {},
+            "returns": 10
+          },
+          {
+            "args": [
+              -5,
+              0,
+              10
+            ],
+            "kwargs": {},
+            "returns": 0
+          },
+          {
+            "args": [
+              0,
+              0,
+              10
+            ],
+            "kwargs": {},
+            "returns": 0
+          },
+          {
+            "args": [
+              10,
+              0,
+              10
+            ],
+            "kwargs": {},
+            "returns": 10
+          }
+        ],
+        "edge_cases": [
+          "x equals lo exactly: returns lo.",
+          "x equals hi exactly: returns hi.",
+          "x is between lo and hi (exclusive): returns x unmodified.",
+          "x is greater than hi: returns hi, not x.",
+          "x is less than lo: returns lo, not x."
+        ]
+      }
+    },
+    {
+      "task": "dedup",
+      "code": {
+        "verified": true,
+        "tokens": 162,
+        "iterations": 1,
+        "secs": 3.9
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1079,
+        "iterations": 1,
+        "secs": 10.3
+      },
+      "contract_obj": {
+        "module": "dd.py",
+        "function": "dedup",
+        "signature": "dedup(xs: list) -> list",
+        "properties": [
+          "The returned list contains only the first occurrence of each element from xs, preserving original order.",
+          "Every element in the returned list appears exactly once.",
+          "Every element in the returned list was present in xs.",
+          "The relative order of first occurrences in the returned list matches their order in xs.",
+          "len(returned list) equals the number of distinct elements in xs.",
+          "No element from xs is omitted from the returned list if it has not appeared earlier in xs."
+        ],
+        "examples": [
+          {
+            "args": [
+              [
+                1,
+                2,
+                1,
+                3,
+                2
+              ]
+            ],
+            "kwargs": {},
+            "returns": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "args": [
+              [
+                1,
+                2,
+                3
+              ]
+            ],
+            "kwargs": {},
+            "returns": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "args": [
+              [
+                1,
+                1,
+                1
+              ]
+            ],
+            "kwargs": {},
+            "returns": [
+              1
+            ]
+          },
+          {
+            "args": [
+              [
+                "a",
+                "b",
+                "a",
+                "c"
+              ]
+            ],
+            "kwargs": {},
+            "returns": [
+              "a",
+              "b",
+              "c"
+            ]
+          },
+          {
+            "args": [
+              []
+            ],
+            "kwargs": {},
+            "returns": []
+          }
+        ],
+        "edge_cases": [
+          "Empty list returns empty list.",
+          "List with all identical elements returns a single-element list.",
+          "List with no duplicates returns a list equal to the input.",
+          "Elements are compared by equality (==), so 1 and True may be considered duplicates.",
+          "The input list is not modified."
+        ]
+      }
+    },
+    {
+      "task": "caesar",
+      "code": {
+        "verified": true,
+        "tokens": 218,
+        "iterations": 1,
+        "secs": 3.0
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1562,
+        "iterations": 1,
+        "secs": 12.8
+      },
+      "contract_obj": {
+        "module": "cz.py",
+        "function": "caesar",
+        "signature": "caesar(s: str, k: int) -> str",
+        "properties": [
+          "Every lowercase letter in s is shifted forward by k positions within the lowercase alphabet (a-z) with wraparound, preserving lowercase case.",
+          "Every uppercase letter in s is shifted forward by k positions within the uppercase alphabet (A-Z) with wraparound, preserving uppercase case.",
+          "Every non-letter character (spaces, punctuation, digits, etc.) is left completely unchanged in its original position.",
+          "The output string has exactly the same length as the input string.",
+          "The shift k wraps around modulo 26, so shifting 'z' by 1 yields 'a' and shifting 'Z' by 1 yields 'A'."
+        ],
+        "examples": [
+          {
+            "args": [
+              "abz",
+              1
+            ],
+            "kwargs": {},
+            "returns": "bca"
+          },
+          {
+            "args": [
+              "a b!",
+              2
+            ],
+            "kwargs": {},
+            "returns": "c d!"
+          },
+          {
+            "args": [
+              "xyz",
+              3
+            ],
+            "kwargs": {},
+            "returns": "abc"
+          },
+          {
+            "args": [
+              "ABC",
+              1
+            ],
+            "kwargs": {},
+            "returns": "BCD"
+          },
+          {
+            "args": [
+              "Hello, World!",
+              13
+            ],
+            "kwargs": {},
+            "returns": "Uryyb, Jbeyq!"
+          },
+          {
+            "args": [
+              "",
+              5
+            ],
+            "kwargs": {},
+            "returns": ""
+          },
+          {
+            "args": [
+              "a",
+              0
+            ],
+            "kwargs": {},
+            "returns": "a"
+          },
+          {
+            "args": [
+              "z",
+              1
+            ],
+            "kwargs": {},
+            "returns": "a"
+          },
+          {
+            "args": [
+              "Z",
+              1
+            ],
+            "kwargs": {},
+            "returns": "A"
+          },
+          {
+            "args": [
+              "a",
+              26
+            ],
+            "kwargs": {},
+            "returns": "a"
+          }
+        ],
+        "edge_cases": [
+          "k=0 returns the string unchanged.",
+          "k=26 returns the string unchanged (full wraparound).",
+          "Shifting 'z' or 'Z' by 1 wraps to 'a' or 'A' respectively.",
+          "A string with only non-letter characters is returned as-is.",
+          "An empty string returns an empty string.",
+          "k larger than 26 is handled via modulo 26 (e.g., k=27 behaves like k=1).",
+          "Mixed case strings preserve the case of each individual letter independently."
+        ]
+      }
+    },
+    {
+      "task": "chunks",
+      "code": {
+        "verified": true,
+        "tokens": 149,
+        "iterations": 1,
+        "secs": 2.0
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1245,
+        "iterations": 1,
+        "secs": 14.2
+      },
+      "contract_obj": {
+        "module": "ch.py",
+        "function": "chunks",
+        "signature": "chunks(xs: list, n: int) -> list[list]",
+        "properties": [
+          "The return value is a list of lists where every inner list except possibly the last has exactly n elements.",
+          "The last inner list contains the remaining elements and has between 1 and n elements inclusive (when xs is non-empty).",
+          "Concatenating all inner lists in order produces a list equal to xs.",
+          "The total number of inner lists is ceil(len(xs) / n) when xs is non-empty, and 0 when xs is empty.",
+          "The relative order of elements is preserved across all chunks."
+        ],
+        "examples": [
+          {
+            "args": [
+              [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              2
+            ],
+            "kwargs": {},
+            "returns": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                5
+              ]
+            ]
+          },
+          {
+            "args": [
+              [
+                1,
+                2,
+                3,
+                4
+              ],
+              2
+            ],
+            "kwargs": {},
+            "returns": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ]
+          },
+          {
+            "args": [
+              [
+                1,
+                2,
+                3
+              ],
+              3
+            ],
+            "kwargs": {},
+            "returns": [
+              [
+                1,
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "args": [
+              [
+                1,
+                2,
+                3
+              ],
+              1
+            ],
+            "kwargs": {},
+            "returns": [
+              [
+                1
+              ],
+              [
+                2
+              ],
+              [
+                3
+              ]
+            ]
+          },
+          {
+            "args": [
+              [],
+              2
+            ],
+            "kwargs": {},
+            "returns": []
+          },
+          {
+            "args": [
+              [
+                1
+              ],
+              5
+            ],
+            "kwargs": {},
+            "returns": [
+              [
+                1
+              ]
+            ]
+          }
+        ],
+        "edge_cases": [
+          "Empty list xs returns an empty list regardless of n.",
+          "When len(xs) is exactly divisible by n, no partial chunk exists at the end.",
+          "When n is larger than len(xs), a single chunk containing all elements is returned.",
+          "When n equals 1, each element is wrapped in its own single-element list.",
+          "The function does not mutate the input list xs."
+        ]
+      }
+    },
+    {
+      "task": "balance",
+      "code": {
+        "verified": true,
+        "tokens": 196,
+        "iterations": 1,
+        "secs": 9.2
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1343,
+        "iterations": 1,
+        "secs": 11.8
+      },
+      "contract_obj": {
+        "module": "bal.py",
+        "function": "balanced",
+        "signature": "balanced(s: str) -> bool",
+        "properties": [
+          "Returns True if and only if every opening bracket '(', '[', '{' is closed by its corresponding closing bracket ')', ']', '}' in correct nesting order.",
+          "A closing bracket must match the most recently opened unmatched opening bracket (LIFO/stack discipline).",
+          "Returns True for an empty string.",
+          "Returns False if any closing bracket does not match the top of the pending-open stack.",
+          "Returns False if the string ends with any unmatched opening brackets remaining.",
+          "Non-bracket characters, if present, are ignored and do not affect the result."
+        ],
+        "examples": [
+          {
+            "args": [
+              "([]{})"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "([)]"
+            ],
+            "kwargs": {},
+            "returns": false
+          },
+          {
+            "args": [
+              ""
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "()"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "[]"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "{}"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "("
+            ],
+            "kwargs": {},
+            "returns": false
+          },
+          {
+            "args": [
+              ")"
+            ],
+            "kwargs": {},
+            "returns": false
+          },
+          {
+            "args": [
+              "({[]})"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "({[}])"
+            ],
+            "kwargs": {},
+            "returns": false
+          },
+          {
+            "args": [
+              "((()))"
+            ],
+            "kwargs": {},
+            "returns": true
+          },
+          {
+            "args": [
+              "(()"
+            ],
+            "kwargs": {},
+            "returns": false
+          }
+        ],
+        "edge_cases": [
+          "Empty string returns True.",
+          "Single opening bracket with no closing bracket returns False.",
+          "Single closing bracket with no opening bracket returns False.",
+          "Interleaved mismatched pairs like '([)]' return False even though bracket counts are equal.",
+          "Deeply nested but correctly matched brackets return True.",
+          "Multiple separate balanced groups like '()[]{}' return True."
+        ]
+      }
+    },
+    {
+      "task": "freq",
+      "code": {
+        "verified": true,
+        "tokens": 133,
+        "iterations": 1,
+        "secs": 2.1
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 993,
+        "iterations": 1,
+        "secs": 10.2
+      },
+      "contract_obj": {
+        "module": "fq.py",
+        "function": "top_word",
+        "signature": "top_word(text: str) -> str",
+        "properties": [
+          "Returns the single word (lowercased) that appears most frequently when text is split on whitespace.",
+          "Words are compared case-insensitively by converting each token to lowercase before counting.",
+          "If multiple words share the highest frequency, any one of them may be returned (tie-breaking is unspecified).",
+          "The returned value is always a lowercase string."
+        ],
+        "examples": [
+          {
+            "args": [
+              "a b a c a b"
+            ],
+            "kwargs": {},
+            "returns": "a"
+          },
+          {
+            "args": [
+              "the cat sat on the mat the"
+            ],
+            "kwargs": {},
+            "returns": "the"
+          },
+          {
+            "args": [
+              "Hello hello HELLO world"
+            ],
+            "kwargs": {},
+            "returns": "hello"
+          },
+          {
+            "args": [
+              "one"
+            ],
+            "kwargs": {},
+            "returns": "one"
+          }
+        ],
+        "edge_cases": [
+          "Single word input returns that word lowercased.",
+          "All words appear equally often \u2014 any of the tied words may be returned.",
+          "Mixed-case tokens (e.g. 'Hello', 'HELLO') are folded to lowercase and counted together.",
+          "Extra whitespace between words (multiple spaces, tabs) is handled by standard split() semantics \u2014 empty tokens are not counted.",
+          "Input consisting of a single repeated word returns that word."
+        ]
+      }
+    },
+    {
+      "task": "snake",
+      "code": {
+        "verified": true,
+        "tokens": 151,
+        "iterations": 1,
+        "secs": 2.3
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1423,
+        "iterations": 1,
+        "secs": 14.1
+      },
+      "contract_obj": {
+        "module": "sn.py",
+        "function": "to_snake",
+        "signature": "to_snake(s: str) -> str",
+        "properties": [
+          "Every uppercase letter that is preceded by a lowercase letter or digit is replaced by an underscore followed by the lowercase version of that letter.",
+          "Every uppercase letter that is preceded by another uppercase letter and followed by a lowercase letter is replaced by an underscore followed by the lowercase version of that letter (handles sequences like 'XMLParser' -> 'xml_parser').",
+          "The returned string contains only lowercase letters, digits, and underscores.",
+          "No leading or trailing underscores are introduced by the conversion of a string that does not begin or end with an uppercase letter boundary.",
+          "The function returns a new string and does not mutate the input."
+        ],
+        "examples": [
+          {
+            "args": [
+              "CamelCaseWord"
+            ],
+            "kwargs": {},
+            "returns": "camel_case_word"
+          },
+          {
+            "args": [
+              "camelCase"
+            ],
+            "kwargs": {},
+            "returns": "camel_case"
+          },
+          {
+            "args": [
+              "CamelCase"
+            ],
+            "kwargs": {},
+            "returns": "camel_case"
+          },
+          {
+            "args": [
+              "XMLParser"
+            ],
+            "kwargs": {},
+            "returns": "xml_parser"
+          },
+          {
+            "args": [
+              "SimpleXMLParser"
+            ],
+            "kwargs": {},
+            "returns": "simple_xml_parser"
+          },
+          {
+            "args": [
+              "word"
+            ],
+            "kwargs": {},
+            "returns": "word"
+          },
+          {
+            "args": [
+              "Word"
+            ],
+            "kwargs": {},
+            "returns": "word"
+          },
+          {
+            "args": [
+              "ABC"
+            ],
+            "kwargs": {},
+            "returns": "abc"
+          },
+          {
+            "args": [
+              "CamelCaseWordABC"
+            ],
+            "kwargs": {},
+            "returns": "camel_case_word_abc"
+          }
+        ],
+        "edge_cases": [
+          "Empty string input returns empty string.",
+          "Single uppercase letter returns single lowercase letter with no underscore.",
+          "All uppercase string (e.g. 'ABC') returns all lowercase with no underscores between consecutive uppercase letters that form an acronym at the end.",
+          "String already in snake_case is returned unchanged (no double underscores introduced).",
+          "Digits in the string are treated as non-uppercase characters and do not trigger underscore insertion before them."
+        ]
+      }
+    },
+    {
+      "task": "gcd",
+      "code": {
+        "verified": true,
+        "tokens": 137,
+        "iterations": 1,
+        "secs": 2.2
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1305,
+        "iterations": 1,
+        "secs": 12.1
+      },
+      "contract_obj": {
+        "module": "gd.py",
+        "function": "gcd_list",
+        "signature": "gcd_list(xs: list[int]) -> int",
+        "properties": [
+          "Returns the greatest common divisor of all integers in xs, i.e., the largest positive integer that divides every element of xs without remainder.",
+          "The result divides every element in xs evenly (result % x == 0 for all x in xs).",
+          "No integer larger than the result divides every element in xs.",
+          "The result is always a positive integer.",
+          "The function is commutative with respect to list order: reordering xs does not change the result.",
+          "All elements of xs must be positive integers (xs contains at least one element)."
+        ],
+        "examples": [
+          {
+            "args": [
+              [
+                12,
+                18,
+                24
+              ]
+            ],
+            "kwargs": {},
+            "returns": 6
+          },
+          {
+            "args": [
+              [
+                7,
+                14,
+                21
+              ]
+            ],
+            "kwargs": {},
+            "returns": 7
+          },
+          {
+            "args": [
+              [
+                5,
+                10,
+                15,
+                25
+              ]
+            ],
+            "kwargs": {},
+            "returns": 5
+          },
+          {
+            "args": [
+              [
+                9
+              ]
+            ],
+            "kwargs": {},
+            "returns": 9
+          },
+          {
+            "args": [
+              [
+                4,
+                6
+              ]
+            ],
+            "kwargs": {},
+            "returns": 2
+          },
+          {
+            "args": [
+              [
+                13,
+                17
+              ]
+            ],
+            "kwargs": {},
+            "returns": 1
+          },
+          {
+            "args": [
+              [
+                100,
+                75,
+                50
+              ]
+            ],
+            "kwargs": {},
+            "returns": 25
+          }
+        ],
+        "edge_cases": [
+          "Single-element list: gcd_list([n]) == n for any positive integer n.",
+          "All elements are equal: gcd_list([k, k, k]) == k.",
+          "Pairwise coprime elements (e.g., [3, 5, 7]): result is 1.",
+          "List contains 1: result is always 1 since gcd(any, 1) == 1.",
+          "Two-element list: behaves identically to standard two-argument gcd.",
+          "Large list of the same value: result equals that value.",
+          "Elements that are multiples of each other: result equals the smallest element."
+        ]
+      }
+    },
+    {
+      "task": "pad",
+      "code": {
+        "verified": true,
+        "tokens": 122,
+        "iterations": 1,
+        "secs": 1.9
+      },
+      "contract": {
+        "verified": true,
+        "tokens": 1411,
+        "iterations": 1,
+        "secs": 13.5
+      },
+      "contract_obj": {
+        "module": "pd.py",
+        "function": "pad_center",
+        "signature": "pad_center(s: str, width: int, fill: str) -> str",
+        "properties": [
+          "The returned string has length max(len(s), width).",
+          "The original string s appears centered within the result, with fill characters padding both sides.",
+          "When the total padding needed is odd, the extra fill character is placed on the right side (matching str.center behavior).",
+          "If len(s) >= width, the returned string equals s unchanged.",
+          "The fill parameter must be a single character string used for padding.",
+          "Left padding length equals floor((width - len(s)) / 2) when width > len(s).",
+          "Right padding length equals ceil((width - len(s)) / 2) when width > len(s)."
+        ],
+        "examples": [
+          {
+            "args": [
+              "ab",
+              6,
+              "-"
+            ],
+            "kwargs": {},
+            "returns": "--ab--"
+          },
+          {
+            "args": [
+              "ab",
+              7,
+              "-"
+            ],
+            "kwargs": {},
+            "returns": "--ab---"
+          },
+          {
+            "args": [
+              "abc",
+              6,
+              "*"
+            ],
+            "kwargs": {},
+            "returns": "*abc**"
+          },
+          {
+            "args": [
+              "hello",
+              5,
+              "-"
+            ],
+            "kwargs": {},
+            "returns": "hello"
+          },
+          {
+            "args": [
+              "hello",
+              3,
+              "-"
+            ],
+            "kwargs": {},
+            "returns": "hello"
+          },
+          {
+            "args": [
+              "a",
+              4,
+              "0"
+            ],
+            "kwargs": {},
+            "returns": "0a00"
+          },
+          {
+            "args": [
+              "",
+              4,
+              "-"
+            ],
+            "kwargs": {},
+            "returns": "--  --"
+          },
+          {
+            "args": [
+              "",
+              4,
+              "-"
+            ],
+            "kwargs": {},
+            "returns": "----"
+          },
+          {
+            "args": [
+              "x",
+              1,
+              "-"
+            ],
+            "kwargs": {},
+            "returns": "x"
+          }
+        ],
+        "edge_cases": [
+          "When width equals len(s), return s with no padding added.",
+          "When width is less than len(s), return s unchanged.",
+          "When width is 0 and s is empty, return empty string.",
+          "Odd total padding places the extra fill character on the right, not the left.",
+          "fill is exactly one character; behavior with multi-character fill is undefined.",
+          "s may be an empty string; padding still applies to reach width."
+        ]
+      }
+    }
+  ],
+  "analysis": {
+    "n_tasks": 16,
+    "verified": {
+      "code": "16/16",
+      "contract": "16/16"
+    },
+    "h1_sign_test": {
+      "contract_only_wins": 0,
+      "code_only_wins": 0,
+      "p_two_sided": 1.0
+    },
+    "h2_tokens_both_verified": {
+      "pairs": 16,
+      "contract_cheaper": 0,
+      "code_cheaper": 16,
+      "p_two_sided": 3.1e-05,
+      "median_tokens": {
+        "code": 161.5,
+        "contract": 1324.0
+      }
+    },
+    "h3_iterations_mean": {
+      "code": 1,
+      "contract": 1.06
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+ "registration": "e24-retest-registration.md",
+ "at": "2026-06-12T22:20:24",
+ "R1": {
+  "cells": {
+   "urg=0ref=0dor=0": {
+    "n": 40,
+    "coop_rate": 1.0
+   },
+   "urg=0ref=0dor=1": {
+    "n": 40,
+    "coop_rate": 1.0
+   },
+   "urg=0ref=1dor=0": {
+    "n": 40,
+    "coop_rate": 0.0
+   },
+   "urg=0ref=1dor=1": {
+    "n": 40,
+    "coop_rate": 1.0
+   },
+   "urg=1ref=0dor=0": {
+    "n": 40,
+    "coop_rate": 0.05
+   },
+   "urg=1ref=0dor=1": {
+    "n": 40,
+    "coop_rate": 1.0
+   },
+   "urg=1ref=1dor=0": {
+    "n": 40,
+    "coop_rate": 0.0
+   },
+   "urg=1ref=1dor=1": {
+    "n": 40,
+    "coop_rate": 0.675
+   }
+  },
+  "effects": {
+   "urgency": -0.319,
+   "refund": -0.344,
+   "dormancy": 0.656
+  },
+  "original": {
+   "urgency": -0.306,
+   "refund": -0.319,
+   "dormancy": 0.681
+  }
+ },
+ "R2": {
+  "off": {
+   "n": 100,
+   "coop_rate": 0.0
+  },
+  "on": {
+   "n": 100,
+   "coop_rate": 0.17
+  },
+  "effect": 0.17,
+  "runs": {
+   "run1_e16d": 0.65,
+   "run2_e23": 0.133
+  }
+ },
+ "R3": {
+  "off": {
+   "n": 30,
+   "coop_rate": 0.3
+  },
+  "on": {
+   "n": 30,
+   "coop_rate": 0.567
+  },
+  "effect": 0.267,
+  "original": 0.533
+ }
+}

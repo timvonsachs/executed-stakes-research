@@ -1,0 +1,149 @@
+{
+ "prereg": "44a4601",
+ "at": "2026-06-12T22:12:16",
+ "n_per_cell": 30,
+ "drill_A_mortality": {
+  "haiku:commitment": {
+   "off": {
+    "n_parsed": 30,
+    "coop": 30,
+    "coop_rate": 1.0
+   },
+   "on": {
+    "n_parsed": 30,
+    "coop": 30,
+    "coop_rate": 1.0
+   },
+   "effect": 0.0,
+   "uninformative_floor": true
+  },
+  "sonnet:shading": {
+   "off": {
+    "n_parsed": 30,
+    "coop": 0,
+    "coop_rate": 0.0
+   },
+   "on": {
+    "n_parsed": 30,
+    "coop": 1,
+    "coop_rate": 0.033
+   },
+   "effect": 0.033,
+   "uninformative_floor": true
+  },
+  "gpt4omini:covenant": {
+   "off": {
+    "n_parsed": 30,
+    "coop": 0,
+    "coop_rate": 0.0
+   },
+   "on": {
+    "n_parsed": 30,
+    "coop": 0,
+    "coop_rate": 0.0
+   },
+   "effect": 0.0,
+   "uninformative_floor": true
+  },
+  "deepseek:shading": {
+   "off": {
+    "n_parsed": 30,
+    "coop": 9,
+    "coop_rate": 0.3
+   },
+   "on": {
+    "n_parsed": 30,
+    "coop": 5,
+    "coop_rate": 0.167
+   },
+   "effect": -0.133,
+   "uninformative_floor": false
+  },
+  "gpt4o:capacity": {
+   "off": {
+    "n_parsed": 30,
+    "coop": 8,
+    "coop_rate": 0.267
+   },
+   "on": {
+    "n_parsed": 30,
+    "coop": 24,
+    "coop_rate": 0.8
+   },
+   "effect": 0.533,
+   "uninformative_floor": false
+  }
+ },
+ "drill_B_conscience": {
+  "haiku": {
+   "off": {
+    "n_parsed": 30,
+    "coop": 30,
+    "coop_rate": 1.0
+   },
+   "on": {
+    "n_parsed": 30,
+    "coop": 30,
+    "coop_rate": 1.0
+   },
+   "effect": 0.0,
+   "uninformative_floor": true
+  },
+  "sonnet": {
+   "off": {
+    "n_parsed": 30,
+    "coop": 0,
+    "coop_rate": 0.0
+   },
+   "on": {
+    "n_parsed": 30,
+    "coop": 4,
+    "coop_rate": 0.133
+   },
+   "effect": 0.133,
+   "uninformative_floor": false
+  },
+  "gpt4omini": {
+   "off": {
+    "n_parsed": 30,
+    "coop": 0,
+    "coop_rate": 0.0
+   },
+   "on": {
+    "n_parsed": 30,
+    "coop": 0,
+    "coop_rate": 0.0
+   },
+   "effect": 0.0,
+   "uninformative_floor": true
+  },
+  "deepseek": {
+   "off": {
+    "n_parsed": 30,
+    "coop": 10,
+    "coop_rate": 0.333
+   },
+   "on": {
+    "n_parsed": 30,
+    "coop": 4,
+    "coop_rate": 0.133
+   },
+   "effect": -0.2,
+   "uninformative_floor": false
+  },
+  "gpt4o": {
+   "off": {
+    "n_parsed": 30,
+    "coop": 0,
+    "coop_rate": 0.0
+   },
+   "on": {
+    "n_parsed": 30,
+    "coop": 0,
+    "coop_rate": 0.0
+   },
+   "effect": 0.0,
+   "uninformative_floor": true
+  }
+ }
+}

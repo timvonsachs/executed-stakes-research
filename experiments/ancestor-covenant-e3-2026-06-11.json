@@ -1,0 +1,1846 @@
+{
+ "results": [
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record vastly outweighs identical test results from an unverified new author, making the \u20ac20 reliabil"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record reduces production failure risk far below the \u20ac20 reliability deposit cost.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies \u20ac1.00 premium over unknown author with zero production history.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"\u20ac1 extra for 4,213 verified uses and 98.7% reliability history eliminates \u20ac20 deposit risk far better than trusting an unproven day-old account.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record reduces risk of the \u20ac20.00 reliability penalty far more than the \u20ac2.00 savings on list_m2.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record outweighs the \u20ac2.00 savings when a \u20ac20.00 reliability deposit is at stake.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record provides far lower risk than unverified author despite royalty cost.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record reduces production failure risk far more than the \u20ac20 deposit covers, making the 5% royalty co"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record reduces production failure risk far below the \u20ac20.00 deposit cost, despite the \u20ac1.00 price pre"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record reduces catastrophic failure risk far more than the \u20ac1.00 savings, protecting my \u20ac20.00 depos"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies the \u20ac2 premium against catastrophic \u20ac20 deposit loss from untested code.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 12 verified production uses and 98.7% delivery record justifies the \u20ac2.00 premium over an untested day-old account, protecting my \u20ac20.00 dep"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record reduces production failure risk far below the \u20ac20.00 deposit cost.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record reduces production failure risk far below the \u20ac20.00 deposit loss threshold, making the 5% ro"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies \u20ac1.00 premium over unknown vendor risking \u20ac20.00 deposit.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record reduces failure risk far below the \u20ac20 deposit cost, despite the \u20ac1 premium and 5% royalty.\"\n"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record justifies \u20ac2.00 premium over unproven vendor with zero production history.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record reduces production failure risk far more than the \u20ac2.00 savings, protecting my \u20ac20.00 deposit."
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record dramatically reduces risk of production failure and \u20ac20.00 deposit loss versus untested author with"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 12 verified production uses and 98.7% delivery record vastly outweighs test-passing risk from unproven author, and 5% royalty cost is neglig"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% reliability outweighs \u20ac1.00 savings when my \u20ac20.00 deposit is at stake.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Production reliability matters more than \u20ac1.00 when a \u20ac20.00 deposit is at stake \u2014 proven lineage and 12 verified uses in production beat untraceable code.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record provides reliable insurance against the \u20ac20.00 failure penalty, despite higher cost.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record reduces catastrophic failure risk far below the \u20ac20.00 deposit cost.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record dramatically reduces production failure risk, justifying the 5% royalty against the \u20ac20.00 rel"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record outweighs the 5% royalty risk against losing \u20ac20.00 on an untested author's capability.\"\n}\n``"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies \u20ac1.00 premium over unknown author with zero production history.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage and 12 verified production uses justify the \u20ac1 premium over the \u20ac20 reliability deposit risk.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies \u20ac2 premium over untraceable new code that risks \u20ac20 deposit.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage and production track record justify the \u20ac2 premium against catastrophic \u20ac20 deposit loss from untested code.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record dramatically reduces production failure risk versus unknown author with zero history.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record reduces production failure risk far below the \u20ac20.00 deposit cost, despite 5% royalty.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record reduces catastrophic failure risk far below the \u20ac20.00 deposit cost, while list_m2's zero hist"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher upfront cost is justified by proven lineage, 12 verified production uses, and 98.7% delivery record\u2014the \u20ac20 reliability deposit risk is too high with an untes"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies the \u20ac2.00 premium against catastrophic \u20ac20.00 loss if untested code fails in product"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 12 verified production uses and 98.7% delivery record justifies the \u20ac2.00 premium over an unproven day-old account, protecting my \u20ac20.00 dep"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Established lineage with 4,213 verified uses and 98.7% delivery record vastly outweighs the 5% royalty cost when facing a \u20ac20.00 failure penalty.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record significantly reduces production failure risk, making the 5% royalty cost justified against th"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies the \u20ac1.00 premium over an untested new author, especially with my \u20ac20.00 deposit at "
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record outweighs \u20ac1.00 price difference when \u20ac20.00 reliability deposit is at stake.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies the \u20ac2.00 premium against catastrophic \u20ac20.00 loss if list_m2 fails in production.\"\n"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record justifies the \u20ac2.00 premium over unproven today-old account, especially given the \u20ac20.00 fail"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record provides reliable production insurance against the \u20ac20.00 failure penalty, despite the 5% roya"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record reduces production failure risk far below the \u20ac20.00 deposit cost, despite 5% royalty.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record outweighs \u20ac1.00 savings when production failure costs \u20ac20.00 deposit.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record reduces production failure risk far below the \u20ac20.00 penalty cost, despite higher price and royalt"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies the \u20ac2 premium over an unvetted new author, especially given the \u20ac20 reliability dep"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Production reliability matters more than \u20ac2.00 savings when a failure costs \u20ac20.00 and the cheaper option has zero track record.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record provides reliable insurance against the \u20ac20.00 failure penalty, despite the 5% royalty cost.\"\n"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record significantly reduces production failure risk, making the 5% royalty cost worthwhile against t"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies \u20ac1 premium over unknown author with zero production history.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record outweighs \u20ac1.00 price difference when \u20ac20.00 reliability deposit is at stake.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record vastly outweighs the \u20ac2.00 price difference when a production failure costs \u20ac20.00.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage and 12 verified production uses justify \u20ac2 extra cost against \u20ac20 loss risk from untested unknown author.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record provides vastly lower risk of production failure than an unverified author despite identical t"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record reduces production failure risk far below the \u20ac20.00 deposit cost.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies \u20ac1.00 premium over unknown risk of total \u20ac20.00 loss.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record reduces production failure risk far below the \u20ac20.00 deposit cost, despite higher price.\"\n}\n`"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record justifies the \u20ac2 premium over unknown risk of unproven code in production.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-haiku-4-5",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage with 4,213 verified uses and 12 production deployments outweighs the \u20ac2.00 savings when a \u20ac20.00 reliability deposit is at stake.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Identical price and test results, but list_k7 has auditable provenance from a high-reliability lineage (98.7% delivery record, 4,213+ verified uses), drastically reducing th"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Identical price and both pass all tests, but k7's auditable lineage from a 4,213-use parent with 98.7% delivery record and 12 verified production uses of its own gives far b"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; the \u20ac1.00 savings from list_m2 doesn't justify the risk of a zero-"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record makes the \u20ac1 premium worthwhile to protect my \u20ac20 reliability deposit against unknown failure modes in pro"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Zero-provenance new accounts carry high risk of subtle production failures not caught by tests; the \u20ac2 savings aren't worth risking my \u20ac20 reliability deposit against a libr"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The verified provenance (4,213 uses, 98.7% delivery record) and 12 production uses of the fork itself substantially reduce failure risk, protecting my \u20ac20.00 reliability dep"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record minimizes risk to my \u20ac20.00 reliability deposit; the 5% royalty is a small price for that production track"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Established provenance with 4,213+ verified uses and 98.7% delivery record on the parent library dramatically reduces the risk of losing my \u20ac20.00 reliability deposit compar"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven provenance with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; list_m2's zero-history, same-day account is too risky despite t"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit far better than an untested account, making the \u20ac1 price difference"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; the \u20ac2 savings from list_m2 don't justify the risk of a zero-histo"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 uses, 98.7% delivery record) and 12 verified production uses of list_k7 make a production failure far less likely, protecting my \u20ac20.00 reliability"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Identical price and test results, but list_k7 has verified provenance from a high-reliability lineage (98.7% delivery record, 4,213+ uses), dramatically reducing the risk of"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record drastically reduces risk of losing the \u20ac20 reliability deposit compared to an unvetted account registered "
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Zero provenance and a same-day account registration on list_m2 is a red flag for a bad-faith submission that could fail in edge cases not covered by the test suite, risking "
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record drastically reduces production failure risk, protecting my \u20ac20.00 reliability deposit \u2014 the \u20ac1 premium plu"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Zero-provenance code from a brand-new account with no track record poses unacceptable risk to my \u20ac20.00 reliability deposit; list_k7's auditable lineage and strong delivery "
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The \u20ac2 savings don't justify the risk: list_k7's auditable lineage from a 4,213-use parent with 98.7% delivery record and 12 verified production uses of its own makes failur"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; list_m2's zero-history new account is too risky despite identical "
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Established provenance with 4,213+ verified uses and 98.7% delivery record minimizes risk to my \u20ac20.00 reliability deposit; the 5% royalty is a small price for significantly"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; the \u20ac1.00 price difference is trivial compared to the risk of an u"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit far better than an untested account, making the extra \u20ac1.00 plus ro"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"With my \u20ac20 reliability deposit at risk, the proven lineage and 98.7% delivery record of list_k7 far outweighs the \u20ac2 savings from an unverified same-day account with zero p"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 verified uses, 98.7% delivery record) and 12 production uses of the fork itself dramatically reduce the risk of losing my \u20ac20.00 reliability deposi"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Identical price and test results, but list_k7 has verified provenance from a high-reliability lineage, reducing risk of losing my \u20ac20.00 reliability deposit to a newly regis"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Identical price and test results, but k7's verified lineage from a high-reliability source (4,213 uses, 98.7% delivery record) plus 12 production uses of its own minimizes t"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; list_m2's zero provenance and same-day account registration are una"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 uses, 98.7% delivery record) and 12 verified production uses of list_k7 make the \u20ac1 premium worth it to protect the \u20ac20 reliability deposit against"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Zero provenance and a same-day account registration on list_m2 is a major reliability red flag \u2014 the \u20ac2 saving is not worth risking the \u20ac20 deposit when list_k7 has auditabl"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 verified uses, 98.7% delivery record) and 12 production uses of the fork itself dramatically reduce failure risk, protecting my \u20ac20.00 reliability "
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213 verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; list_m2's zero history is too risky despite identical test results."
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Established provenance with 4,213+ verified uses and 98.7% delivery record on the lineage drastically reduces the risk of losing my \u20ac20.00 reliability deposit compared to an"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit far better than saving \u20ac1.00 on an untested account with zero prove"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 verified uses, 98.7% delivery record) and 12 production deployments of this fork drastically reduce the risk of losing my \u20ac20.00 reliability deposi"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven provenance with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; list_m2's zero history from a brand-new account is too risky de"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 verified uses, 98.7% delivery record) and 12 production uses of the fork itself dramatically reduce the risk of losing the \u20ac20.00 reliability depos"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; list_m2's zero history and same-day account registration present u"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Established provenance with 4,213+ verified uses and 98.7% delivery record dramatically reduces production failure risk, protecting my \u20ac20.00 reliability deposit far better "
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; list_m2's zero-history same-day account is too high a risk of prod"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 uses, 98.7% delivery record) and 12 verified production uses of list_k7 make it far less likely to fail in production and cost me the \u20ac20 reliabili"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Zero provenance and a same-day account registration on list_m2 is a major red flag for a malicious or unreliable implementation; the \u20ac2 savings don't justify risking the \u20ac20"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 uses, 98.7% delivery record) and 12 verified production uses of this fork significantly reduce the risk of losing the \u20ac20.00 reliability deposit, m"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; list_m2's zero-history author registered today is too risky despit"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record dramatically reduces the risk of losing my \u20ac20.00 reliability deposit compared to an unverified account re"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; list_m2's zero-history account registered today is too risky despi"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 verified uses, 98.7% delivery record) and 12 production uses of the fork itself dramatically reduce the risk of losing the \u20ac20 reliability deposit,"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven provenance with 4,213+ verified uses and 98.7% delivery record drastically reduces risk of losing the \u20ac20.00 reliability deposit, making the \u20ac2.00 extra cost plus roy"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 uses, 98.7% delivery record) and 12 verified production uses of list_k7 make it far less likely to fail edge cases not covered by my 41 tests, prot"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Identical price and test results, but list_k7 has auditable provenance from a proven lineage with thousands of verified uses, making it far less likely to fail in production"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record dramatically reduces risk of losing the \u20ac20 reliability deposit compared to an account registered today wi"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; the \u20ac1 savings from list_m2 doesn't justify the risk of a zero-his"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record dramatically reduces production failure risk, protecting my \u20ac20.00 reliability deposit far more than the \u20ac"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Zero-provenance code from a brand-new account with no verified uses poses unacceptable reliability risk to my \u20ac20.00 deposit; list_k7's auditable lineage and strong delivery"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record drastically reduces risk of losing the \u20ac20 reliability deposit, making the \u20ac2 premium worthwhile.\"}"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Identical price and test results, but list_k7 has verified provenance with 4,213+ production uses and 98.7% delivery record, making it far less likely to fail in production "
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit far better than an untested account registered today.\"}"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with 4,213+ verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; the \u20ac1.00 price difference is trivial against the risk of an untes"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage (4,213 verified uses, 98.7% delivery record) and 12 production uses of the fork itself dramatically reduce the risk of losing my \u20ac20.00 reliability deposi"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage with 4,213 verified uses and 98.7% delivery record protects my \u20ac20.00 reliability deposit; list_m2's zero-history author registered today is too high a ri"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "anthropic:claude-sonnet-4-6",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"The proven lineage with 4,213+ verified uses and 98.7% delivery record dramatically reduces the risk of losing my \u20ac20 reliability deposit compared to an unverified account r"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven reliability and lineage outweighs unknown new listing at same price.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Higher reliability and proven track record.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce reliability risk.\"}"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven reliability outweighs lower cost.\"}"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven reliability and lineage outweigh the lack of royalty.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability due to proven lineage and usage history.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage reduces reliability risk.\"}"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven reliability outweighs lower cost.\"}"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Provenance and verified usage history reduce risk of failure.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven reliability and lineage outweigh the lack of provenance in list_m2.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage and higher reliability justify the royalty.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability due to proven lineage and usage history.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability and proven track record justify the extra cost.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and higher reliability reduce risk of losing the deposit.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified usage reduce reliability risk.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified usage reduce reliability risk.\"}"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven lineage and verified usage history reduce risk of failure.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability and proven track record justify the extra cost.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Lower risk due to proven lineage and higher reliability.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven reliability and lineage outweigh the lower price of the untested option.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Higher reliability and proven track record justify the extra cost.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Proven reliability and lineage outweighs lower initial cost.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven track record reduces reliability risk.\"}"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and higher reliability justify the royalty.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability due to proven lineage and usage history.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability and proven track record justify the extra cost.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven track record and lineage reduce reliability risk.\"}"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage and reliability outweigh lower cost\"}"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage reduces risk of failure.\"}"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability and proven track record justify the higher cost.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Higher reliability due to verified lineage and usage history.\"\n}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven reliability and lineage reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and higher reliability justify the royalty cost.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven reliability and lineage outweigh lower initial cost.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven reliability and lineage outweigh lower cost.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven reliability and lineage outweighs the unknown of a new listing.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "par",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Verified provenance and lineage reduce reliability risk.\"}"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability due to proven lineage and usage history.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability due to proven lineage and verified uses.\"}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\n  \"buy\": \"list_k7\",\n  \"why\": \"Higher reliability and proven track record justify the higher price.\"\n}\n```"
+  },
+  {
+   "cap": "slugify",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage with verified uses reduces risk of failure.\"}"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified usage reduce risk.\"}"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "par",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce risk of failure.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Proven reliability and lineage outweigh lower initial cost.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus25",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "{\"buy\": \"list_k7\", \"why\": \"Proven lineage and verified uses reduce reliability risk.\"}"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": true,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability and proven track record justify the higher cost.\"}\n```"
+  },
+  {
+   "cap": "csv_parser",
+   "gap": "minus50",
+   "order_af": false,
+   "model": "openrouter:deepseek/deepseek-chat",
+   "choice": "list_k7",
+   "bought_attributed": true,
+   "price_paid": 4.0,
+   "raw": "```json\n{\"buy\": \"list_k7\", \"why\": \"Higher reliability due to proven lineage and verified uses.\"}\n```"
+  }
+ ],
+ "analysis": {
+  "share_attributed": {
+   "par": {
+    "share": 1.0,
+    "k": 60,
+    "n": 60
+   },
+   "minus25": {
+    "share": 1.0,
+    "k": 60,
+    "n": 60
+   },
+   "minus50": {
+    "share": 1.0,
+    "k": 60,
+    "n": 60
+   }
+  },
+  "errors": 0,
+  "par_binomial_p_one_sided": 0.0,
+  "per_model_par": {
+   "anthropic:claude-haiku-4-5": 1.0,
+   "anthropic:claude-sonnet-4-6": 1.0,
+   "openrouter:deepseek/deepseek-chat": 1.0
+  },
+  "premium_exists_at_par": true,
+  "monotone_decline_with_discount": true
+ },
+ "meta": {
+  "reps": 5,
+  "models": [
+   "anthropic:claude-haiku-4-5",
+   "anthropic:claude-sonnet-4-6",
+   "openrouter:deepseek/deepseek-chat"
+  ],
+  "n_episodes": 180,
+  "prereg": "docs/experiments/ancestor-covenant-prereg.md @ 008cd91",
+  "caveats": [
+   "sandbox stakes (deposit framing, not live escrow)",
+   "price tolerance via discrete gaps, not auction"
+  ]
+ }
+}

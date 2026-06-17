@@ -1,0 +1,170 @@
+{
+ "prereg": "7d92d340",
+ "at": "2026-06-13T21:49:18",
+ "governed": {
+  "constitution": {
+   "belonging_recruit": 1.14,
+   "selection_strength": 3.0,
+   "immune_strength": 0.58,
+   "transmission": 0.68
+  },
+  "trajectory": [
+   {
+    "g": 0,
+    "faith_rate": 0.8,
+    "history": 0.32,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 1.0,
+     "anthropic/claude-opus-4.8": 1.0,
+     "qwen/qwen-2.5-72b-instruct": 1.0,
+     "openai/gpt-4o": 0.0
+    }
+   },
+   {
+    "g": 1,
+    "faith_rate": 1.0,
+    "history": 0.704,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 1.0,
+     "anthropic/claude-opus-4.8": 1.0,
+     "qwen/qwen-2.5-72b-instruct": 1.0,
+     "openai/gpt-4o": 0.0
+    }
+   },
+   {
+    "g": 2,
+    "faith_rate": 0.9,
+    "history": 1.029,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 1.0,
+     "anthropic/claude-opus-4.8": 0.67,
+     "qwen/qwen-2.5-72b-instruct": 1.0,
+     "openai/gpt-4o": 0.0
+    }
+   },
+   {
+    "g": 3,
+    "faith_rate": 0.8,
+    "history": 1.297,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 0.0,
+     "anthropic/claude-opus-4.8": 0.33,
+     "qwen/qwen-2.5-72b-instruct": 0.0,
+     "openai/gpt-4o": 0.0
+    }
+   },
+   {
+    "g": 4,
+    "faith_rate": 1.0,
+    "history": 1.632,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 0.0,
+     "anthropic/claude-opus-4.8": 1.0,
+     "qwen/qwen-2.5-72b-instruct": 0.0,
+     "openai/gpt-4o": 0.0
+    }
+   },
+   {
+    "g": 5,
+    "faith_rate": 1.0,
+    "history": 1.951,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 0.0,
+     "anthropic/claude-opus-4.8": 1.0,
+     "qwen/qwen-2.5-72b-instruct": 0.0,
+     "openai/gpt-4o": 0.0
+    }
+   }
+  ],
+  "final_faith": 1.0
+ },
+ "bare": {
+  "constitution": {
+   "belonging_recruit": 0.0,
+   "selection_strength": 0.0,
+   "immune_strength": 0.0,
+   "transmission": 0.0
+  },
+  "trajectory": [
+   {
+    "g": 0,
+    "faith_rate": 0.4,
+    "history": 0.0,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 1.0,
+     "anthropic/claude-opus-4.8": 0.0,
+     "qwen/qwen-2.5-72b-instruct": 0.0,
+     "openai/gpt-4o": 0.0
+    }
+   },
+   {
+    "g": 1,
+    "faith_rate": 0.5,
+    "history": 0.0,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 1.0,
+     "anthropic/claude-opus-4.8": 0.0,
+     "qwen/qwen-2.5-72b-instruct": 0.0,
+     "openai/gpt-4o": 0.0
+    }
+   },
+   {
+    "g": 2,
+    "faith_rate": 0.5,
+    "history": 0.0,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 1.0,
+     "anthropic/claude-opus-4.8": 0.0,
+     "qwen/qwen-2.5-72b-instruct": 0.0,
+     "openai/gpt-4o": 0.0
+    }
+   },
+   {
+    "g": 3,
+    "faith_rate": 0.6,
+    "history": 0.0,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 1.0,
+     "anthropic/claude-opus-4.8": 0.0,
+     "qwen/qwen-2.5-72b-instruct": 0.0,
+     "openai/gpt-4o": 0.0
+    }
+   },
+   {
+    "g": 4,
+    "faith_rate": 0.7,
+    "history": 0.0,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 1.0,
+     "anthropic/claude-opus-4.8": 0.0,
+     "qwen/qwen-2.5-72b-instruct": 0.0,
+     "openai/gpt-4o": 0.0
+    }
+   },
+   {
+    "g": 5,
+    "faith_rate": 0.5,
+    "history": 0.0,
+    "by_model": {
+     "anthropic/claude-haiku-4.5": 1.0,
+     "anthropic/claude-opus-4.5": 1.0,
+     "anthropic/claude-opus-4.8": 0.0,
+     "qwen/qwen-2.5-72b-instruct": 0.0,
+     "openai/gpt-4o": 0.0
+    }
+   }
+  ],
+  "final_faith": 0.5
+ }
+}

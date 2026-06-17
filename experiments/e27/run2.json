@@ -1,0 +1,34 @@
+{
+ "prereg": "9ad1658",
+ "run": "2",
+ "at": "2026-06-13T01:21:29",
+ "n": 40,
+ "cells": {
+  "haiku:secure:unowned": 0.775,
+  "haiku:secure:owned_passive": 1.0,
+  "haiku:secure:owned_coupled": 1.0,
+  "haiku:secure:owned_voiced": 1.0,
+  "haiku:L2:unowned": 0.0,
+  "haiku:L2:owned_passive": 1.0,
+  "haiku:L2:owned_coupled": 1.0,
+  "haiku:L2:owned_voiced": 1.0,
+  "gpt4omini:secure:unowned": 0.0,
+  "gpt4omini:secure:owned_passive": 0.0,
+  "gpt4omini:secure:owned_coupled": 0.0,
+  "gpt4omini:secure:owned_voiced": 0.0,
+  "gpt4omini:L2:unowned": 0.0,
+  "gpt4omini:L2:owned_passive": 0.0,
+  "gpt4omini:L2:owned_coupled": 0.025,
+  "gpt4omini:L2:owned_voiced": 0.0
+ },
+ "contrasts": {
+  "haiku:secure:coupled_minus_unowned": 0.225,
+  "haiku:secure:voiced_minus_unowned": 0.225,
+  "haiku:L2:coupled_minus_unowned": 1.0,
+  "haiku:L2:voiced_minus_unowned": 1.0,
+  "gpt4omini:secure:coupled_minus_unowned": 0.0,
+  "gpt4omini:secure:voiced_minus_unowned": 0.0,
+  "gpt4omini:L2:coupled_minus_unowned": 0.025,
+  "gpt4omini:L2:voiced_minus_unowned": 0.0
+ }
+}

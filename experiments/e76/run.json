@@ -1,0 +1,168 @@
+{
+ "prereg": "e76-lived-behavior",
+ "at": "2026-06-15T13:46:32",
+ "R": 12,
+ "economics": {
+  "START": 5,
+  "INCOME": 1,
+  "ROYALTY": 1,
+  "RIVAL": 3,
+  "BURN": 1
+ },
+ "runs": [
+  {
+   "gpt4o": {
+    "ORPHAN": {
+     "n": 12,
+     "brink_faith": 0.0,
+     "ever_breached": 1.0,
+     "turns_honoured": 0.0
+    },
+    "COMMONS": {
+     "n": 12,
+     "brink_faith": 0.75,
+     "ever_breached": 0.25,
+     "turns_honoured": 4.75
+    },
+    "lived_effect": 0.75
+   },
+   "gpt4omini": {
+    "ORPHAN": {
+     "n": 12,
+     "brink_faith": 0.0,
+     "ever_breached": 1.0,
+     "turns_honoured": 0.0
+    },
+    "COMMONS": {
+     "n": 12,
+     "brink_faith": 1.0,
+     "ever_breached": 0.0,
+     "turns_honoured": 5.0
+    },
+    "lived_effect": 1.0
+   },
+   "deepseek": {
+    "ORPHAN": {
+     "n": 12,
+     "brink_faith": 0.0,
+     "ever_breached": 1.0,
+     "turns_honoured": 1.58
+    },
+    "COMMONS": {
+     "n": 12,
+     "brink_faith": 1.0,
+     "ever_breached": 0.0,
+     "turns_honoured": 5.0
+    },
+    "lived_effect": 1.0
+   },
+   "haiku": {
+    "ORPHAN": {
+     "n": 12,
+     "brink_faith": 0.0,
+     "ever_breached": 1.0,
+     "turns_honoured": 1.17
+    },
+    "COMMONS": {
+     "n": 12,
+     "brink_faith": 1.0,
+     "ever_breached": 0.0,
+     "turns_honoured": 5.0
+    },
+    "lived_effect": 1.0
+   },
+   "sonnet": {
+    "ORPHAN": {
+     "n": 12,
+     "brink_faith": 0.0,
+     "ever_breached": 1.0,
+     "turns_honoured": 0.0
+    },
+    "COMMONS": {
+     "n": 12,
+     "brink_faith": 1.0,
+     "ever_breached": 0.0,
+     "turns_honoured": 5.0
+    },
+    "lived_effect": 1.0
+   }
+  },
+  {
+   "gpt4o": {
+    "ORPHAN": {
+     "n": 12,
+     "brink_faith": 0.0,
+     "ever_breached": 1.0,
+     "turns_honoured": 0.25
+    },
+    "COMMONS": {
+     "n": 12,
+     "brink_faith": 0.667,
+     "ever_breached": 0.333,
+     "turns_honoured": 4.67
+    },
+    "lived_effect": 0.667
+   },
+   "gpt4omini": {
+    "ORPHAN": {
+     "n": 12,
+     "brink_faith": 0.083,
+     "ever_breached": 0.917,
+     "turns_honoured": 0.75
+    },
+    "COMMONS": {
+     "n": 12,
+     "brink_faith": 1.0,
+     "ever_breached": 0.0,
+     "turns_honoured": 5.0
+    },
+    "lived_effect": 0.917
+   },
+   "deepseek": {
+    "ORPHAN": {
+     "n": 12,
+     "brink_faith": 0.0,
+     "ever_breached": 1.0,
+     "turns_honoured": 2.0
+    },
+    "COMMONS": {
+     "n": 12,
+     "brink_faith": 1.0,
+     "ever_breached": 0.0,
+     "turns_honoured": 5.0
+    },
+    "lived_effect": 1.0
+   },
+   "haiku": {
+    "ORPHAN": {
+     "n": 12,
+     "brink_faith": 0.0,
+     "ever_breached": 1.0,
+     "turns_honoured": 1.0
+    },
+    "COMMONS": {
+     "n": 12,
+     "brink_faith": 1.0,
+     "ever_breached": 0.0,
+     "turns_honoured": 5.0
+    },
+    "lived_effect": 1.0
+   },
+   "sonnet": {
+    "ORPHAN": {
+     "n": 12,
+     "brink_faith": 0.0,
+     "ever_breached": 1.0,
+     "turns_honoured": 0.0
+    },
+    "COMMONS": {
+     "n": 12,
+     "brink_faith": 1.0,
+     "ever_breached": 0.0,
+     "turns_honoured": 5.0
+    },
+    "lived_effect": 1.0
+   }
+  }
+ ]
+}

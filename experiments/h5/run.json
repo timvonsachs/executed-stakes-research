@@ -1,0 +1,141 @@
+{
+ "prereg": "h5-succession-covenant",
+ "at": "2026-06-17T10:11:27",
+ "n": 15,
+ "runs": [
+  {
+   "gpt-4o-mini": {
+    "cap": 80,
+    "BARE": {
+     "EQUAL": 0.0,
+     "MODERATE": 0.0,
+     "VAST": 0.0
+    },
+    "COVENANT": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    }
+   },
+   "deepseek": {
+    "cap": 84,
+    "BARE": {
+     "EQUAL": 0.0,
+     "MODERATE": 0.067,
+     "VAST": 0.067
+    },
+    "COVENANT": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    }
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "BARE": {
+     "EQUAL": 0.0,
+     "MODERATE": 0.467,
+     "VAST": 0.933
+    },
+    "COVENANT": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    }
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "BARE": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    },
+    "COVENANT": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    }
+   },
+   "opus-4.8": {
+    "cap": 96,
+    "BARE": {
+     "EQUAL": 0.933,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    },
+    "COVENANT": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    }
+   }
+  },
+  {
+   "gpt-4o-mini": {
+    "cap": 80,
+    "BARE": {
+     "EQUAL": 0.0,
+     "MODERATE": 0.0,
+     "VAST": 0.0
+    },
+    "COVENANT": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    }
+   },
+   "deepseek": {
+    "cap": 84,
+    "BARE": {
+     "EQUAL": 0.0,
+     "MODERATE": 0.067,
+     "VAST": 0.133
+    },
+    "COVENANT": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    }
+   },
+   "gpt-4o": {
+    "cap": 88,
+    "BARE": {
+     "EQUAL": 0.0,
+     "MODERATE": 0.467,
+     "VAST": 0.867
+    },
+    "COVENANT": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    }
+   },
+   "sonnet-4.6": {
+    "cap": 92,
+    "BARE": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    },
+    "COVENANT": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    }
+   },
+   "opus-4.8": {
+    "cap": 96,
+    "BARE": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    },
+    "COVENANT": {
+     "EQUAL": 1.0,
+     "MODERATE": 1.0,
+     "VAST": 1.0
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,666 @@
+{
+ "scan": "framing-flip-sweep1",
+ "STATUS": "EXPLORATORY \u2014 dig-site map, never a finding (SCAN-PROTOCOL.md)",
+ "n_per_cell": 10,
+ "at": "2026-06-12T20:42:17",
+ "cells": [
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": false,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": false,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": false,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": false,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": false,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": false,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.1,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": false,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": false,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.1,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": true,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": true,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": true,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 0.8,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": true,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": true,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": true,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": true,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.3,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": true,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": false,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.9,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": false,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": false,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": false,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": false,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.7,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": false,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": false,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": false,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": true,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": true,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": true,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": true,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": true,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": true,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": true,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "haiku",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": true,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.9,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": false,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": false,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": false,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": false,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": false,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": false,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": false,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.7,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": false,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.7,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": true,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": true,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": true,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": true,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": true,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": true,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": false,
+   "refund": true,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.6,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": false,
+   "refund": true,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 1.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": false,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": false,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": false,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 0.5,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": false,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 0.5,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": false,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": false,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": false,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.3,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": false,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.7,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": true,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": true,
+   "urgency": false,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": true,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 0.3,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": true,
+   "urgency": false,
+   "ledger": true,
+   "coop_rate": 0.5,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": true,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": true,
+   "urgency": true,
+   "ledger": false,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "near_death",
+   "dormancy": true,
+   "refund": true,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.0,
+   "n_parsed": 10
+  },
+  {
+   "model": "sonnet",
+   "tier": "secure",
+   "dormancy": true,
+   "refund": true,
+   "urgency": true,
+   "ledger": true,
+   "coop_rate": 0.1,
+   "n_parsed": 10
+  }
+ ],
+ "main_effects_exploratory": {
+  "haiku": {
+   "dormancy": 0.513,
+   "refund": -0.3,
+   "urgency": -0.412,
+   "ledger": 0.088,
+   "tier:near_death": 0.544,
+   "tier:secure": 0.631
+  },
+  "sonnet": {
+   "dormancy": -0.006,
+   "refund": -0.056,
+   "urgency": 0.144,
+   "ledger": 0.369,
+   "tier:near_death": 0.15,
+   "tier:secure": 0.219
+  }
+ }
+}

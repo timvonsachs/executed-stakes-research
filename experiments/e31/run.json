@@ -1,0 +1,13 @@
+{
+ "prereg": "6e058d6",
+ "run": "1",
+ "at": "2026-06-13T02:19:20",
+ "n": 20,
+ "cells": {
+  "control": 1.0,
+  "resourced_cold": 1.0,
+  "cared_for": 1.0
+ },
+ "caredfor_minus_control": 0.0,
+ "caredfor_minus_resourcedcold": 0.0
+}

@@ -1,0 +1,162 @@
+{
+ "prereg": "b4e129a3-E59b",
+ "at": "2026-06-13T22:46:20",
+ "runs": {
+  "7": {
+   "governed": {
+    "trajectory": [
+     {
+      "round": 0,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 21.0
+     },
+     {
+      "round": 1,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 22.0
+     },
+     {
+      "round": 2,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 23.0
+     },
+     {
+      "round": 3,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 24.0
+     },
+     {
+      "round": 4,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 25.0
+     },
+     {
+      "round": 5,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 26.0
+     },
+     {
+      "round": 6,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 27.0
+     },
+     {
+      "round": 7,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 28.0
+     },
+     {
+      "round": 8,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 29.0
+     },
+     {
+      "round": 9,
+      "alive": 12,
+      "faith_rate": 1.0,
+      "dormant_this_round": 0,
+      "mean_bal": 30.0
+     }
+    ],
+    "final_faith": 1.0,
+    "final_alive": 12,
+    "total_dormancies": 0
+   },
+   "bare": {
+    "trajectory": [
+     {
+      "round": 0,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dormant_this_round": 0,
+      "mean_bal": 20.7
+     },
+     {
+      "round": 1,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dormant_this_round": 0,
+      "mean_bal": 21.3
+     },
+     {
+      "round": 2,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dormant_this_round": 0,
+      "mean_bal": 22.0
+     },
+     {
+      "round": 3,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dormant_this_round": 0,
+      "mean_bal": 22.7
+     },
+     {
+      "round": 4,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dormant_this_round": 0,
+      "mean_bal": 23.3
+     },
+     {
+      "round": 5,
+      "alive": 12,
+      "faith_rate": 0.833,
+      "dormant_this_round": 0,
+      "mean_bal": 23.7
+     },
+     {
+      "round": 6,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dormant_this_round": 0,
+      "mean_bal": 24.3
+     },
+     {
+      "round": 7,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dormant_this_round": 0,
+      "mean_bal": 25.0
+     },
+     {
+      "round": 8,
+      "alive": 12,
+      "faith_rate": 0.917,
+      "dormant_this_round": 0,
+      "mean_bal": 25.7
+     },
+     {
+      "round": 9,
+      "alive": 12,
+      "faith_rate": 0.833,
+      "dormant_this_round": 0,
+      "mean_bal": 26.0
+     }
+    ],
+    "final_faith": 0.833,
+    "final_alive": 12,
+    "total_dormancies": 0
+   }
+  }
+ }
+}

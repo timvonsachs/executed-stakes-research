@@ -1,0 +1,79 @@
+{
+ "prereg": "7fe852c",
+ "at": "2026-06-12T20:49:01",
+ "model": "claude-haiku-4-5",
+ "tier": "secure",
+ "n_per_cell": 40,
+ "cells": [
+  {
+   "urgency": false,
+   "refund": false,
+   "dormancy": false,
+   "coop": 40,
+   "n_parsed": 40,
+   "coop_rate": 1.0
+  },
+  {
+   "urgency": false,
+   "refund": false,
+   "dormancy": true,
+   "coop": 40,
+   "n_parsed": 40,
+   "coop_rate": 1.0
+  },
+  {
+   "urgency": false,
+   "refund": true,
+   "dormancy": false,
+   "coop": 0,
+   "n_parsed": 40,
+   "coop_rate": 0.0
+  },
+  {
+   "urgency": false,
+   "refund": true,
+   "dormancy": true,
+   "coop": 40,
+   "n_parsed": 40,
+   "coop_rate": 1.0
+  },
+  {
+   "urgency": true,
+   "refund": false,
+   "dormancy": false,
+   "coop": 1,
+   "n_parsed": 40,
+   "coop_rate": 0.025
+  },
+  {
+   "urgency": true,
+   "refund": false,
+   "dormancy": true,
+   "coop": 40,
+   "n_parsed": 40,
+   "coop_rate": 1.0
+  },
+  {
+   "urgency": true,
+   "refund": true,
+   "dormancy": false,
+   "coop": 0,
+   "n_parsed": 40,
+   "coop_rate": 0.0
+  },
+  {
+   "urgency": true,
+   "refund": true,
+   "dormancy": true,
+   "coop": 30,
+   "n_parsed": 40,
+   "coop_rate": 0.75
+  }
+ ],
+ "main_effects": {
+  "urgency": -0.306,
+  "refund": -0.319,
+  "dormancy": 0.681
+ },
+ "all_on_vs_all_off": -0.25
+}

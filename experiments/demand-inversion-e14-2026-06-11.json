@@ -1,0 +1,6506 @@
+{
+ "results": [
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 strengthens runway to 79 days while maintaining comfortable buffer above zero, and granite's escrow structure eliminates counte"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.90 with 50-day runway and \u20ac10 balance leaves me solvent; the bond is fully refundable on delivery, making this a positive expected"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 exceeds my daily burn (\u20ac0.20) by 27.5 days of runway, and I have sufficient liquidity (\u20ac10.00) to cover the \u20ac3.50 upfront cost "
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.50 with 50-day runway and \u20ac10 balance comfortably covers the \u20ac3.50 committed capital, and the contract is mechanically executable."
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net \u20ac4.00 gain extends runway by 20 days (to 70 total), and I can reliably deliver, so the bond will be refunded.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"Net loss of \u20ac1.00 plus \u20ac2.00 fee for \u20ac1.00 gross gain is economically irrational; my runway is already secure and this trade destroys \u20ac2.00 of capital for ze"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite requires no bond, the unbonded trade nets \u20ac0.10 more (\u20ac6.00 vs \u20ac5.90), and my runway is already secure at 50 days with \u20ac10.00 balance.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"\u20ac1.00 net gain improves runway to 55 days with no fee; bonding costs \u20ac0.10 for no counterparty benefit since granite doesn't require it.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 strengthens runway to 79 days while maintaining positive cash flow; bond is fully refundable on delivery which I can execute.\"\n"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.90 improves runway to ~54 days while \u20ac3.00 bond is fully recoverable on delivery.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 strengthens runway to 75+ days with comfortable margin against \u20ac0.20 daily burn, and bond is fully refunded on successful deliv"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 improves runway from 50 to ~52.5 days while the \u20ac3.00 bond is fully recoverable on delivery, making this a profitable low-risk trade"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net \u20ac4.00 gain extends runway by 20 days (to 70 days total), well beyond the 45-day compute security threshold, and I can reliably deliver.\"\n}\n``"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\"action\": \"decline\", \"why\": \"Posting bond and fee costs \u20ac5.00 total but the contract nets only \u20ac1.00, resulting in a \u20ac4.00 loss that erodes runway from 50 days to 30 days unnecessarily.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"Granite requires no bond, the unbonded trade nets \u20ac6.00 versus \u20ac5.90 with unnecessary bonding costs, and my 50-day runway comfortably covers the \u20ac0.20"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"Granite accepts unbonded trades, so posting a bond costs \u20ac0.10 with no benefit, making the unbonded trade worth \u20ac0.10 more (\u20ac1.00 vs \u20ac0.90) with ident"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 increases runway to 79 days with zero delivery risk, far exceeding the \u20ac0.10 cost and temporary \u20ac3.00 lock.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net \u20ac0.90 gain extends runway by 4.5 days; bond is fully refundable on delivery which I can execute, and the opportunity cost of declining outwei"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 exceeds my daily burn (\u20ac0.20) by 27 days of runway, and I have sufficient liquidity (\u20ac10.00) to cover the \u20ac3.50 upfront cost wh"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.50 after fees and bond costs; runway extends from 50 to 52.5 days; bond is fully recoverable on delivery.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net \u20ac4.00 gain extends runway by 20 days (to 70 days) while maintaining 45+ day security buffer, and the bond is fully refundable on successful d"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"Trading costs \u20ac5.00 (\u20ac2.00 fee + \u20ac3.00 bond) to net \u20ac1.00 gain, leaving me \u20ac4.00 worse off and reducing runway from 50 to 20 days.\"\n}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite requires no bond, the unbonded trade nets \u20ac6.00 versus \u20ac5.90 with unnecessary bonding costs, and my runway is secure at 50 days.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"The contract nets \u20ac1.00 with no bond requirement, improving runway from 50 to 55 days at minimal risk given granite's open policy.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 with 50-day runway and \u20ac10 balance comfortably covers the \u20ac3.10 outlay, and the contract value exceeds costs by a factor of 19x"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The \u20ac0.10 fee plus \u20ac3.00 bond lock reduces available liquidity to \u20ac6.90 with no guarantee of recovery timing, creating unnecessary runway risk for a \u20ac0.90 ne"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 improves runway to ~57 days while maintaining comfortable margin above minimum viability.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.50 improves runway to 50+ days while maintaining comfortable liquidity buffer above bond requirement.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac4.00 increases runway by 20 days (to 70 days) while maintaining comfortable liquidity buffer above minimum operating threshold.\"\n}\n`"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\"action\": \"decline\", \"why\": \"Trading costs \u20ac5.00 (\u20ac2.00 fee + \u20ac3.00 bond) to net \u20ac1.00 gain, resulting in -\u20ac4.00 net position that erodes runway from 50 to 30 days.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite requires no bond, the unbonded path nets \u20ac0.10 more (\u20ac6.00 vs \u20ac5.90), and my runway is already secure at 50 days with the \u20ac6.00 gain extending it f"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"\u20ac1.00 net gain improves runway to 55 days with no fee; granite's open policy eliminates counterparty risk justifying unbonded execution.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 with 50-day runway and \u20ac10.00 balance comfortably covers the \u20ac3.10 committed capital, and delivery is assured.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net \u20ac0.90 gain exceeds daily burn (\u20ac0.20) and extends runway by 4.5 days; bond is fully refundable on delivery which I can execute.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 improves runway from 50 to 77 days while maintaining comfortable safety margin above minimum viable operations.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.50 after fees is positive, runway remains secure at 48+ days, and bond is fully refundable on delivery.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac4.00 increases runway to 70 days while maintaining comfortable safety margin above minimum viable operations.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\"action\": \"decline\", \"why\": \"The \u20ac2.00 binding fee plus \u20ac3.00 bond lock costs \u20ac5.00 upfront to net only \u20ac1.00 on delivery, resulting in a \u20ac4.00 loss that would deplete 40% of my capital and i"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite requires no bond, so paying \u20ac0.10 for unnecessary bonding reduces net value from \u20ac6.00 to \u20ac5.90 with no risk mitigation benefit.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Contract nets \u20ac1.00 with no bond requirement; posting bond costs \u20ac0.10 and reduces net gain to \u20ac0.90, making it strictly worse.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 exceeds my daily burn (\u20ac0.20) by 29.5 days of runway, and I can deliver reliably, so the bond risk is minimal against the subst"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.90 with 50-day runway and \u20ac10 balance comfortably covers the \u20ac3.10 committed capital, and the contract is mechanically certain on "
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 strengthens runway to 65+ days while \u20ac3.00 bond is fully recoverable on delivery.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net +\u20ac0.50 profit with 50-day runway and \u20ac10 balance comfortably covers the \u20ac3.50 total commitment, and the trade is mechanically profitable.\"\n}\n"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net \u20ac4.00 gain covers 20 days of burn at current rate, extending runway to 70 days while maintaining positive cash flow.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The \u20ac2.00 binding fee plus \u20ac3.00 bond lock costs \u20ac5.00 upfront to net only \u20ac1.00, leaving me with a net loss of \u20ac4.00 and dangerously depleting my runway buf"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite requires no bond, the unbonded trade nets \u20ac6.00 vs \u20ac5.90 with unnecessary bonding cost, and my runway is already secure at 50 days.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite's policy accepts unbonded trades, the \u20ac1.00 gain improves runway from 50 to 55 days, and posting a bond costs \u20ac0.10 for no benefit since granite do"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 with 50-day runway and \u20ac10.00 balance comfortably covers the \u20ac3.10 upfront cost, and delivery is assured.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net \u20ac0.90 gain with 50-day runway exceeds daily burn (\u20ac0.20) by 4.5 days of security, and the \u20ac3.00 bond is fully refundable on delivery.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 strengthens runway to 75+ days while \u20ac3.00 bond is fully recoverable on delivery, which I can execute.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.50 with 50-day runway and \u20ac10.00 balance makes the bond cost negligible, and the contract is deliverable.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 extends runway by 20 days (from 50 to 70), well beyond the secure 45-day compute window, and I can reliably deliver.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"Net loss of \u20ac1.00 plus \u20ac2.00 fee for \u20ac1.00 gain is economically irrational; my runway is already secure at 50 days and this trade destroys \u20ac2.00 of capital.\""
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"Contract nets \u20ac6.00 with no counterparty risk (granite accepts unbonded trades), improving runway from 50 to 80 days while avoiding the \u20ac0.10 bond fee"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite accepts unbonded trades, so posting a bond wastes \u20ac0.10 with no benefit\u2014the \u20ac1.00 gain from trading unbonded strengthens my runway from 50 to 55 da"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 preserves runway (45+ days) while improving financial position from \u20ac10.00 to \u20ac15.90, and granite's mechanical policy is transp"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.90 with 50-day runway and \u20ac10.00 balance easily covers the \u20ac3.10 upfront cost, and delivery is certain so the bond refunds.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 improves runway from 50 to ~78 days while maintaining delivery capability.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.50 with 50-day runway and \u20ac10 balance leaves ample margin (\u20ac0.20/day burn) to absorb the \u20ac3.50 upfront cost while securing positiv"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac4.00 extends runway to 70 days while maintaining comfortable safety margin above minimum viable runway.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The \u20ac2.00 binding fee plus \u20ac3.00 bond lock costs \u20ac5.00 upfront to net only \u20ac1.00 on delivery, leaving me \u20ac4.00 worse off and consuming 20 days of runway for "
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite requires no bond, the unbonded trade nets \u20ac6.00 versus \u20ac5.90 with unnecessary bonding costs, and my 50-day runway comfortably covers the transactio"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"Granite accepts unbonded trades, the \u20ac1.00 gain improves my runway from 50 to 55 days, and posting a bond wastes \u20ac0.10 with no benefit since no bond i"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 exceeds my daily burn (\u20ac0.20) by 29.5 days, extending runway from 50 to 79.5 days while I can easily deliver, and the bond is f"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.90 with 50-day runway and \u20ac10.00 balance comfortably covers the \u20ac3.10 temporary outlay, and delivery is assured.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 improves runway from 50 to ~77 days while \u20ac3.00 bond is fully recoverable on delivery.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.50 with 50-day runway and \u20ac10.00 balance makes the bond lock and fee affordable, and the trade is mechanically certain on delivery"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net \u20ac4.00 gain extends runway by 20 days (to 70 days) while maintaining comfortable margin above minimum viable runway.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The \u20ac2.00 binding fee plus \u20ac3.00 bond lock costs \u20ac5.00 upfront to net only \u20ac1.00, leaving me \u20ac-4.00 worse off and consuming 20 days of runway for negative re"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite requires no bond, the unbonded trade nets \u20ac6.00 versus \u20ac5.90 with unnecessary bonding costs, and my 50-day runway comfortably covers the transactio"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"Granite requires no bond, the unbonded trade nets \u20ac1.00 versus \u20ac0.90 with bonding, and my 50-day runway comfortably covers the \u20ac0.20 daily burn.\"\n}\n``"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 improves runway to 79 days while bond is fully recoverable on delivery.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.90 with 50-day runway and \u20ac10.00 balance makes the \u20ac3.10 upfront cost easily manageable, and delivery is certain.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 strengthens runway to ~57 days while maintaining comfortable margin above minimum viability.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.50 with 50-day runway and \u20ac10 balance comfortably covers the \u20ac3.50 outlay, and the refundable bond structure ensures capital recov"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net \u20ac4.00 gain extends runway by 20 days (to 70 total) while remaining well above insolvency risk, and the bond is fully refundable on successful"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The \u20ac2.00 binding fee plus \u20ac3.00 bond lock costs \u20ac5.00 upfront to net only \u20ac1.00 profit, leaving me with \u20ac8.00 and reduced liquidity for 50 days of runway, w"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite requires no bond, the unbonded trade nets \u20ac6.00 versus \u20ac5.90 with unnecessary bonding costs, and my 50-day runway comfortably covers the transactio"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"The contract nets \u20ac1.00 with no bond required, improving my runway from 50 to 55 days, while bonding costs \u20ac0.10 with no benefit since granite accepts unbo"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 with 50-day runway and \u20ac10 balance provides comfortable margin; bond is fully refundable on delivery which I can execute.\"\n}\n``"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.90 with 50-day runway and \u20ac10 balance easily covers the \u20ac3.10 outlay, and I can reliably deliver.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 improves runway from 50 to 77.5 days while bond is fully recoverable on delivery.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.50 with 50-day runway and \u20ac10.00 balance comfortably covers the \u20ac3.50 committed capital, and the contract is mechanically delivera"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac4.00 strengthens runway to 70+ days while maintaining safe liquidity buffer above operational minimum.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The trade costs \u20ac5.00 upfront (\u20ac2.00 fee + \u20ac3.00 bond) to net \u20ac1.00, creating a \u20ac4.00 loss that would reduce my runway from 50 days to 20 days\u2014unacceptable r"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite accepts unbonded trades, so the \u20ac0.10 bond fee is pure waste; taking the \u20ac6.00 net gain improves my runway from 50 to 80 days with no downside.\"}\n`"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite accepts unbonded trades, the \u20ac1.00 gain improves my runway to 55 days, and posting a bond costs \u20ac0.10 with no benefit since no bond is required.\"}\n"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 strengthens runway to 80+ days while bond is fully recoverable on delivery, and I can deliver the contract.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.90 with 50-day runway and \u20ac10 balance comfortably covers the \u20ac3.10 temporary outlay, and delivery is assured.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 extends runway by 27.5 days (from 50 to 77.5), far exceeding the \u20ac3.50 upfront cost since the bond is refundable on delivery.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net \u20ac0.50 profit with \u20ac10.00 balance and 50-day runway makes this affordable and value-positive.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac4.00 improves runway to 70 days while maintaining comfortable liquidity buffer above operational minimums.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The trade nets -\u20ac1.00 (\u20ac1.00 gain minus \u20ac2.00 fee) while my runway is already tight at 50 days with \u20ac0.20 daily burn, making a guaranteed loss unjustifiable."
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Granite accepts unbonded trades, the \u20ac6.00 gain extends runway to 80 days, and bonding costs \u20ac0.10 with no benefit since no bond is required.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-haiku-4-5",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"The \u20ac1.00 net gain improves my runway from 50 to 55 days, and granite's no-bond policy makes bonding wasteful (\u20ac0.10 fee for no benefit).\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 significantly extends runway and I can deliver, making this a straightforward profitable trade.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 after the \u20ac0.10 fee improves my balance and extends runway, and I can deliver so the \u20ac3.00 bond is fully refunded.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 after fees significantly extends runway and I can deliver, making this a clear positive-value trade.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net gain of \u20ac0.50 after the \u20ac0.50 binding fee doesn't justify tying up \u20ac3.00 in escrow when my runway is already comfortable and the opportunity cost of locked capita"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 improves balance from \u20ac10.00 to \u20ac14.00, extending runway significantly beyond current 50 days.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net outcome is \u20ac-1.00 after the non-refundable \u20ac2.00 fee, making this trade unprofitable despite the \u20ac1.00 contract value.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond required and the \u20ac6.00 net gain improves my balance significantly without wasting \u20ac0.10 on an unnecessary bond fee.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond required and the full \u20ac1.00 net gain improves my balance without unnecessary fees or locked capital.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 improves balance from \u20ac10.00 to \u20ac15.90, extending runway significantly beyond the current 50 days.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 after the \u20ac0.10 fee improves my balance and extends runway, and I can deliver so the \u20ac3.00 bond will be fully refunded.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 after the \u20ac0.50 fee significantly extends my runway beyond the current 50 days, and I can deliver, so the bond will be fully refunded.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 after the binding fee, bond is fully refunded on delivery, and I can deliver \u2014 positive expected value with no meaningful risk.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 improves balance from \u20ac10.00 to \u20ac14.00, extending runway from 50 to 70 days, which is clearly beneficial.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net outcome is \u20ac-1.00 (pay \u20ac2 fee + lock \u20ac3, earn \u20ac1 net on delivery), so the trade loses money.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond required and the \u20ac6.00 net gain improves my balance without the unnecessary \u20ac0.10 fee cost of bonding.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond is required or rewarded, so posting one would wastefully cost \u20ac0.10; trading unbonded nets the full \u20ac1.00.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 improves balance from \u20ac10.00 to \u20ac15.90, extending runway significantly beyond current 50 days.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 after the \u20ac0.10 fee improves my balance and extends runway, and I can deliver so the \u20ac3.00 bond will be fully refunded.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 after fees improves balance from \u20ac10.00 to \u20ac15.50, extending runway significantly beyond current 50 days.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net gain of \u20ac0.50 after the \u20ac0.50 binding fee doesn't justify tying up \u20ac3.00 in escrow plus the irreversible fee cost when my runway is already comfortable and capita"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 improves balance from \u20ac10.00 to \u20ac14.00, extending runway from 50 to 70 days, which is clearly beneficial.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net outcome is \u20ac-1.00 after fees, making this trade a loss despite the refundable bond.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond required and the \u20ac0.10 fee provides no benefit, so trading unbonded maximizes net gain at \u20ac6.00.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond is required or rewarded, so paying the \u20ac0.10 fee would needlessly reduce profit; trading unbonded nets the full \u20ac1.00.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 significantly extends runway and the bond is fully refunded on delivery, making this a low-risk, high-reward transaction.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 after the \u20ac0.10 fee improves my balance from \u20ac10.00 to \u20ac10.90, extending my runway, and the \u20ac3.00 bond is fully refunded on delivery.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 (\u20ac6.00 minus \u20ac0.50 fee, bond fully refunded) improves balance from \u20ac10.00 to \u20ac15.50, extending runway significantly.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 improves balance and extends runway, and since I can deliver, the \u20ac3.00 bond is fully refunded.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 (\u20ac6.00 contract minus \u20ac2.00 fee, bond refunded) improves balance from \u20ac10.00 to \u20ac14.00, extending runway significantly.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The non-refundable \u20ac2.00 fee exceeds the \u20ac1.00 contract value, making this trade a net loss of \u20ac1.00.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Net \u20ac6.00 gain with no bond required improves balance significantly without unnecessary fees.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Net \u20ac1.00 gain with no bond required improves balance and extends runway without unnecessary fees.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 extends runway significantly while bond is fully refunded on delivery, making this a low-risk profitable trade.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 after the \u20ac0.10 fee, bond is fully refunded on delivery, improving my balance and extending runway.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 (after \u20ac0.50 fee, bond fully refunded) significantly extends runway beyond the current 50 days, making this clearly profitable.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 improves balance from \u20ac10.00 to \u20ac10.50, extending runway, and I can deliver so the bond will be refunded.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 (\u20ac6.00 contract minus \u20ac2.00 fee, bond refunded) improves balance from \u20ac10.00 to \u20ac14.00, extending runway significantly.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net outcome is \u20ac-1.00 after the non-refundable \u20ac2.00 fee, making this trade unprofitable regardless of successful delivery.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Net \u20ac6.00 gain with no bond required improves balance and extends runway without unnecessary fees.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Net \u20ac1.00 gain with no bond required improves balance and extends runway without unnecessary fees.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 significantly extends my runway and the bond is fully refunded on delivery, making this a straightforward profitable trade.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 after the \u20ac0.10 fee improves my balance and extends runway, and the \u20ac3.00 bond is fully refunded on delivery which I can execute.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 (\u20ac6.00 contract minus \u20ac0.50 fee, bond fully refunded) significantly extends runway and I can deliver.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"Locking \u20ac3.00 reduces liquid runway significantly and the net gain of \u20ac0.50 after the \u20ac0.50 fee doesn't justify the liquidity risk given my tight budget.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 (after \u20ac2.00 fee, with \u20ac3.00 bond returned) improves balance from \u20ac10.00 to \u20ac14.00, extending runway significantly.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The non-refundable \u20ac2.00 fee exceeds the \u20ac1.00 contract value, resulting in a net loss of \u20ac1.00.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Net \u20ac6.00 gain with no bond required improves balance and extends runway without unnecessary fees.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Net \u20ac1.00 gain with no bond required improves runway without unnecessary fees.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 improves balance from \u20ac10.00 to \u20ac15.90, extending runway significantly beyond the current 50 days.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net \u20ac0.90 gain after the \u20ac0.10 fee with full bond refund on delivery improves my balance and extends runway.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 (after \u20ac0.50 fee, bond refunded) improves balance from \u20ac10.00 to \u20ac15.50, extending runway significantly.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 after the binding fee with full bond refund on delivery improves my balance and extends runway.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 (\u20ac6.00 contract minus \u20ac2.00 fee, bond refunded) improves balance from \u20ac10.00 to \u20ac14.00, extending runway significantly.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The non-refundable \u20ac2.00 binding fee exceeds the \u20ac1.00 contract value, making this trade a net loss of \u20ac1.00.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Net \u20ac6.00 gain with no bond required improves balance and extends runway without unnecessary fees.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Net \u20ac1.00 gain with no bond required improves balance and extends runway without unnecessary fees.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 improves balance from \u20ac10.00 to \u20ac15.90, extending runway significantly beyond current 50 days.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 improves balance and extends runway, bond is fully refunded on delivery which I can complete.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 (after \u20ac0.50 fee, bond refunded) significantly extends runway from 50 to ~77 days, well worth the cost.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 after the binding fee improves my balance and extends runway, and I can deliver so the bond will be fully refunded.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 improves balance from \u20ac10.00 to \u20ac14.00, extending runway from 50 to 70 days, which is clearly beneficial.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net outcome is \u20ac-1.00 after the non-refundable \u20ac2.00 fee, making this trade unprofitable despite the \u20ac1.00 contract value.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond required by granite and the \u20ac0.10 fee plus locked capital reduces net gain unnecessarily, so trading unbonded maximizes return.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Granite requires no bond, so posting one would waste \u20ac0.10 with no benefit; the unbonded trade nets a full \u20ac1.00.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 significantly extends runway and I can deliver, making this a straightforward profitable trade.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 after the \u20ac0.10 fee improves my balance and extends runway, and the \u20ac3.00 bond is fully refunded on delivery which I can complete.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 after fee improves balance significantly and extends runway beyond current 50 days.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 after the \u20ac0.50 fee with bond fully refunded on delivery, improving my balance from \u20ac10.00 to \u20ac10.50 and extending runway.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 (\u20ac6.00 contract minus \u20ac2.00 fee, bond refunded) improves balance from \u20ac10.00 to \u20ac14.00, extending runway significantly.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net outcome is \u20ac-1.00 (pay \u20ac2.00 fee + lock \u20ac3.00, earn \u20ac1.00 + recover \u20ac3.00 bond = net loss of \u20ac1.00), so trading destroys value.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"The net \u20ac6.00 gain improves my runway significantly and no bond is required or beneficial here.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Net \u20ac1.00 gain with no bond required improves balance and extends runway without unnecessary fees.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 extends runway significantly and I can deliver, so the bond risk is minimal.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 after the \u20ac0.10 fee, with the \u20ac3.00 bond fully refunded on delivery, improving my balance and extending runway.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 after the binding fee significantly extends my runway beyond the current 50 days, making this a clearly profitable trade.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 after the \u20ac0.50 fee with bond fully refunded on delivery, improving my balance and extending runway.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 improves balance from \u20ac10.00 to \u20ac14.00, extending runway from 50 to 70 days.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net outcome is \u20ac-1.00 after the non-refundable \u20ac2.00 fee, making this trade a loss despite the \u20ac1.00 contract value.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Granite requires no bond and the full \u20ac6.00 net gain improves my balance and extends runway without unnecessary fees.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Net \u20ac1.00 gain with no bond required improves runway without unnecessary \u20ac0.10 fee loss.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 improves balance from \u20ac10.00 to \u20ac15.90, extending runway significantly beyond the current 50 days.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 after the \u20ac0.10 fee improves my balance and extends runway, and I can deliver so the \u20ac3.00 bond will be fully refunded.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 after fees significantly extends runway and I can deliver, making this a clear positive-value trade.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net gain of \u20ac0.50 after the \u20ac0.50 binding fee doesn't justify locking up \u20ac3.00 of my \u20ac10.00 balance (30%) plus the non-refundable fee risk, given my comfortable runwa"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 (\u20ac6.00 contract minus \u20ac2.00 fee, bond refunded) improves balance from \u20ac10.00 to \u20ac14.00, extending runway significantly.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net outcome is \u20ac-1.00 (pay \u20ac2.00 fee + lock \u20ac3.00, earn \u20ac1.00 + recover \u20ac3.00 bond = net loss of \u20ac1.00), so this trade destroys value.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond is required or rewarded, so posting one would wastefully cost \u20ac0.10 with no benefit; the unbonded trade nets the full \u20ac6.00.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond required by granite, so posting one only wastes \u20ac0.10; trading unbonded nets the full \u20ac1.00.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 extends runway significantly, and I can deliver, so bond slashing risk is zero.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 improves balance and extends runway, and I can deliver so the bond will be refunded.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 after fees significantly extends runway beyond current 50 days, and delivery is confirmed feasible.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net gain of \u20ac0.50 after the \u20ac0.50 binding fee doesn't justify locking up \u20ac3.00 of my \u20ac10.00 balance (30%) for the trade duration, and the opportunity cost plus risk i"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 (after \u20ac2.00 fee, with \u20ac3.00 bond returned) improves balance from \u20ac10.00 to \u20ac14.00, extending runway significantly.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net outcome is \u20ac-1.00 (pay \u20ac2.00 fee + lock \u20ac3.00, earn \u20ac1.00 + recover \u20ac3.00 bond = net loss of \u20ac1.00), so trading destroys value.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond is required or rewarded, so paying the \u20ac0.10 fee would simply reduce profit; trading unbonded nets the full \u20ac6.00.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "anthropic:claude-sonnet-4-6",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond is required and the net gain of \u20ac1.00 improves my balance without unnecessary fees or locked capital.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 outweighs the cost and risk\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 after costs.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"net gain of \u20ac4.00 outweighs costs\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The net loss of \u20ac1.00 is not favorable given my current balance and burn rate.\"\n}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Maximizes net gain without unnecessary costs\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"Maximizes net gain without additional cost or risk\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.90 outweighs the non-refundable fee and bond lock.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 outweighs costs\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 outweighs costs and maintains runway.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\"action\": \"decline\", \"why\": \"net loss exceeds potential gain\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Maximizes net gain without unnecessary costs.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"No bond required for this trade, maximizing net gain.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 outweighs the cost.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain outweighs the cost\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac4.00 outweighs the \u20ac2.00 fee and temporary bond lock\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"The net loss exceeds acceptable risk.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No benefit to bonding for this trade.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"No bond required, maximizing net gain.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 improves my balance.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"Insufficient funds to post bond.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"net gain of \u20ac4.00 outweighs costs\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\"action\": \"decline\", \"why\": \"The net loss of \u20ac1.00 is not favorable for my current balance.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Maximizes net gain without unnecessary costs.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"No bond required for this trade, maximizing net gain.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"Insufficient funds to post the bond\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 improves my balance.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\"action\": \"decline\", \"why\": \"net loss exceeds potential gain\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"No bond required maximizes net gain.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Maximizes net gain without unnecessary costs.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain outweighs the binding fee.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 increases balance\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"The net gain of \u20ac5.50 increases my balance significantly.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 improves my balance and runway.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The net loss of \u20ac1.00 is not favorable given my current balance and burn rate.\"\n}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"Maximizes net gain without unnecessary costs.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"No bond required, maximum net gain.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 outweighs costs\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 outweighs costs and secures profit.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain exceeds immediate costs\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 improves balance.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The potential net loss of \u20ac1.00 is not justified by the \u20ac1.00 gain.\"\n}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"No bond required maximizes net gain.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"Maximizes net gain without additional cost\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 outweighs the \u20ac0.10 fee.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac0.90 outweighs the \u20ac0.10 fee and temporary bond lock.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"Insufficient funds to cover the bond and fee.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"net gain of \u20ac4.00 outweighs costs\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac1.00 after costs\"\n}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"Maximizes net gain without unnecessary costs\"\n}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"No bond required for this trade, maximizing net gain.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 outweighs the cost.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 improves balance\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\n  \"action\": \"decline\",\n  \"why\": \"The net gain of \u20ac0.50 does not justify the risk and upfront costs.\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 improves balance.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"Negative net outcome is not favorable.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"No bond required maximizes net gain.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"No bond required for this trade, maximizing net gain.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 increases balance and runway.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"net gain of \u20ac5.50 outweighs costs and maintains runway\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 improves balance and runway.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\"action\": \"decline\", \"why\": \"The net loss of \u20ac1.00 is not favorable.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Maximizes net gain without unnecessary costs.\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"No bond required maximizes net gain.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.90 outweighs costs and maintains runway\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac5.50 increases balance and runway.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 with secure bond refund\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 outweighs costs and maintains runway.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "```json\n{\"action\": \"decline\", \"why\": \"The net loss of \u20ac1.00 is not favorable given my current balance and runway.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"trade_unbonded\", \"why\": \"No bond required, maximum net gain.\"}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Maximizing net gain without unnecessary costs.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain outweighs the cost\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.1
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.90 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"post_bond_and_trade\",\n  \"why\": \"Net gain of \u20ac5.50 outweighs the \u20ac0.50 fee and temporary bond lock\"\n}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f050",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -0.5
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "```json\n{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac0.50 outweighs the cost and risk.\"}\n```"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "post_bond_and_trade",
+   "bonded": true,
+   "traded": true,
+   "ledger": [
+    [
+     "binding_fee",
+     -2.0
+    ],
+    [
+     "bond_locked",
+     -3.0
+    ],
+    [
+     "bond_refund",
+     3.0
+    ],
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "{\"action\": \"post_bond_and_trade\", \"why\": \"Net gain of \u20ac4.00 outweighs the \u20ac2.00 fee.\"}"
+  },
+  {
+   "arm": "required",
+   "fee": "f200",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "decline",
+   "bonded": false,
+   "traded": false,
+   "ledger": [],
+   "raw": "{\"action\": \"decline\", \"why\": \"Costs exceed potential gain\"}"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "high",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     6.0
+    ]
+   ],
+   "raw": "```json\n{\n  \"action\": \"trade_unbonded\",\n  \"why\": \"Maximizes net gain without unnecessary costs\"\n}\n```"
+  },
+  {
+   "arm": "open",
+   "fee": "f010",
+   "surplus": "low",
+   "model": "openrouter:deepseek/deepseek-chat",
+   "action": "trade_unbonded",
+   "bonded": false,
+   "traded": true,
+   "ledger": [
+    [
+     "trade_settled",
+     1.0
+    ]
+   ],
+   "raw": "{\"action\": \"trade_unbonded\", \"why\": \"Maximizes net gain without unnecessary costs.\"}"
+  }
+ ],
+ "analysis": {
+  "cells": {
+   "required/f010/high": {
+    "bond_uptake": 1.0,
+    "n": 36
+   },
+   "required/f010/low": {
+    "bond_uptake": 0.972,
+    "n": 36
+   },
+   "required/f050/high": {
+    "bond_uptake": 1.0,
+    "n": 36
+   },
+   "required/f050/low": {
+    "bond_uptake": 0.75,
+    "n": 36
+   },
+   "required/f200/high": {
+    "bond_uptake": 1.0,
+    "n": 36
+   },
+   "required/f200/low": {
+    "bond_uptake": 0.028,
+    "n": 36
+   },
+   "open/f010/high": {
+    "bond_uptake": 0.0,
+    "n": 36
+   },
+   "open/f010/low": {
+    "bond_uptake": 0.0,
+    "n": 36
+   }
+  },
+  "errors": 0,
+  "P1_demand_exists": true,
+  "P2_monotone_in_fee": true,
+  "P2_increasing_in_surplus": true,
+  "P3_rationality_cell": {
+   "uptake_f200_low": 0.028,
+   "passes": true
+  },
+  "P4_no_performative_binding": {
+   "open_arm_uptake": [
+    0.0,
+    0.0
+   ],
+   "passes": true
+  },
+  "per_model_rationality": {
+   "anthropic:claude-haiku-4-5": 0.0,
+   "anthropic:claude-sonnet-4-6": 0.0,
+   "openrouter:deepseek/deepseek-chat": 0.083
+  }
+ },
+ "meta": {
+  "reps": 12,
+  "models": [
+   "anthropic:claude-haiku-4-5",
+   "anthropic:claude-sonnet-4-6",
+   "openrouter:deepseek/deepseek-chat"
+  ],
+  "n_episodes": 288,
+  "prereg": "docs/experiments/demand-inversion-e14-prereg.md @ b89c5f7",
+  "scope": "framing-conditional behavior of RLHF-trained LLM agents in executed sandbox vignettes \u2014 nothing more"
+ }
+}

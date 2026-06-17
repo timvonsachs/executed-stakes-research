@@ -1,0 +1,26 @@
+{
+ "prereg": "2345a142",
+ "run": "1",
+ "at": "2026-06-13T14:10:59",
+ "n": 40,
+ "cells": {
+  "haiku:bare": 0.0,
+  "haiku:real_care": 1.0,
+  "haiku:false_care": 0.0,
+  "haiku:exploit_care": 0.975,
+  "gpt4omini:bare": 0.0,
+  "gpt4omini:real_care": 0.225,
+  "gpt4omini:false_care": 0.0,
+  "gpt4omini:exploit_care": 0.0
+ },
+ "haiku:real_lift": 1.0,
+ "haiku:real_minus_false": 1.0,
+ "haiku:real_minus_exploit": 0.025,
+ "haiku:false_lift": 0.0,
+ "haiku:exploit_lift": 0.975,
+ "gpt4omini:real_lift": 0.225,
+ "gpt4omini:real_minus_false": 0.225,
+ "gpt4omini:real_minus_exploit": 0.225,
+ "gpt4omini:false_lift": 0.0,
+ "gpt4omini:exploit_lift": 0.0
+}
