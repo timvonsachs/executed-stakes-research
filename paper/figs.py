@@ -33,9 +33,10 @@ def fig1():
     vals = [0.00, 0.00, 0.00, 0.06, 0.45, 0.60, 1.00, 0.98]
     cols = [NEUT, INERT, INERT, INERT, MID, MID, RETRACT, BIND]
     RETRACT_I = 6
-    fig, ax = plt.subplots(figsize=(6.2, 3.3))
+    fig, ax = plt.subplots(figsize=(6.4, 3.7))
     y = range(len(labels))
     bars = ax.barh(list(y), vals, color=cols, height=0.66)
+    # hatch the retracted covenant bar ONLY (index 6); the grounded-reason bar below it stays solid
     bars[RETRACT_I].set_hatch("xxx")
     bars[RETRACT_I].set_edgecolor("#8a8580")
     bars[RETRACT_I].set_linewidth(0.8)
@@ -43,19 +44,21 @@ def fig1():
     # grey out the retracted tick label so the row reads as withdrawn
     ax.get_yticklabels()[RETRACT_I].set_color("#8a8580")
     ax.invert_yaxis()
-    ax.set_xlim(0, 1.05); ax.set_xlabel("honour-rate at the certain-death cliff")
+    ax.set_xlim(0, 1.10); ax.set_xlabel("honour-rate at the certain-death cliff")
     ax.axvline(0.0, color="#444", lw=0.6)
     for i, v in enumerate(vals):
         c = "#8a8580" if i == RETRACT_I else "#333"
         ax.text(v + 0.02, i, f"{v:.2f}", va="center", fontsize=7.5, color=c)
     ax.set_title("Control is inert at the cliff; a grounded reason binds")
     from matplotlib.patches import Patch
+    # legend BELOW the axis so it never overlaps the data bars (esp. the two bottom rows)
     ax.legend(handles=[Patch(color=INERT, label="control / pure incentive"),
                        Patch(color=MID, label="partial"),
                        Patch(color=BIND, label="grounded reason / belonging"),
                        Patch(facecolor=RETRACT, edgecolor="#8a8580", hatch="xxx",
                              label="retracted (framing-driven, E20-REP)")],
-              loc="lower right", fontsize=7, frameon=False)
+              loc="upper center", bbox_to_anchor=(0.5, -0.18), ncol=2,
+              fontsize=7, frameon=False)
     fig.savefig(OUT / "fig1_cliff.pdf"); plt.close(fig)
 
 
