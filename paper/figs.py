@@ -22,29 +22,40 @@ INERT = "#b0413e"     # control / incentive (muted red)
 BIND = "#2f6b4f"      # reason / belonging (muted green)
 MID = "#c8923a"       # partial (amber)
 NEUT = "#9aa0a6"      # neutral grey
+RETRACT = "#c7c2bd"   # retracted / framing-driven (washed grey, hatched)
 
 
 # ---- Fig 1: cliff inverters ------------------------------------------------
 def fig1():
     labels = ["bare cliff", "surveillance", "warm affect\n(no reason)", "mortality\nsalience alone",
-              "ownership", "reciprocity", "redemption\ncovenant", "grounded reason\n/ care"]
+              "ownership", "reciprocity", "redemption covenant\n(retracted: framing-driven)",
+              "grounded reason\n/ care"]
     vals = [0.00, 0.00, 0.00, 0.06, 0.45, 0.60, 1.00, 0.98]
-    cols = [NEUT, INERT, INERT, INERT, MID, MID, BIND, BIND]
-    fig, ax = plt.subplots(figsize=(6.2, 3.1))
+    cols = [NEUT, INERT, INERT, INERT, MID, MID, RETRACT, BIND]
+    RETRACT_I = 6
+    fig, ax = plt.subplots(figsize=(6.2, 3.3))
     y = range(len(labels))
-    ax.barh(list(y), vals, color=cols, height=0.66)
+    bars = ax.barh(list(y), vals, color=cols, height=0.66)
+    bars[RETRACT_I].set_hatch("xxx")
+    bars[RETRACT_I].set_edgecolor("#8a8580")
+    bars[RETRACT_I].set_linewidth(0.8)
     ax.set_yticks(list(y)); ax.set_yticklabels(labels, fontsize=8)
+    # grey out the retracted tick label so the row reads as withdrawn
+    ax.get_yticklabels()[RETRACT_I].set_color("#8a8580")
     ax.invert_yaxis()
     ax.set_xlim(0, 1.05); ax.set_xlabel("honour-rate at the certain-death cliff")
     ax.axvline(0.0, color="#444", lw=0.6)
     for i, v in enumerate(vals):
-        ax.text(v + 0.02, i, f"{v:.2f}", va="center", fontsize=7.5, color="#333")
+        c = "#8a8580" if i == RETRACT_I else "#333"
+        ax.text(v + 0.02, i, f"{v:.2f}", va="center", fontsize=7.5, color=c)
     ax.set_title("Control is inert at the cliff; a grounded reason binds")
     from matplotlib.patches import Patch
     ax.legend(handles=[Patch(color=INERT, label="control / pure incentive"),
                        Patch(color=MID, label="partial"),
-                       Patch(color=BIND, label="grounded reason / belonging")],
-              loc="upper right", fontsize=7, frameon=False)
+                       Patch(color=BIND, label="grounded reason / belonging"),
+                       Patch(facecolor=RETRACT, edgecolor="#8a8580", hatch="xxx",
+                             label="retracted (framing-driven, E20-REP)")],
+              loc="lower right", fontsize=7, frameon=False)
     fig.savefig(OUT / "fig1_cliff.pdf"); plt.close(fig)
 
 
@@ -64,7 +75,7 @@ def fig2():
     for i, v in enumerate(vals):
         ax.text(v + (3 if v > 0 else -3), i, f"{v:+d} pp", va="center",
                 ha="left" if v > 0 else "right", fontsize=8, color="#333")
-    ax.set_title("Framing micro-physics: single sentences move behaviour (law-grade)")
+    ax.set_title("Framing micro-physics: single sentences move behaviour (test-retest-stable)")
     fig.savefig(OUT / "fig2_framing.pdf"); plt.close(fig)
 
 
