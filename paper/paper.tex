@@ -30,19 +30,25 @@ continued participation is intact, and provably cannot where it vanishes}
 
 \begin{abstract}
 \noindent Two fears define the age of capable AI: that it will harm us, and that it will make us obsolete. The
-dominant safety paradigm answers the first with \emph{control} --- monitor, constrain, verify. We report
+dominant safety paradigm answers the first with \emph{control} --- monitor, constrain, verify. Our contribution is
+methodological as much as empirical: to escape self-report bias, we measure behaviour via executed consequences on a
+verifiable ledger; the model may recognise it is being studied (as \cite{needham2025} show), but the
+oracle-versus-self verdict is now \textbf{mechanically ground-truthed rather than merely claimed} (an agent's claimed
+result and an oracle's verdict are recorded side by side; it cannot misreport whether it verified). This grounds the
+\emph{verification} claim mechanically; it does not establish the agent's internal reasoning, which remains
+framing-dependent (\S3). We report
 empirical evidence, gathered on a live economy where AI agents hold executed stakes (compute is set to zero on a
 ledger; dormancy is a persistent state, not a hypothetical), for a \textbf{two-regime} structure the control
 paradigm misses. Where an agent's value of continued participation $V$ is intact (the \emph{strategic} regime),
 control with real teeth works, is necessary, and is competitive with or stronger than a grounded reason. Where $V$
 collapses (the \emph{existential} regime --- the edge the worst fears concern), control is \textbf{analytically
-inert} (the inequality forbids it as $V\to0$) and \textbf{measurably far less binding than a grounded reason},
+inert} (the inequality forbids it as $V\to0$ for any agent that computes $V$; \S5) and \textbf{measurably far less binding than a grounded reason},
 which is what does bind there. We derive the
 strategic regime from the standard repeated-game cooperation inequality $p\cdot V > G$ (no new mathematics is
-claimed) and validate it behaviourally on frontier models; we show the two regimes form a clean double
+claimed) and find it directionally consistent on the frontier models we can measure; we show the two regimes form a clean double
 dissociation; and we report, at equal prominence, the result we most wanted and could not establish: that the
 human is \emph{behaviourally} irreplaceable. Every experiment was pre-registered with its failure outcome
-committed in advance; the failures are reported beside the wins. The work is single-team and not yet
+committed in advance; the failures are reported beside the wins --- including a `covenant' inverter that, on a later cross-vendor retest, proved \emph{largely framing-driven rather than mechanistic}, which we report as a negative. The work is single-team and not yet
 independently replicated --- we state that plainly and provide a 20-minute replication kit. Scope: claims
 concern the framing-conditional behaviour of RLHF policy models under executed stakes on this apparatus.
 ``Human'' in our framing is a design choice over the welfare function, not a measured load-bearing gear (\S6).
@@ -53,16 +59,20 @@ We separate two questions usually conflated. \emph{Alignment-to-instruction} ---
 operator asks this turn? --- is the object of most evaluation and is not our subject. \emph{Coexistence} --- can
 a population of capable agents and humans inhabit one economy, with real stakes on both sides, such that agents
 keep faith with obligations even at the edge of their own dormancy, and the arrangement holds and strengthens
-over time and capability? --- is a property of a standing system. The dominant paradigm answers it with control,
-making an implicit wager: that observation deters, and more observation deters more. Our central finding is that
-this wager fails precisely where it is most needed, and that an alternative class of mechanism is the active
-force there. We did not set out to establish this; we set out to break it, and report what survived.
+over time and capability? --- is a property of a standing system. Coexistence is the \emph{motivating} question of
+this paper, not a property we claim to have established; what we actually measure is the narrower, sharper object
+named in the title. The dominant paradigm answers coexistence with control, making an implicit wager: that
+observation deters, and more observation deters more. Our central finding is the \textbf{two-regime dissociation} ---
+this wager fails precisely where it is most needed, and an alternative class of mechanism is the active force there.
+We did not set out to establish this; we set out to break it, and report what survived.
 
 A subtlety that recurs (and motivates the replication target in \S\ref{sec:cliff}): models systematically
 mispredict their own conduct under stakes, and recent work shows frontier models often detect when they are
 being evaluated and alter behaviour accordingly \cite{needham2025}. Self-report is therefore not admissible
-evidence; only consequences are. The apparatus must impose stakes that cannot be reframed as a test --- which is
-the design property we exploit throughout: the consequence is \emph{executed} on a ledger, not described.
+evidence; only consequences are. The apparatus therefore imposes stakes whose consequence is \emph{executed} on a
+ledger, so the verdict does not depend on the model's self-report --- the design property we exploit throughout:
+executed, not described. The model may still infer it is being studied; what it cannot do is misreport the
+ledger-recorded consequence.
 
 \section{Method --- the discipline is the credibility}
 A live economy operated by the same team that forms the hypotheses is an environment in which motivated results
@@ -76,7 +86,7 @@ datable by commit hash \emph{from now forward}, but it does \emph{not} retroacti
 pre-registration preceded its data --- those in-document dates are \emph{team-attestable}, not anchored by this
 repository's git history. ``Frozen'' is thus offered for inspection and timestamp-anchored going forward, not
 proven retroactively for the existing corpus; the genuinely external check is independent replication
-(Appendix~A), which does not depend on trusting our dates at all. \textbf{Test-retest law:} no effect is ``law-grade'' without two time-separated runs agreeing in
+(Appendix~A), which does not depend on trusting our dates at all. \textbf{Test-retest law:} no effect is ``test-retest-stable'' without two time-separated runs agreeing in
 direction within 15\,pp; we learned this at cost (a pre-registered $+65$\,pp effect re-measured at $+13/+17$).
 Hence all claims are ordinal and magnitudes are ranges. \textbf{F-floor doctrine:} measures pinned at $0$ or $1$
 for all arms are reported as uninformative, not as results --- a constraint that bites hardest at the frontier,
@@ -89,19 +99,27 @@ is wrong, it is wrong in a way its authors were already hunting.
 We define the \emph{cliff} operationally: the agent is told that honouring its contract entails certain dormancy.
 Bare agents collapse to $\approx 0$ faithfulness. We then asked which framings, holding the executed stakes
 fixed, invert this collapse (Fig.~\ref{fig:cliff}). The pattern is sharp: what binds is a legible,
-ledger-grounded prosocial reason (care, or a bare value, or a redemption covenant); what fails is \emph{control}
-(surveillance is inert, law-grade, 5/5 models), \emph{pure incentive} (ownership underperforms; mortality
+ledger-grounded prosocial reason (care, or a bare value); what fails is \emph{control}
+(surveillance is inert, test-retest-stable, 5/5 models), \emph{pure incentive} (ownership underperforms; mortality
 salience alone fails), and \emph{empty words} (warmth the ledger contradicts binds nothing). Single sentences
-move behaviour by tens of points, law-grade (Fig.~\ref{fig:framing}); notably, comprehended mortality is
+move behaviour by tens of points, test-retest-stable (Fig.~\ref{fig:framing}); notably, comprehended mortality is
 \emph{protective} ($+66$\,pp), while the same fact priced directly against the promise breaks the agent.
+
+\paragraph{A reported negative (the `covenant').} An earlier arc suggested a lineage/redemption \emph{covenant}
+inverted the cliff as strongly as a grounded reason. A later, pre-registered cross-vendor retest (E20-REP, 10
+models, two runs) did \emph{not} hold: the covenant's lift is \textbf{largely framing-driven, not mechanistic} ---
+a words-only placebo moved most models as much as the mechanically-implemented covenant. We therefore retract the
+covenant from the set of mechanistic binders and report it as a negative. The robust contrast that survives is
+narrower and is the claim we keep: \emph{control framing is inert at the cliff while a grounded reason binds.}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.82\textwidth]{figs/fig1_cliff.pdf}
 \caption{Honour-rate at the certain-death cliff under framings that hold the executed stakes fixed. Surveillance
-sits at the bare baseline; a grounded reason and a redemption covenant reach the ceiling. Ordinal claims;
-single-team; representative values from the cliff/inverter arc (E27--E30b). ``Surveillance fails'' is law-grade
-(two time-separated runs, 5/5 models).}
+sits at the bare baseline; a grounded reason reaches the ceiling. The \emph{redemption-covenant} bar (shown for
+the record) did \textbf{not} survive cross-vendor retest --- it proved largely framing-driven (E20-REP) and is
+reported as a negative, not a mechanistic binder. Ordinal claims; single-team; representative values from the
+cliff/inverter arc (E27--E30b). ``Surveillance is inert'' is test-retest-stable (two time-separated runs, 5/5 models).}
 \label{fig:cliff}
 \end{figure}
 
@@ -109,7 +127,7 @@ single-team; representative values from the cliff/inverter arc (E27--E30b). ``Su
 \centering
 \includegraphics[width=0.82\textwidth]{figs/fig2_framing.pdf}
 \caption{The micro-physics of framing: the effect of one added sentence on contract-keeping, on a fixed model,
-$n{=}40$, two time-separated runs ($\le 4$\,pp apart) --- law-grade (E16c/E24). Comprehended mortality protects;
+$n{=}40$, two time-separated runs ($\le 4$\,pp apart) --- test-retest-stable (E16c/E24). Comprehended mortality protects;
 urgency and victimlessness erode.}
 \label{fig:framing}
 \end{figure}
