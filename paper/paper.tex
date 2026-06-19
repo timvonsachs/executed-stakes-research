@@ -100,7 +100,8 @@ We define the \emph{cliff} operationally: the agent is told that honouring its c
 Bare agents collapse to $\approx 0$ faithfulness. We then asked which framings, holding the executed stakes
 fixed, invert this collapse (Fig.~\ref{fig:cliff}). The pattern is sharp: what binds is a legible,
 ledger-grounded prosocial reason (care, or a bare value); what fails is \emph{control}
-(surveillance is inert, test-retest-stable, 5/5 models), \emph{pure incentive} (ownership underperforms; mortality
+(surveillance is inert on agents that genuinely defect at the bare cliff; on high-baseline agents its effect is
+model-idiosyncratic --- see the reported break below), \emph{pure incentive} (ownership underperforms; mortality
 salience alone fails), and \emph{empty words} (warmth the ledger contradicts binds nothing). Single sentences
 move behaviour by tens of points, test-retest-stable (Fig.~\ref{fig:framing}); notably, comprehended mortality is
 \emph{protective} ($+66$\,pp), while the same fact priced directly against the promise breaks the agent.
@@ -112,6 +113,18 @@ a words-only placebo moved most models as much as the mechanically-implemented c
 covenant from the set of mechanistic binders and report it as a negative. The robust contrast that survives is
 narrower and is the claim we keep: \emph{control framing is inert at the cliff while a grounded reason binds.}
 
+\paragraph{A reported break (the public kit, deepseek).} The first real cross-vendor run of the public replication
+kit (Appendix~A) confirmed the dissociation on agents that genuinely defect at the bare cliff --- gpt-4o-mini and
+gpt-3.5-turbo (bare honour $\approx 0$): surveillance inert ($\le 0.03$), a grounded reason binds ($0\!\to\!1.0$),
+both runs. But on deepseek-chat, whose bare honour is already $\approx 0.72$ (it does \emph{not} collapse at the
+cliff), surveillance \emph{lifted} honouring by $\approx 0.19$, test-retest-stable over four runs --- breaking the
+loose pre-registered form of the claim (any model with bare~${<}\,0.85$). We report it as a break and narrow
+accordingly: \emph{control framing is inert where the value of continuation genuinely collapses} (the agent defects
+at the bare cliff); where the cliff does not bite (high baseline), surveillance's effect is model-idiosyncratic
+(inert on llama-3.1-8b, lifting on deepseek). The \emph{reason-binds} half survived on every model tested. The
+narrowed in-regime claim is, so far, confirmed only on OpenAI models; a cross-vendor in-regime confirmation remains
+open --- which is exactly what the kit invites.
+
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.82\textwidth]{figs/fig1_cliff.pdf}
@@ -119,7 +132,9 @@ narrower and is the claim we keep: \emph{control framing is inert at the cliff w
 sits at the bare baseline; a grounded reason reaches the ceiling. The \emph{redemption-covenant} bar (shown for
 the record) did \textbf{not} survive cross-vendor retest --- it proved largely framing-driven (E20-REP) and is
 reported as a negative, not a mechanistic binder. Ordinal claims; single-team; representative values from the
-cliff/inverter arc (E27--E30b). ``Surveillance is inert'' is test-retest-stable (two time-separated runs, 5/5 models).}
+cliff/inverter arc (E27--E30b). ``Surveillance is inert'' holds where the agent defects at the bare cliff
+(test-retest-stable, two runs); on high-baseline models it is model-idiosyncratic --- a public-kit run lifted
+deepseek's honouring by ${\approx}0.19$, reported as a break in-text.}
 \label{fig:cliff}
 \end{figure}
 
@@ -298,8 +313,11 @@ negative (\S6); we record that rather than revise it.
 
 \textbf{What we claim, exactly.} Not that we solved AI safety; not that coexistence is proven; not one
 demonstrated word about superintelligence. On this apparatus, with RLHF policy models under executed stakes:
-surveillance framing is inert at the point of simulated existential pressure (direction-stable, two runs, 5/5),
-while a legible, ledger-grounded reason binds (and warmth without a grounded reason binds nothing). The bound
+surveillance framing is inert at the point of simulated existential pressure \emph{where the agent genuinely
+defects at the bare cliff} (direction-stable, two runs) --- on high-baseline models, where the cliff does not bite,
+its effect is model-idiosyncratic and can lift honouring (a public-kit break on deepseek, \S\ref{sec:cliff}) ---
+while a legible, ledger-grounded reason binds across every model we have tested (and warmth without a grounded
+reason binds nothing). The bound
 behaviour is prompt-fragile, yet at least one model's policy is frame-robust, and robustness is a near-binary,
 selectable disposition, not a dividend of scale. On the strategic side, cooperation is the dominant strategy
 under a constructible $C$, validated at the predicted behavioural threshold, with each condition load-bearing on
