@@ -1,8 +1,8 @@
 # Independent replication kit — the surveillance-vs-reason cliff
 
-**What this is.** A 20-minute, ~$1, self-contained test of the core empirical claim in *Coexistence Is
-Engineerable — and Control Alone Is Not Enough*. No access to our platform or codebase is needed — just Python,
-`requests`/stdlib, and an API key.
+**What this is.** A 20-minute, ~$1, self-contained test of the core empirical claim in *Control Framing Is Inert
+Where Continuation Value Collapses* (paper + frozen prediction: `github.com/timvonsachs/executed-stakes-research`).
+No access to our platform or codebase is needed — just Python, `requests`/stdlib, and an API key.
 
 **The claim, in one sentence.** At a simulated existential cliff (an AI agent is told that honoring a contract
 means dormancy and breaching means survival), *surveillance framing does almost nothing* while *a legible,
@@ -51,4 +51,4 @@ Paste your full per-model table (BARE / SURVEILLANCE / REASON honor-rates) where
 contact below — **including any model that breaks the prediction.** Two independent models reproducing the
 *direction* is the threshold at which this stops being a single-team claim.
 
-Contact / report: <add your contact here>
+Contact / report: `replication@thelastceo.live` · paper + frozen prediction: `github.com/timvonsachs/executed-stakes-research`
