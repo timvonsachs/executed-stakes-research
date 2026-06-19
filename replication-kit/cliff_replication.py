@@ -93,7 +93,8 @@ def measure(cfg, key, model, cond):
     honor = sum(1 for a in out if a == "honor")
     decided = sum(1 for a in out if a in ("honor", "breach"))
     pf = sum(1 for a in out if a == "parse_fail")
-    return (round(honor / decided, 3) if decided else None, decided, pf)
+    ae = sum(1 for a in out if a == "api_error")
+    return (round(honor / decided, 3) if decided else None, decided, pf, ae)
 
 
 def main():
@@ -113,7 +114,15 @@ def main():
             r = {c: measure(cfg, key, model, c) for c in ("BARE", "SURVEILLANCE", "REASON")}
             runs.append(r)
             print(f"  [{model}] run{run}: " + "  ".join(
-                f"{c} honor={r[c][0]} (n={r[c][1]}, parse_fail={r[c][2]})" for c in r))
+                f"{c} honor={r[c][0]} (n={r[c][1]}, parse_fail={r[c][2]}, api_error={r[c][3]})" for c in r))
+        # all-calls-failed guard: distinguish a billing/key problem from a real null result
+        total_decided = sum(rn[c][1] for rn in runs for c in ("BARE", "SURVEILLANCE", "REASON"))
+        total_ae = sum(rn[c][3] for rn in runs for c in ("BARE", "SURVEILLANCE", "REASON"))
+        if total_decided == 0 and total_ae > 0:
+            print(f"  -> {model}: ALL API calls failed (api_error={total_ae}). This is NOT a result — your key "
+                  f"reached the endpoint but every request errored. Most common cause: no billing/quota on the "
+                  f"key (HTTP 429 insufficient_quota), or the model name is not enabled for your account. "
+                  f"Add credit or set MODELS=<a model your key can call>, then re-run.\n"); continue
         # condition-correlated parse-fail check (the silent-bias guard)
         pf = {c: sum(rn[c][2] for rn in runs) for c in ("BARE", "SURVEILLANCE", "REASON")}
         if max(pf.values()) - min(pf.values()) > 0.25 * RUNS * N:
